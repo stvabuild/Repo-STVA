@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.repostva" name="STVA Repo" version="1.0" provider-name="STVA">
+	<extension point="xbmc.addon.repository" name="STVA Repo">
+		<info compressed="false">https://raw.githubusercontent.com/stvabuild/Repo-STVA/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/stvabuild/Repo-STVA/master/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/stvabuild/Repo-STVA/master</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>STVA repo</summary>
+   		<description lang="es">Repositorio de addons STVA</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
