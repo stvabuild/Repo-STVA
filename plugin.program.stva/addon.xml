@@ -9,7 +9,7 @@
   <extension point="xbmc.addon.metadata">
     <summary lang="en">STVA wizard</summary>
     <description lang="en">24/1/18
-Build STVA para Kodi17 y Mygica
+Build STVA para Kodi17 y MyGica
 Web: www.stva.ml
 Telegram: t.me/stvabuild</description>
     <platform>all</platform>
