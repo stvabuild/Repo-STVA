@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.stva" name="STVA [COLOR orange]WIZARD[/COLOR]" version="1.0.1" provider-name="www.stva.ml">
+<addon id="resource.stvacheck" name="STVA [COLOR lime]Checker[/COLOR]" version="1.2" provider-name="www.stva.ml">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>executable</provides>
   </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">STVA wizard</summary>
-    <description lang="en">21/2/18
-Build STVA para Kodi17 Kodi18 y MyGica
-Web: www.stva.ml
-Telegram: t.me/stvabuild
-</description>
+    <summary lang="en">Comprobador version Build STVA</summary>
+    <description lang="en"></description>
+	<disclaimer lang="en"></disclaimer>
     <platform>all</platform>
   </extension>
 </addon>

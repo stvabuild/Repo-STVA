@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.program.stva" name="STVA" version="1.0.0" provider-name="www.stva.ml">
+<addon id="plugin.program.stva" name="STVA [COLOR orange]WIZARD[/COLOR]" version="1.0.1" provider-name="www.stva.ml">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -9,10 +9,11 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">STVA wizard</summary>
-    <description lang="en">24/1/18
-Build STVA para Kodi17 y MyGica
+    <description lang="en">21/2/18
+Build STVA para Kodi17 Kodi18 y MyGica
 Web: www.stva.ml
-Telegram: t.me/stvabuild</description>
+Telegram: t.me/stvabuild
+</description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -170,7 +171,7 @@ Telegram: t.me/stvabuild</description>
   </extension>
 </addon>
 
-<addon id="repository.repostva" name="STVA Repo" version="1.0" provider-name="STVA">
+<addon id="repository.repostva" name="STVA [COLOR yellow]Repo[/COLOR]" version="1.1" provider-name="www.stva.ml">
 	<extension point="xbmc.addon.repository" name="STVA Repo">
 		<info compressed="false">https://raw.githubusercontent.com/stvabuild/Repo-STVA/master/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/stvabuild/Repo-STVA/master/addons.xml.md5</checksum>
@@ -182,5 +183,21 @@ Telegram: t.me/stvabuild</description>
 		<disclaimer></disclaimer>
 		<platform>all</platform>
 	</extension>
+</addon>
+
+<addon id="resource.stvacheck" name="STVA [COLOR lime]Checker[/COLOR]" version="1.2" provider-name="www.stva.ml">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Comprobador version Build STVA</summary>
+    <description lang="en"></description>
+	<disclaimer lang="en"></disclaimer>
+    <platform>all</platform>
+  </extension>
 </addon>
 </addons>

@@ -1,0 +1,34 @@
+﻿v1.2 (21/2/18)
+- Addon y repo Adryanlist eliminados
+- Añadido favorito a submenu videoteca
+- Añadido Actualizar videoteca a submenu videoteca
+- Añadido addon Cine
+- Añadido addon addtolib
+- Añadido addon STVA-Backups
+- Añadido perfil MiBuild
+- Modificado addon STVA
+- Añadido addon Update Checker
+
+v1.1 (12/2/18
+- Enlace de Videoteca cambiado
+- Añadido addon backup wizard
+- Reparado errores Youtube
+- Añadido Addons de programas en submenu ajustes
+- Añadida seccion Pelis 3d en submenu Cine
+- Cambiada ubicacion videoteca Alfa
+- Eliminado addon backup
+- Cambiado icono Inicio
+- Cambiado el color del skin
+- Aviso de version en addon STVA
+
+v1.0.3 (5/2/18)
+- Cambiado widget seccion 'varios' y submenu Documentales
+- Añadido addon Explora, para seccion documentales
+- Añadido addon Kodispaintv en submenu 'television'
+- Cambiado widget seccion 'cine' de trakt.tv a tmdb
+- Actualizado addon stva a version 1.0.3
+- Añadido repositorio MagyckPi
+- Añadido repositorio KodiSpain
+
+v1.0.0 (24/1/18)
+Version inicial
