@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.program.stva" name="STVA [COLOR orange]WIZARD[/COLOR]" version="1.0.1" provider-name="www.stva.ml">
+<addon id="plugin.program.stva" name="STVA [COLOR orange]WIZARD[/COLOR]" version="1.0.2" provider-name="www.stva.ml">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -14,6 +14,21 @@ Build STVA para Kodi17 Kodi18 y MyGica
 Web: www.stva.ml
 Telegram: t.me/stvabuild
 </description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.program.stvabackup" name="STVA [COLOR red]BACKUP[/COLOR]" version="1.1" provider-name="www.stva.ml">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">STVA BACKUP</summary>
+    <description lang="en">Guarda tus copias de seguridad.
+	- Mod del addon usbwizard</description>
     <platform>all</platform>
   </extension>
 </addon>
