@@ -200,7 +200,7 @@ Telegram: t.me/stvabuild
 	</extension>
 </addon>
 
-<addon id="resource.stvacheck" name="STVA [COLOR lime]Checker[/COLOR]" version="1.2" provider-name="www.stva.ml">
+<addon id="resource.stvacheck" name="STVA [COLOR lime]Checker[/COLOR]" version="1.2.2" provider-name="www.stva.ml">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
