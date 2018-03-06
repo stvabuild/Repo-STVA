@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.stva" name="STVA [COLOR orange]WIZARD[/COLOR]" version="1.0.2" provider-name="www.stva.ml">
+<addon id="plugin.program.stva" name="STVA [COLOR orange]WIZARD[/COLOR]" version="1.2.1.1" provider-name="www.stva.ml">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -8,11 +8,19 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">STVA wizard</summary>
-    <description lang="en">21/2/18
+    <description lang="en">6/3/18
 Build STVA para Kodi17 Kodi18 y MyGica
 Web: www.stva.ml
 Telegram: t.me/stvabuild
-</description>
+Changelog:
+- Eliminado addon Cine, Torrent Player y Now Music
+- Modificado addon backup
+- Añadido addon STVA BUFFER y enlazado en submenu ajustes
+- Añadido addon MP3 Streams y enlazado en submenu varios
+- Eliminado widgets Youtube
+- Añadido widget addons de video a menu Ajustes
+- Cambiado widget El tiempo a menu Buscador.
+- Añadido enlace a videotutoriales STVA en submenu varios</description>
     <platform>all</platform>
   </extension>
 </addon>
