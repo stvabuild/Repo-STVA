@@ -1,0 +1,2 @@
+﻿v1.0.0 (24/1/18)
+Version inicial
