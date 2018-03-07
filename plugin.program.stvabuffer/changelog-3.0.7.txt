@@ -1,0 +1,39 @@
+v1.0.0
+-Initial Release (credit: AmoBox , KodiSkills)
+
+v1.0.1
+-Updated Artwork (credit: KodiSkills)
+-Added Additional Maintenance Section (credit: Kodiskills)
+
+v2.0.0
+-Updated Artwork (credit: Morpheus , KodiSkills)
+-Added APK Installer (credit: Echo Coder)
+-Added Separate Builds Menu for Different Versions of Kodi (credit: KodiSkills)
+-Added speed and file info for download.py and extract.py (credit: ][NT3L][G3NC][)
+-Fixed Android Force Close Issue (credit: Surfacingx , Echo Coder)
+
+v3.0.0
+-Switched to Aftermath Code (credit: Surfacingx)
+
+v3.0.1
+-Fixed Official Kodi APK downloads issue (credit: Surfacingx)
+-Added in Auto Install of Supreme Builds Repository (credit: Surfacingx , KodiSkills)
+-Added in Exclusions During Fresh Start for Supreme Builds Repository (credit: Surfacingx , KodiSkills)
+
+v3.0.2
+-Updated downloader.py with longer socket timeout (credit: Charlie Whelan)
+
+v3.0.3
+-Turned off auto install repo as causing issues with fork (credit: KodiSkills)
+
+v3.0.4
+-Host change (credit: KodiSkills)
+
+v3.0.5
+-Wizard updated with SSL protocol (credit: KodiSkills)
+
+v3.0.6
+-Changed naming convention (credit: KodiSkills)
+
+v3.0.7
+-Changed default auto cleanup to weekly (credit: Prometheus)

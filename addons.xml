@@ -33,6 +33,22 @@ Telegram: t.me/stvabuild
   </extension>
 </addon>
 
+<addon id="plugin.program.stvabuffer" name="STVA [COLOR grey]BUFFER[/COLOR]" version="3.0.7" provider-name="www.stva.ml">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">STVA BUFFER</summary>
+    <description lang="en">Instala el advancedsettings.xml para mejorar el buffer de Kodi
+Modificación del addon supremebuildswizard</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon
   id="pvr.iptvsimple"
   version="1.12.12"
