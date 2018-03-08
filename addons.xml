@@ -33,7 +33,7 @@ Telegram: t.me/stvabuild
   </extension>
 </addon>
 
-<addon id="plugin.program.stvabuffer" name="STVA [COLOR grey]BUFFER[/COLOR]" version="3.0.7" provider-name="www.stva.ml">
+<addon id="plugin.program.stvabuffer" name="STVA [COLOR grey]BUFFER[/COLOR]" version="3.0.8" provider-name="www.stva.ml">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
