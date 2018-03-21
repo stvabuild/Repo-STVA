@@ -1,19 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.program.stva" name="STVA [COLOR orange]WIZARD[/COLOR]" version="1.0.2" provider-name="www.stva.ml">
+<addon id="plugin.program.stva" name="STVA [COLOR orange]WIZARD[/COLOR]" version="1.3" provider-name="www.stva.ml">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>executable</provides>
   </extension>
+  <extension point="xbmc.service" library="service.py" start="startup" />
   <extension point="xbmc.addon.metadata">
     <summary lang="en">STVA wizard</summary>
-    <description lang="en">21/2/18
-Build STVA para Kodi17 Kodi18 y MyGica
+    <description lang="en">21/3/18
+Build STVA para Kodi17 y sus forks
 Web: www.stva.ml
 Telegram: t.me/stvabuild
-</description>
+Colaboradores: @Decosub, @Webons
+Changelog:
+v1.3 (21/3/18)
+- Eliminados addons Palantir, MP3Streams, Explora, AddtoLib y Ultimate WhiteCream
+- Añadido mensaje al inicio de Kodi sobre actualizaciones de la Build
+- Añadido widget de Youtube
+- Añadido Skin Eminence Tactil para dispositivos tactiles.
+- Imagenes addon Avezy cambiadas a las originales
+- Corregidos errores internos
+- Añadido Canal Cinefox a submenu Series, Peliculas y Buscador. Autoplay configurado
+- Añadido widget Documentales en menu varios, enlaza a Descargasmix
+- Canales de TV para adultos, ocultos
+- Añadida opción Buffer Palantir al addon STVA Buffer</description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -47,6 +60,58 @@ Telegram: t.me/stvabuild
 Modificación del addon supremebuildswizard</description>
     <platform>all</platform>
   </extension>
+</addon>
+
+<addon id="plugin.video.ayayay" name="[COLOR red][B]AyAyAy!![/B][/COLOR]" version="0.0.1" provider-name="Bad-Max">
+  <requires>
+   <import addon="xbmc.python" version="2.1.0"/>
+   <import addon="script.module.requests"/>
+   <import addon="program.plexus"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Parser de la sección Porno de la web rusa http://tuchkatv.ru</summary>
+    <description>[COLOR red]Solo Mayores de 18 años!!!`[/COLOR] Parser de la sección Porno de la web rusa http://tuchkatv.ru con los mejores Canales en Vivo (Necesario para su funcionamiento, Plexus y Acestream).</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.uwc"
+       name="Ultimate Whitecream"
+       version="1.1.64"
+       provider-name="Whitecream, holisticdioxide">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.resolveurl" version="5.0.00"/>
+        <import addon="script.module.resolveurl.xxx" version="2.0.01"/>
+        <import addon="script.video.F4mProxy" version="2.5.7" />
+    </requires>
+    <extension point="xbmc.python.pluginsource"
+               library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <license>GPL 2.0</license>
+        <summary lang="en">Watch [COLOR red][B]ADULT[/B][/COLOR] Movies with Ultimate WhiteCream</summary>
+        <description lang="en">Watch [COLOR red][B]ADULT[/B][/COLOR] Movies with Ultimate WhiteCream</description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider. DMCA - holisticdioxide@protonmail.com</disclaimer>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+        <news>[B]Version 1.1.64[/B]
+New site: YesPornPlease
+Fixed: Porntrex categories
+Fixed: Videomegaporn
+Fixed: Xtasie pagination and category listing
+Fixed: PornsLand channels pagination
+Fixed: Porndig
+Fixed: YourPorn top pornstars
+Fixed: deleting keywords</news>
+    </extension>
 </addon>
 
 <addon
@@ -216,7 +281,7 @@ Modificación del addon supremebuildswizard</description>
 	</extension>
 </addon>
 
-<addon id="resource.stvacheck" name="STVA [COLOR lime]Checker[/COLOR]" version="1.2.2" provider-name="www.stva.ml">
+<addon id="resource.stvacheck" name="STVA [COLOR lime]Checker[/COLOR]" version="1.3" provider-name="www.stva.ml">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
