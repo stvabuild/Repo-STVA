@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.program.stva" name="STVA [COLOR orange]WIZARD[/COLOR]" version="1.3" provider-name="www.stva.ml">
+<addon id="plugin.program.stva" name="STVA [COLOR orange]WIZARD[/COLOR]" version="1.3.0.1" provider-name="www.stva.ml">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -10,7 +10,7 @@
   <extension point="xbmc.service" library="service.py" start="startup" />
   <extension point="xbmc.addon.metadata">
     <summary lang="en">STVA wizard</summary>
-    <description lang="en">21/3/18
+    <description lang="en">24/3/18
 Build STVA para Kodi17 y sus forks
 Web: www.stva.ml
 Telegram: t.me/stvabuild
