@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e07a9cbc-151f-46b4-960e-409060472695" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugin.program.stva/plugin.program.stva-1.3.0.2.zip" afterPath="$PROJECT_DIR$/plugin.program.stva/plugin.program.stva-1.3.0.2.zip" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugin.program.stva/changelog-1.3.0.2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugin.program.stva/plugin.program.stva-1.3.0.2.zip" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/addons.xml" afterPath="$PROJECT_DIR$/addons.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/addons.xml.md5" afterPath="$PROJECT_DIR$/addons.xml.md5" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugin.program.stva/addon.xml" afterPath="$PROJECT_DIR$/plugin.program.stva/addon.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,6 +39,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -46,7 +51,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>

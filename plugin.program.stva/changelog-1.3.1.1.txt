@@ -1,4 +1,10 @@
-﻿v1.3 (21/3/18)
+﻿v1.3.1 (24/3/18)
+– Configurado Autoplay canal Cinefox en todos los perfiles
+– Cambiado configuración color perfil Kids
+– Añadido widget Youtube en todos los perfiles
+– Corregidos errores internos
+
+v1.3 (21/3/18)
 - Eliminados addons Palantir, MP3Streams, Explora, AddtoLib y Ultimate WhiteCream
 - Añadido mensaje al inicio de Kodi sobre actualizaciones de la Build
 - Añadido widget de Youtube
