@@ -1,46 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.program.stva" name="STVA [COLOR orange]WIZARD[/COLOR]" version="1.3.1.1" provider-name="www.stva.ml">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.service" library="service.py" start="startup" />
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">STVA wizard</summary>
-    <description lang="en">24/3/18
-Build STVA para Kodi17 y sus forks
-Web: www.stva.ml
-Telegram: t.me/stvabuild
-Colaboradores: @Decosub, @Webons
-Changelog:
-v1.3.1 (24/3/18)
-– Configurado Autoplay canal Cinefox en todos los perfiles
-– Cambiado configuración color perfil Kids
-– Añadido widget Youtube en todos los perfiles
-– Corregidos errores internos</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.program.stvabackup" name="STVA [COLOR red]BACKUP[/COLOR]" version="1.2" provider-name="www.stva.ml">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">STVA BACKUP</summary>
-    <description lang="en">Guarda tus copias de seguridad.
-	- Mod del addon usbwizard</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.program.stvabuffer" name="STVA [COLOR grey]BUFFER[/COLOR]" version="3.0.8" provider-name="www.stva.ml">
+<addon id="plugin.program.stva" name="STVA [COLOR orange]WIZARD[/COLOR]" version="2.0" provider-name="STVA">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -49,9 +9,10 @@ v1.3.1 (24/3/18)
   </extension>
   <extension point="xbmc.service" library="startup.py" start="startup" />
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">STVA BUFFER</summary>
-    <description lang="en">Instala el advancedsettings.xml para mejorar el buffer de Kodi
-Modificación del addon supremebuildswizard</description>
+    <summary lang="en">STVA [COLOR orange]WIZARD[/COLOR]</summary>
+    <description lang="en">Build para Kodi 17 y sus forks
+Web: www.stva.ml
+Telegram: t.me/stvabuild</description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -331,21 +292,5 @@ Fixed: deleting keywords</news>
 		<disclaimer></disclaimer>
 		<platform>all</platform>
 	</extension>
-</addon>
-
-<addon id="resource.stvacheck" name="STVA [COLOR lime]Checker[/COLOR]" version="1.3" provider-name="www.stva.ml">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.service" library="startup.py" start="startup" />
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Comprobador version Build STVA</summary>
-    <description lang="en"></description>
-	<disclaimer lang="en"></disclaimer>
-    <platform>all</platform>
-  </extension>
 </addon>
 </addons>
