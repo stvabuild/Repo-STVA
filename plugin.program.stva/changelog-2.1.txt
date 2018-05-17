@@ -1,3 +1,6 @@
+v2.1 (17/5/18)
+- Pequeños cambios en los menus y ventanas del addon
+
 v2.0 (31/3/18)
 - Nuevo Addon STVA
 
