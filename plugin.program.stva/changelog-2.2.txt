@@ -1,3 +1,9 @@
+v2.2 31/5/18
+- Añadida seccion Instalador de Addons
+- Cambiada estructura de stva Buffer.
+- Añadidos nuevos archivos advanced settings
+- Ahora el addon instala la repo
+
 v2.1 (17/5/18)
 - Pequeños cambios en los menus y ventanas del addon
 
