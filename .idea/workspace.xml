@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e07a9cbc-151f-46b4-960e-409060472695" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/addons.xml" beforeDir="false" afterPath="$PROJECT_DIR$/addons.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addons.xml.md5" beforeDir="false" afterPath="$PROJECT_DIR$/addons.xml.md5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/addon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/plugin.program.stva/addon.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/plugin.program.stva/changelog-2.2.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/plugin.program.stva/plugin.program.stva-2.2.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pvr.iptvsimple/addon.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pvr.iptvsimple/changelog-1.0.0.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pvr.iptvsimple/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pvr.iptvsimple/pvr.iptvsimple-1.0.0.zip" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,16 +20,15 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1872" />
-    <option name="y" value="147" />
+    <option name="y" value="131" />
     <option name="width" value="1440" />
-    <option name="height" value="790" />
+    <option name="height" value="806" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -42,6 +40,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -99,14 +98,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1872" y="147" width="1440" height="790" extended-state="0" />
+    <frame x="1872" y="131" width="1440" height="806" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3294964" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3288889" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />

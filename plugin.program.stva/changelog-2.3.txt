@@ -1,3 +1,6 @@
+v2.3 6/6/18
+- Nuevo servidor
+
 v2.2 31/5/18
 - Añadida seccion Instalador de Addons
 - Cambiada estructura de stva Buffer.
