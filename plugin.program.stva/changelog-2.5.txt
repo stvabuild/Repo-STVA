@@ -1,4 +1,4 @@
-v2.5 
+v2.5 26/11/18
 - Agregada ventana en la primera instalacion para mantener data
 - Mdificacion de algunos textos para hacerlo mas claro
 - Reparado backup de skin y menu
