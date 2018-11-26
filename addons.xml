@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.program.stva" name="STVA [COLOR orange]WIZARD[/COLOR]" version="2.4" provider-name="STVA">
+<addon id="plugin.program.stva" name="STVA [COLOR orange]WIZARD[/COLOR]" version="2.5" provider-name="STVA">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -10,14 +10,14 @@
   <extension point="xbmc.service" library="startup.py" start="startup" />
   <extension point="xbmc.addon.metadata">
     <summary lang="en">STVA [COLOR orange]WIZARD[/COLOR]</summary>
-    <description lang="en">Build para Kodi 17 y sus forks
+    <description lang="en">Build para Kodi 17 y 18
 Web: www.stva.ml
 Telegram: t.me/stvabuild</description>
     <platform>all</platform>
   </extension>
 </addon>
 
-<addon id="plugin.video.alfa" name="Alfa" version="2.7.2" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="2.7.15" provider-name="Alfa Addon">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.libtorrent" optional="true"/>
@@ -36,18 +36,11 @@ Telegram: t.me/stvabuild</description>
       <screenshot>resources/media/themes/ss/4.jpg</screenshot>
     </assets>
       <news>[B]Estos son los cambios para esta versión:[/B]
-      [COLOR green][B]Canales agregados y arreglos[/B][/COLOR]
-      ¤ allcalidad                      ¤ jkanime
-      ¤ miradetodo                  ¤ asialiveaction
-      ¤ pedropolis                    ¤ cinemahd
-      ¤ inkapelis                        ¤ pelisplusco
-      ¤ pelisr                              ¤ vepelis
-      ¤ ver-peliculas                 ¤ divxtotal
-      ¤ estrenosgo                   ¤ newpct1
-      ¤ pelispedia
-      ¤ arreglos internos
-
-      ¤ Agradecimientos a @angedam por colaborar en ésta versión
+      [COLOR green][B]Arreglos[/B][/COLOR]
+      ¤ cinetux                       ¤ danimados                      ¤ xms
+      ¤ bitp                             ¤ descargacineclasico      ¤ dostream
+      ¤ cinecalidad               ¤ pelisplus                           ¤ Mejortorrent
+      ¤ Mejortorrent1          ¤ Newpc1
 
     </news>
     <description lang="es">Navega con Kodi por páginas web para ver sus videos de manera fácil.</description>
@@ -89,6 +82,43 @@ Telegram: t.me/stvabuild</description>
 		<checksum>https://raw.githubusercontent.com/egrueda/kodi-repo/master/addons.xml.md5</checksum>
 		<datadir zip="true">https://raw.githubusercontent.com/egrueda/kodi-repo/master/zip/</datadir>
 	</extension>
+</addon>
+
+<addon id="plugin.video.cristalazul"
+       name="[COLOR aqua]CRISTAL AZUL[/COLOR]"
+       version="0.0.3"
+       provider-name="PICAPAU, LOURDES, SUPERTOPO">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" />
+    <import addon="script.module.urlresolver" />
+	<import addon="script.module.simplejson" />
+    <import addon="script.module.livestreamer" optional="true"/>
+    <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+   <extension point="xbmc.addon.repository" name="Mi repositorio">
+        <info>https://raw.githubusercontent.com/picapaujulen/repositorio/master/Repositorio/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/picapaujulen/repositorio/master/Repositorio/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/picapaujulen/repositorio/master/Repositorio/</datadir>
+    </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary>creado por picapau y lourdes</summary>
+    <description>ESTE ADDON NO CONTIENE ENLACES PROPIOS,SON RECOPILACIONES DE LA RED, SOLO SE FACILITA EL ACESSO A ESAS WEBS, ESTAS WEBS SON LAS RESPONSABLES DE LOS CONTENIDOS
+	</description>
+    <platform>all</platform>
+  </extension>
 </addon>
 
 <addon id="plugin.video.kodispaintv"

@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e07a9cbc-151f-46b4-960e-409060472695" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/plugin.program.stva/plugin.program.stva-2.4.zip" beforeDir="false" afterPath="$PROJECT_DIR$/plugin.program.stva/plugin.program.stva-2.4.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addons.xml" beforeDir="false" afterPath="$PROJECT_DIR$/addons.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addons.xml.md5" beforeDir="false" afterPath="$PROJECT_DIR$/addons.xml.md5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/addon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/plugin.program.stva/addon.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/changelog-2.4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/plugin.program.stva-2.4.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.video.alfa/addon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/plugin.video.alfa/addon.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.video.alfa/fanart.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/plugin.video.alfa/fanart.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.video.alfa/plugin.video.alfa-2.7.2.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.video.tv3.cat/addon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/plugin.video.tv3.cat/addon.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.video.tv3.cat/changelog-1.3.8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/plugin.video.tv3.cat/changelog-1.3.8.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.video.tv3.cat/plugin.video.tv3.cat-1.3.8.zip" beforeDir="false" afterPath="$PROJECT_DIR$/plugin.video.tv3.cat/plugin.video.tv3.cat-1.3.8.zip" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,11 +24,11 @@
     <session id="-827082609">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.2" value="3" />
-          <entry key="project.open.time.3" value="4" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.open.time.3" value="5" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
     </session>
