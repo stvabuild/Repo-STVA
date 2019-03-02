@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e07a9cbc-151f-46b4-960e-409060472695" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/addons.xml" beforeDir="false" afterPath="$PROJECT_DIR$/addons.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/addons.xml.md5" beforeDir="false" afterPath="$PROJECT_DIR$/addons.xml.md5" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/plugin.program.stva/addon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/plugin.program.stva/addon.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.stva/changelog-3.0.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.stva/plugin.program.stva-3.0.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/changelog-3.0.1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/plugin.program.stva-3.0.1.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/repository.repostva/addon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/repository.repostva/addon.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repository.repostva/fanart.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/repository.repostva/fanart.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repository.repostva/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/repository.repostva/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repository.repostva/repository.repostva-1.1.zip" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,13 +22,13 @@
     <session id="-827082609">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="18" />
+          <entry key="project.closed" value="19" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.2" value="6" />
+          <entry key="project.open.time.2" value="7" />
           <entry key="project.open.time.3" value="7" />
           <entry key="project.open.time.4" value="3" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="18" />
+          <entry key="project.opened" value="19" />
         </counts>
       </usages-collector>
     </session>

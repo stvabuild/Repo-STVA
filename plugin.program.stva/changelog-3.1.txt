@@ -1,4 +1,4 @@
-v3.0.1 2/3/19
+v3.1 2/3/19
 - Reparado fallo en url del wizard
 
 v3.0 2/3/19
