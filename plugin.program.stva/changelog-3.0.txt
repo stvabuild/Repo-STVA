@@ -1,3 +1,15 @@
+v3.0 2/3/19
+- Completadas algunas traducciones del addon
+- Realizadas algunas correcciones y cambios internos
+- Cambios visuales en logos y fondos
+
+v2.8.2 13/2/19
+- Restaurada función de mantener videoteca
+
+v2.8.1 2/2/19
+- Corregido error al crear carpeta de backups.
+- Es posible que en algunos casos requiera reinstalar el addon stva.
+
 v2.8 30/1/19
 - Ahora se puede instalar la Build en Kodi 18
 - Agregado SpeedTest
