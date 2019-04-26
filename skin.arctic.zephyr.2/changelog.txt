@@ -1,21 +1,3 @@
-0.9.28
-Add Tri-Panel view
-Add genres and languages furniture option
-Fix login screen for light theme
-
-0.9.27
-Add Settings Widget
-Add prefer poster for blur setting
-
-0.9.26
-Merge marduk's musicvideo search code
-Update videoinfo to use musicinfo for musicvideos
-Hide season view episodes if container is updating
-
-0.9.25
-Increase total widget limit to 50
-Add title to lovefilm
-
 0.9.24
 Add landscape art and only fallback to clearlogo
 
