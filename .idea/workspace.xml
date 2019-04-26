@@ -4,16 +4,6 @@
     <list default="true" id="e07a9cbc-151f-46b4-960e-409060472695" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/addons.xml" beforeDir="false" afterPath="$PROJECT_DIR$/addons.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addons.xml.md5" beforeDir="false" afterPath="$PROJECT_DIR$/addons.xml.md5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repository.alfa-addon/addon.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/repository.alfa-addon/fanart.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/repository.alfa-addon/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/repository.alfa-addon/repository.alfa-addon-1.0.3.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skin.arctic.zephyr.2/addon.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skin.arctic.zephyr.2/changelog-0.9.24.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skin.arctic.zephyr.2/fanart.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skin.arctic.zephyr.2/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skin.arctic.zephyr.2/skin.arctic.zephyr.2-0.9.24.zip" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,14 +15,14 @@
     <session id="-827082609">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="24" />
+          <entry key="project.closed" value="26" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.2" value="10" />
-          <entry key="project.open.time.3" value="7" />
+          <entry key="project.open.time.2" value="11" />
+          <entry key="project.open.time.3" value="8" />
           <entry key="project.open.time.4" value="4" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="24" />
+          <entry key="project.opened" value="26" />
         </counts>
       </usages-collector>
     </session>
