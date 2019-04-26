@@ -30,6 +30,7 @@ Telegram: t.me/stvabuild</description>
 		<platform>all</platform>
 	</extension>
 </addon>
+
 <addon id="skin.arctic.zephyr.2" name="Arctic Zephyr 2" provider-name="jurialmunkey" version="0.9.24">
     <requires>
         <import addon="xbmc.gui" version="5.14.0" />
