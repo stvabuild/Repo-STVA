@@ -1420,7 +1420,7 @@ def buildWizard(name, type, theme=None, over=False):
             else: warning = True
         else: warning = False
         if warning == True:
-            yes_pressed = DIALOG.yesno("%s - [COLOR red]ATENCION[/COLOR]" % ADDONTITLE, '[COLOR %s]Vas a instalar un parche extra' % COLOR2, 'Quieres instalar: [COLOR %s]%s v%s[/COLOR]?[/COLOR]' % (COLOR1, name, wiz.checkBuild(name,'version')), nolabel='[B][COLOR red]Cancelar[/COLOR][/B]',yeslabel='[B][COLOR springgreen]Instalar[/COLOR][/B]')
+            yes_pressed = DIALOG.yesno("%s - [COLOR red]ATENCION[/COLOR]" % ADDONTITLE, '[COLOR %s]Vas a instalar una version Lite' % COLOR2, 'Quieres instalar: [COLOR %s]%s v%s[/COLOR]?[/COLOR]' % (COLOR1, name, wiz.checkBuild(name,'version')), nolabel='[B][COLOR red]Cancelar[/COLOR][/B]',yeslabel='[B][COLOR springgreen]Instalar[/COLOR][/B]')
         else:
             if not over == False: yes_pressed = 1
             else: yes_pressed = DIALOG.yesno(ADDONTITLE, '[COLOR %s]Estas a punto de instalar el [COLOR yellow][B]Parche[/B][/COLOR]' % COLOR2, '[COLOR %s]%s v%s[/COLOR]?[/COLOR]' % (COLOR1, name, wiz.checkBuild(name,'version')), nolabel='[B][COLOR red]Cancelar[/COLOR][/B]',yeslabel='[B][COLOR springgreen]Instalar[/COLOR][/B]')
