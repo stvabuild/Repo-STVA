@@ -1,0 +1,6 @@
+Addon y Build: @AdriSTVA
+Servidor: Ignacio @Zriel
+
+Agradecimientos:
+- Al equipo del addon Alfa, por ese maravilloso Addon en el que se basa STVA.
+- Al equipo de Cristal Azul, otro gran addon en el que se basa STVA.
