@@ -2,18 +2,80 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e07a9cbc-151f-46b4-960e-409060472695" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/addons.xml" beforeDir="false" afterPath="$PROJECT_DIR$/addons.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/addons.xml.md5" beforeDir="false" afterPath="$PROJECT_DIR$/addons.xml.md5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.stva/addon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/plugin.program.stva/addon.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.stva/changelog-3.1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.stva/fanart.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/plugin.program.stva/fanart.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.stva/plugin.program.stva-3.1.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skin.arctic.zephyr.2/addon.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skin.arctic.zephyr.2/changelog.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skin.arctic.zephyr.2/fanart.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skin.arctic.zephyr.2/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skin.arctic.zephyr.2/skin.arctic.zephyr.2-0.9.24.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/changelog.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/credits.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/default.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/resources/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/resources/art/ContentPanel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/resources/art/fanart.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/resources/libs/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/resources/libs/autoexec.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/resources/libs/downloader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/resources/libs/extract.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/resources/libs/notify.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/resources/libs/skinSwitch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/resources/libs/speedtest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/resources/libs/wizard.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/resources/libs/yt.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/resources/libs/zfile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/resources/settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/resources/skins/DefaultSkin/1080i/APK.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/resources/skins/DefaultSkin/1080i/BuildUpdate.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/resources/skins/DefaultSkin/1080i/Contact.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/resources/skins/DefaultSkin/1080i/FirstRunBuild.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/resources/skins/DefaultSkin/1080i/FirstRunSaveData.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/resources/skins/DefaultSkin/1080i/LogViewer.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/resources/skins/DefaultSkin/1080i/Notifications.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/resources/skins/DefaultSkin/1080i/SpeedTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/resources/skins/DefaultSkin/1080i/Textbox.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/resources/skins/DefaultSkin/1080i/loguploader.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/resources/skins/DefaultSkin/1080i/main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/resources/skins/DefaultSkin/media/Background/ContentPanel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/resources/skins/DefaultSkin/media/Background/bgg2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/resources/skins/DefaultSkin/media/Background/dialogheader.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/resources/skins/DefaultSkin/media/Background/loguploader-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/resources/skins/DefaultSkin/media/Background/loguploader-dialog-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/resources/skins/DefaultSkin/media/Background/loguploader-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/resources/skins/DefaultSkin/media/Background/spmc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/resources/skins/DefaultSkin/media/Button/DialogCloseButton-focus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/resources/skins/DefaultSkin/media/Button/DialogCloseButton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/resources/skins/DefaultSkin/media/Button/KeyboardKey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/resources/skins/DefaultSkin/media/Button/KeyboardKeyNF.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/resources/skins/DefaultSkin/media/Button/button-focus_grey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/resources/skins/DefaultSkin/media/Button/button-focus_lightblue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/resources/skins/DefaultSkin/media/Button/loguploader-dialogbutton-fo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/resources/skins/DefaultSkin/media/Button/loguploader-dialogbutton-nofo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/resources/skins/DefaultSkin/media/Button/scrollbar-V-background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/resources/skins/DefaultSkin/media/Button/scrollbar-V-focus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/resources/skins/DefaultSkin/media/Button/scrollbar-V.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/resources/skins/DefaultSkin/media/Button/testbuttonfo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/resources/skins/DefaultSkin/media/Button/testbuttonnf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/resources/skins/DefaultSkin/media/RadioButton/MenuItemFO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/resources/skins/DefaultSkin/media/RadioButton/MenuItemNF.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/resources/skins/DefaultSkin/media/RadioButton/radiobutton-focus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/resources/skins/DefaultSkin/media/RadioButton/radiobutton-nofocus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/resources/skins/DefaultSkin/media/Slider/osd_slider_nib.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/resources/skins/DefaultSkin/media/Slider/osd_slider_nibNF.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/resources/skins/DefaultSkin/media/Slider/slider1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/resources/skins/DefaultSkin/media/SpeedTest/bg_screen.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/resources/skins/DefaultSkin/media/SpeedTest/btn_start_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/resources/skins/DefaultSkin/media/ajax-loader-bar.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/resources/skins/DefaultSkin/media/bg_screen.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/resources/skins/DefaultSkin/media/btn_start_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/resources/skins/DefaultSkin/media/btn_start_glow_active.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/resources/skins/DefaultSkin/media/gauge_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/resources/skins/DefaultSkin/media/gauge_ic_arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/resources/skins/DefaultSkin/media/ping_progress_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/resources/skins/DefaultSkin/media/ping_progress_glow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/resources/skins/DefaultSkin/media/recspeed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/resources/skins/DefaultSkin/media/speedtest_results_wtext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/resources/skins/DefaultSkin/media/testing_ping.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/resources/tempaddon.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/startup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.program.stva/uservar.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
