@@ -1,3 +1,6 @@
+v3.5 4/9/19
+- La Base y Parche de siempre ahora son Base y Parches Alfa. Las versiones Lite pasan al primer lugar.
+
 v3.4 31/7/19
 - Ahora al hacer limpieza o instalar otra base, el addon Balandro y su videoteca no se borrarán.
 
