@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.program.stva" name="STVA [COLOR orange]WIZARD[/COLOR]" version="3.5" provider-name="STVA">
+<addon id="plugin.program.stva" name="STVA [COLOR orange]WIZARD[/COLOR]" version="3.6" provider-name="STVA">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
