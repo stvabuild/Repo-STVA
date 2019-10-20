@@ -17,6 +17,57 @@ Telegram: t.me/stvabuild</description>
   </extension>
 </addon>
 
+<addon id="repository.alfa-addon" name="[COLOR red]Alfa-Addon[/COLOR] Repo" version="1.0.4" provider-name="Alfa Addon">
+    <requires>
+        <import addon="xbmc.addon" version="12.0.0"/>
+    </requires>
+    <extension point="xbmc.addon.repository" name="Alfa-Addon Repo">
+        <info>https://github.com/alfa-addon/alfa-repo/raw/master/addons.xml</info>
+        <checksum>https://github.com/alfa-addon/alfa-repo/raw/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/alfa-addon/alfa-repo/raw/master</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Repositorio para Alfa-Addon</summary>
+        <description></description>
+        <disclaimer>The owners and submitters to this repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.</disclaimer>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="repository.balandro" name="Balandro Repo" version="1.0.3" provider-name="Balandro">
+	<requires>
+		<import addon="xbmc.addon" version="12.0.0"/>
+	</requires>
+
+    <extension point="xbmc.addon.repository" name="Balandro Repo">
+        <info>https://balandro.tk/repo/addons.xml</info>
+        <checksum>https://balandro.tk/repo/addons.xml.md5</checksum>
+        <datadir zip="true">https://balandro.tk/repo</datadir>
+    </extension>
+
+    <extension point="xbmc.addon.metadata">
+        <summary>Repositorio para Balandro</summary>
+        <description>Balandro es un navegador para webs con vídeos de películas y series.</description>
+        <disclaimer>The owners and submitters to this repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.</disclaimer>
+        <platform>all</platform>
+    </extension>
+
+</addon>
+
+<addon id="repository.repofamilyleia" name="[COLOR aqua]WIZARD LEIA[/COLOR] [COLOR royalblue]REPO[/COLOR]" version="2.0" provider-name="LouFesta y Supertopo">
+    <extension point="xbmc.addon.repository" name="repofamilyleia">
+        <info>https://raw.githubusercontent.com/Leia18/repofamilyleia/master/Repositorio/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/Leia18/repofamilyleia/master/Repositorio/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/Leia18/repofamilyleia/master/Repositorio/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Repositorio wizards kodileia</summary>
+        <description></description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+    </extension>
+</addon>
+
 <addon id="repository.repostva" name="STVA [COLOR yellow]Repo[/COLOR]" version="1.2" provider-name="www.stva.ga">
 	<extension point="xbmc.addon.repository" name="STVA Repo">
 		<info compressed="false">https://raw.githubusercontent.com/stvabuild/Repo-STVA/master/addons.xml</info>
@@ -29,5 +80,91 @@ Telegram: t.me/stvabuild</description>
 		<disclaimer></disclaimer>
 		<platform>all</platform>
 	</extension>
+</addon>
+
+<addon id="repository.xbmchub" name="TVADDONS.CO Add-on Repository" version="3.0.0" provider-name="tvaddons">
+	<extension point="xbmc.addon.repository" name="TVADDONS.CO Add-on Repository">
+	<dir>
+		<info compressed="false">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml</info>
+		<checksum>https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/zips/</datadir>
+	</dir>
+
+    <dir>
+		<info compressed="false">https://github.com/tvaddonsco/tva-release-repo/raw/master/addons.xml</info>
+		<checksum>https://github.com/tvaddonsco/tva-release-repo/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/tvaddonsco/tva-release-repo/raw/master/</datadir>
+    </dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Unofficial Kodi Addons from TVADDONS.CO</summary>
+		<description>Unofficial Kodi Addons from the TVADDONS.CO Add-on Repository. Please visit www.tvaddons.co for support!
+
+Kodi is a registered trademark of the XBMC Foundation. We are not connected to or in any other way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</description>
+         <disclaimer>TVADDONS.CO did not make all the add-ons in this repository and is not responsible for their content.</disclaimer>
+		<platform>all</platform>
+                <forum>https://www.tvaddons.co/forums</forum>
+                <website>https://www.tvaddons.co</website>
+	</extension>
+</addon>
+
+<addon id="script.i.cristalazul" name="Instalador [COLOR aqua]CRISTAL AZUL[/COLOR]" version="1.0" provider-name="www.stva.ga">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0"/>
+
+
+    </requires>
+    <extension point="xbmc.python.script" library="main.py">
+        <provides>executable</provides>
+    </extension>
+	<extension point="xbmc.service" library="main.py">
+	</extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Instalador CRISTAL AZUL instalara el addon cristal azul y todas sus dependencias.</summary>
+        <description lang="en_GB"></description>
+        <language></language>
+        <platform>all</platform>
+        <license>unlicense</license>
+        <forum></forum>
+        <website></website>
+        <email></email>
+        <source></source>
+        <news></news>
+        <disclaimer></disclaimer>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="script.i.realstream" name="Instalador [COLOR yellow]REALSTREAM[/COLOR]" version="1.0" provider-name="www.stva.ga">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0"/>
+
+
+    </requires>
+    <extension point="xbmc.python.script" library="main.py">
+        <provides>executable</provides>
+    </extension>
+	<extension point="xbmc.service" library="main.py">
+	</extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Instalador REALSTREAM instalara el addon realstream y todas sus dependencias.</summary>
+        <description lang="en_GB"></description>
+        <language></language>
+        <platform>all</platform>
+        <license>unlicense</license>
+        <forum></forum>
+        <website></website>
+        <email></email>
+        <source></source>
+        <news></news>
+        <disclaimer></disclaimer>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+        </assets>
+    </extension>
 </addon>
 </addons>
