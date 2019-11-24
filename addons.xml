@@ -19,7 +19,7 @@ Telegram: t.me/stvabuild</description>
 
 <addon id="plugin.video.cristalazul"
        name="[COLOR aqua]CRISTAL AZUL[/COLOR]"
-       version="0.0.5"
+       version="0.0.6"
        provider-name="PICAPAU, LOURDES, SUPERTOPO, LUISMA">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -49,7 +49,7 @@ Telegram: t.me/stvabuild</description>
   <extension point="xbmc.addon.metadata">
     <summary>creado por picapau, lourdes, supertopo y luisma</summary>
     <description>ESTE ADDON NO CONTIENE ENLACES PROPIOS,SON RECOPILACIONES DE LA RED, SOLO SE FACILITA EL ACESSO A ESAS WEBS, ESTAS WEBS SON LAS RESPONSABLES DE LOS CONTENIDOS
-	</description>
+	</description>ºº
     <platform>all</platform>
 	  <assets>
 		<icon>icon.gif</icon>
@@ -93,6 +93,20 @@ Telegram: t.me/stvabuild</description>
         <platform>all</platform>
     </extension>
 
+</addon>
+
+<addon id="repository.hirayasoftware" name="Hiraya Software" version="1.0.0" provider-name="Alex303 - Hiraya Software">
+	<extension point="xbmc.addon.repository" name="Hiraya Software">
+		<info>http://hirayasoftware.com/repo/addons.xml</info>
+		<checksum>http://hirayasoftware.com/repo/addons.xml.md5</checksum>
+		<datadir zip="true">http://hirayasoftware.com/repo/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Hiraya Software Repository</summary>
+		<description></description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
 </addon>
 
 <addon id="repository.repofamilyleia" name="[COLOR aqua]WIZARD LEIA[/COLOR] [COLOR royalblue]REPO[/COLOR]" version="2.0" provider-name="LouFesta y Supertopo">
