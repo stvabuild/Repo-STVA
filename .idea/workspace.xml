@@ -2,65 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e07a9cbc-151f-46b4-960e-409060472695" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/addons.xml" beforeDir="false" afterPath="$PROJECT_DIR$/addons.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/addons.xml.md5" beforeDir="false" afterPath="$PROJECT_DIR$/addons.xml.md5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.cristalazul/AADecoder.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.cristalazul/AGRADECIMIENTOS.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.cristalazul/CustomPlayer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.cristalazul/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.cristalazul/RijndaelManaged.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.cristalazul/_DMsearch.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.cristalazul/_ytplist.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.cristalazul/cfscrape.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.cristalazul/changelog.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.cristalazul/channels_example.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.cristalazul/checkbad.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.cristalazul/cloudflare.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.cristalazul/cristal/httptools.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.cristalazul/cristal/jsunpack.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.cristalazul/cristal/tools.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.cristalazul/default.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.cristalazul/genesisresolvers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.cristalazul/jscrypto.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.cristalazul/keepalive.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.cristalazul/oneplay.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.cristalazul/ordereddict.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.cristalazul/pkcs7.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.cristalazul/playtvfr.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.cristalazul/pyDes.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.cristalazul/pyaes.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.cristalazul/pyaesnew/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.cristalazul/pyaesnew/aes.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.cristalazul/pyaesnew/blockfeeder.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.cristalazul/pyaesnew/openssl_aes.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.cristalazul/pyaesnew/util.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.cristalazul/resources/settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.cristalazul/securi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.cristalazul/source_file" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.cristalazul/sucuri_cookie.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.cristalazul/tv5.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.cristalazul/unCaptcha.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.cristalazul/vipracing.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.cristalazul/wattv.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.cristalazul/websocket/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.cristalazul/websocket/_abnf.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.cristalazul/websocket/_app.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.cristalazul/websocket/_core.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.cristalazul/websocket/_exceptions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.cristalazul/websocket/_handshake.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.cristalazul/websocket/_http.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.cristalazul/websocket/_logging.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.cristalazul/websocket/_socket.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.cristalazul/websocket/_ssl_compat.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.cristalazul/websocket/_url.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.cristalazul/websocket/_utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.cristalazul/websocket/cacert.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.cristalazul/websocket/six.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.cristalazul/websocket/tests/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.cristalazul/websocket/tests/data/header01.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.cristalazul/websocket/tests/data/header02.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.cristalazul/websocket/tests/test_websocket.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.cristalazul/youtubedl.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/repository.alfa-addon/addon.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/repository.alfa-addon/fanart.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/repository.alfa-addon/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/repository.alfa-addon/repository.alfa-addon-1.0.4.zip" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +31,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -95,6 +42,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
