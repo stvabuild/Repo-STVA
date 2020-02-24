@@ -19,12 +19,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="2059" />
-    <option name="y" value="82" />
-    <option name="width" value="1440" />
-    <option name="height" value="806" />
-  </component>
+  <component name="ProjectId" id="1YGgLuoPJ6gsRQkmo9cfFpeH2HD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -46,6 +41,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="C:/Archivos de programa" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
