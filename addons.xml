@@ -229,14 +229,13 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     </extension>
 </addon>
 
-<addon id="skin.auramodstva" version="1.0" name="AuraMOD [COLOR orange]STVA[/COLOR]" provider-name="auramod,jurialmunkey,Cartmandos,marduklev,marcelveldt">
+<addon id="skin.auramodstva" version="1.1" name="AuraMOD [COLOR orange]STVA[/COLOR]" provider-name="auramod,jurialmunkey,Cartmandos,marduklev,marcelveldt">
     <requires>
         <import addon="xbmc.gui" version="5.14.0"/>
         <import addon="script.skin.helper.service" version="1.1.24"/>
         <import addon="script.skin.helper.widgets" version="1.0.0"/>
         <import addon="script.skinshortcuts" version="1.0.20"/>
         <import addon="script.image.resource.select" version="0.0.5"/>
-        <import addon="plugin.program.autocompletion" version="1.0.1"/>
         <import addon="resource.images.studios.white" version="0.0.10"/>
         <import addon="resource.images.studios.coloured" version="0.0.18"/>
         <import addon="resource.images.moviegenreicons.transparent" version="0.0.6"/>

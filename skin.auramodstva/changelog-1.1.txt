@@ -1,0 +1,6 @@
+v1.1
+- Traducciones completadas
+-   Ajustes internos
+
+v1.0
+- Versión inicial

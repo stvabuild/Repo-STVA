@@ -10,7 +10,6 @@
       <change beforePath="$PROJECT_DIR$/repository.alfa-addon/icon.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/repository.alfa-addon/repository.alfa-addon-1.0.4.zip" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,42 +20,16 @@
   </component>
   <component name="ProjectId" id="1YGgLuoPJ6gsRQkmo9cfFpeH2HD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Repo-STVA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Repo-STVA" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="C:/Archivos de programa" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Python.repo_maker">
     <configuration name="repo_maker" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -148,32 +121,35 @@
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="2059" y="82" width="1440" height="806" extended-state="0" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964337" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32838038" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Python Console" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Data View" order="3" />
-    </layout>
-  </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1362" height="205" key="GridCell.Tab.0.bottom" timestamp="1583107635468">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1362" height="205" key="GridCell.Tab.0.bottom/0.0.1600.860/-1920.-177.1920.1080@0.0.1600.860" timestamp="1582574438498" />
+    <state width="1362" height="205" key="GridCell.Tab.0.bottom/1920.177.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1583107635468" />
+    <state width="1362" height="205" key="GridCell.Tab.0.center" timestamp="1583107635468">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1362" height="205" key="GridCell.Tab.0.center/0.0.1600.860/-1920.-177.1920.1080@0.0.1600.860" timestamp="1582574438498" />
+    <state width="1362" height="205" key="GridCell.Tab.0.center/1920.177.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1583107635468" />
+    <state width="1362" height="205" key="GridCell.Tab.0.left" timestamp="1583107635468">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1362" height="205" key="GridCell.Tab.0.left/0.0.1600.860/-1920.-177.1920.1080@0.0.1600.860" timestamp="1582574438498" />
+    <state width="1362" height="205" key="GridCell.Tab.0.left/1920.177.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1583107635468" />
+    <state width="1362" height="205" key="GridCell.Tab.0.right" timestamp="1583107635468">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1362" height="205" key="GridCell.Tab.0.right/0.0.1600.860/-1920.-177.1920.1080@0.0.1600.860" timestamp="1582574438498" />
+    <state width="1362" height="205" key="GridCell.Tab.0.right/1920.177.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1583107635468" />
+    <state x="496" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1583107626957">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="496" y="254" key="com.intellij.ide.util.TipDialog/1920.177.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1583107626957" />
   </component>
 </project>
