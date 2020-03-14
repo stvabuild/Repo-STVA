@@ -1,7 +1,0 @@
-v1.1
-- Traducción completada
-- Addon Autocompletar ya no es requerido
-- Ajustes internos
-
-v1.0
-- Versión Inicial
