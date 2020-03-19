@@ -1,5 +1,5 @@
 # Repo-STVA
-#### Repo del Addon Build, STVA.
+#### Repo del Addon wizard STVA.
 Mas informacion, videos, manuales, telegram, en:
 www.stva.ga
 

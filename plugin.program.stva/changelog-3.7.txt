@@ -1,3 +1,12 @@
+v3.7 19/3/20
+- Eliminada seccion principal, Instalador de addons.
+- Eliminada seccion principal, Contacto. 
+- Reparada ventana emergente de informacion, ahora vuelve a saltar con avisos. 
+- Ahora en la seccion Bases y Parches, aparece la version instalada.
+- Al ir a instalar una Base o Parche, nos da la opcion de Copias de Seguridad.
+- Eliminado item de informacion de la version.
+- Ahora solo tendremos una opcion de instalacion dependiendo de si es Base o Parche.
+
 v3.6 8/10/19
 - Cambiadas urls por cambio de dominio
 

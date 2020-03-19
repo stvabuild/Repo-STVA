@@ -1,5 +1,6 @@
 v1.2
 - Reparado widget destacado películas, ya no entra en bucle.
+- Agregadas algunas traducciones más.
 
 v1.1
 - Traducción completada
