@@ -1,0 +1,12 @@
+v1.3.1
+- Corregido error interno
+
+v1.2
+- Reparado widget destacado películas, ya no entra en bucle.
+
+v1.1
+- Traducción completada
+- Ajustes internos
+
+v1.0
+- Versión Inicial
