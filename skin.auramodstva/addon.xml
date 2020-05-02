@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addon id="skin.auramodstva" version="1.3.3" name="AuraMOD [COLOR orange]STVA[/COLOR]" provider-name="auramod,jurialmunkey,Cartmandos,marduklev,marcelveldt,stva">
+<addon id="skin.auramodstva" version="1.3.4" name="AuraMOD [COLOR orange]STVA[/COLOR]" provider-name="auramod,jurialmunkey,Cartmandos,marduklev,marcelveldt,stva">
     <requires>
         <import addon="xbmc.gui" version="5.14.0"/>
         <import addon="script.skin.helper.service" version="1.1.24"/>
