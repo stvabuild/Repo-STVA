@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<addon id="skin.stouch"  version="1.0.1" name="STouch" provider-name="STVA">
+	<requires>
+		<import addon="xbmc.gui" version="5.14.0" />
+		<import addon="script.skin.helper.widgets" version="1.1.24"/>
+		<import addon="script.skin.helper.service" version="1.0.0"/>
+		<import addon="plugin.program.stva" version="3.7"/>
+	
+	</requires>
+	<extension debugging="false" effectslowdown="1" point="xbmc.gui.skin">
+		<res aspect="16:9" default="true" folder="xml" height="1080" width="1920" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="es_ES">Skin para STVA</summary>
+		<summary lang="en_GB">Skin para STVA</summary>				
+		<description lang="en_GB">STouch es una mod de skin realizado por y para STVA. Sin STVA no funciona correctamente.</description>
+		<description lang="en_GB">STouch es una mod de skin realizado por y para STVA. Sin STVA no funciona correctamente.</description>		
+		<disclaimer lang="en_GB">Para dudas, preguntas o sugerencias [CR]http://stva.ga</disclaimer>
+		<disclaimer lang="es_ES">Para dudas, preguntas o sugerencias [CR]http://stva.ga</disclaimer>		
+		<platform>all</platform>
+		<license></license>
+		<website />
+		<email />
+		<news>Version 1.0.1 - 26/5/20
+		- Reconstruido el menu OSD de reproduccion.
+		- Agregado resaltado naranja en menu prinicipal.
+		- Agregada ventana de reproduccion activa al menu principal.
+		- Correcciones menores en vistas.
+		- Con mando o teclado se puede volver al menu principal desde  ajustes y favoritos.
+		- Agregadas mas traducciones.
+		</news>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+			<screenshot>resources/screenshot001.jpg</screenshot>
+			<screenshot>resources/screenshot002.jpg</screenshot>
+			<screenshot>resources/screenshot003.jpg</screenshot>
+			<screenshot>resources/screenshot004.jpg</screenshot>
+		</assets>
+		<news></news>
+	</extension>
+</addon>
