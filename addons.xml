@@ -356,11 +356,9 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     </extension>
 </addon>
 
-<addon id="skin.stouch"  version="1.0.1" name="STouch" provider-name="STVA">
+<addon id="skin.stouch"  version="1.1" name="STouch" provider-name="STVA">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0" />
-		<import addon="script.skin.helper.widgets" version="1.0.22"/>
-		<import addon="script.skin.helper.service" version="1.1.3"/>
 		<import addon="plugin.program.stva" version="3.7"/>
 
 	</requires>
