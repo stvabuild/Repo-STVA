@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addon id="skin.stouch"  version="1.2" name="STouch" provider-name="STVA">
+<addon id="skin.stouch"  version="1.3" name="STouch" provider-name="STVA">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0" />
 		<import addon="plugin.program.stva" version="3.7"/>
@@ -19,11 +19,8 @@
 		<license></license>
 		<website />
 		<email />
-		<news>Version 1.2 - 21/7/20
-	- Reparados algunos menus del home.
-	- Agregada fecha y hora en menus y home.
-	- Reparado seekbar pvr.
-	- Cambiado en el home ondown, ya no es addons de video, es buscador Balandro.
+		<news>Version 1.3 - 23/7/20
+	- Reparado OSD.
 		</news>
 		<assets>
 			<icon>resources/icon.png</icon>
