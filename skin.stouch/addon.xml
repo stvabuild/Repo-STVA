@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addon id="skin.stouch"  version="1.4" name="STouch" provider-name="STVA">
+<addon id="skin.stouch"  version="1.4.1" name="STouch" provider-name="STVA">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0" />
 		<import addon="plugin.program.stva" version="3.7"/>
@@ -19,8 +19,8 @@
 		<license></license>
 		<website />
 		<email />
-		<news>Version 1.3 - 27/7/20
-	- Reparados menus Directos y SD + Guia.
+		<news>Version 1.4.1 - 4/8/20
+	- Reparados menu Peliculas Recientes.
 		</news>
 		<assets>
 			<icon>resources/icon.png</icon>

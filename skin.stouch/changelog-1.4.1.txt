@@ -1,0 +1,25 @@
+1.4.1 - 4/8/20
+- Reparados menu Peliculas Recientes.
+
+1.4 - 27/7/20
+- Reparados varios menus del home.
+
+1.3 - 23/7/20
+- Reparado OSD.
+
+1.2 - 21/7/20
+- Reparados algunos menus del home.
+- Agregada fecha y hora en menus y home.
+- Reparado seekbar pvr.
+- Cambiado en el home ondown, ya no es addons de video, es buscador Balandro.
+
+1.1 - 26/5/20
+- Reconstruido el menu OSD de reproduccion.
+- Agregado resaltado en menu prinicipal.
+- Agregada ventana de reproduccion activa al menu principal.
+- Con mando o teclado se puede volver al menu principal desde  ajustes y favoritos.
+- Correcciones menores en vistas.
+- Agregadas mas traducciones.
+
+1.0.0 - 25/5/20
+- Version Inicial
