@@ -4,9 +4,6 @@
     <list default="true" id="e07a9cbc-151f-46b4-960e-409060472695" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/addons.xml" beforeDir="false" afterPath="$PROJECT_DIR$/addons.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/addons.xml.md5" beforeDir="false" afterPath="$PROJECT_DIR$/addons.xml.md5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skin.stouch/addon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/skin.stouch/addon.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skin.stouch/changelog-1.4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skin.stouch/skin.stouch-1.4.zip" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,14 +17,14 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="C:/Archivos de programa" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunManager" selected="Python.repo_maker">
@@ -107,6 +104,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -130,25 +128,29 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="751" y="263" key="#repo_prep/1920.177.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1595358623142" />
-    <state width="1362" height="205" key="GridCell.Tab.0.bottom" timestamp="1596555461226">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1362" height="266" key="GridCell.Tab.0.bottom" timestamp="1600014281431">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1362" height="205" key="GridCell.Tab.0.bottom/1920.177.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1596555461226" />
     <state width="1362" height="205" key="GridCell.Tab.0.bottom/1920.177.1600.900/0.0.1920.1080@1920.177.1600.900" timestamp="1593599052668" />
-    <state width="1362" height="205" key="GridCell.Tab.0.center" timestamp="1596555461226">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1362" height="266" key="GridCell.Tab.0.bottom/1920.74.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1600014281431" />
+    <state width="1362" height="266" key="GridCell.Tab.0.center" timestamp="1600014281431">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1362" height="205" key="GridCell.Tab.0.center/1920.177.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1596555461226" />
     <state width="1362" height="205" key="GridCell.Tab.0.center/1920.177.1600.900/0.0.1920.1080@1920.177.1600.900" timestamp="1593599052668" />
-    <state width="1362" height="205" key="GridCell.Tab.0.left" timestamp="1596555461226">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1362" height="266" key="GridCell.Tab.0.center/1920.74.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1600014281431" />
+    <state width="1362" height="266" key="GridCell.Tab.0.left" timestamp="1600014281431">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1362" height="205" key="GridCell.Tab.0.left/1920.177.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1596555461226" />
     <state width="1362" height="205" key="GridCell.Tab.0.left/1920.177.1600.900/0.0.1920.1080@1920.177.1600.900" timestamp="1593599052667" />
-    <state width="1362" height="205" key="GridCell.Tab.0.right" timestamp="1596555461226">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1362" height="266" key="GridCell.Tab.0.left/1920.74.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1600014281431" />
+    <state width="1362" height="266" key="GridCell.Tab.0.right" timestamp="1600014281431">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1362" height="205" key="GridCell.Tab.0.right/1920.177.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1596555461226" />
     <state width="1362" height="205" key="GridCell.Tab.0.right/1920.177.1600.900/0.0.1920.1080@1920.177.1600.900" timestamp="1593599052668" />
+    <state width="1362" height="266" key="GridCell.Tab.0.right/1920.74.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1600014281431" />
   </component>
 </project>
