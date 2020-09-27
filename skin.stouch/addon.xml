@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addon id="skin.stouch"  version="1.4.1" name="STouch" provider-name="STVA">
+<addon id="skin.stouch"  version="1.5" name="STouch" provider-name="STVA">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0" />
 		<import addon="plugin.program.stva" version="3.7"/>
@@ -11,16 +11,26 @@
 	<extension point="xbmc.addon.metadata">
 		<summary lang="es_ES">Skin para STVA</summary>
 		<summary lang="en_GB">Skin para STVA</summary>				
-		<description lang="en_GB">STouch es una mod de skin realizado por y para STVA. Sin STVA no funciona correctamente.</description>
-		<description lang="en_GB">STouch es una mod de skin realizado por y para STVA. Sin STVA no funciona correctamente.</description>		
-		<disclaimer lang="en_GB">Para dudas, preguntas o sugerencias [CR]http://stva.ga</disclaimer>
-		<disclaimer lang="es_ES">Para dudas, preguntas o sugerencias [CR]http://stva.ga</disclaimer>		
+		<description lang="en_GB">STouch es una mod de skin realizado por y para STVA.[CR]No es personalizable.[CR]Completamente optimizado para ser utilizado en Móvil y Tablet, TV y TV Box con mando, PC con ratón y/o teclado, consola con mando o gamepad.</description>
+		<description lang="es_ES">STouch es una mod de skin realizado por y para STVA.[CR]No es personalizable.[CR]Completamente optimizado para ser utilizado en Móvil y Tablet, TV y TV Box con mando, PC con ratón y/o teclado, consola con mando o gamepad.</description>		
+		<disclaimer lang="en_GB">Para más información, dudas o consultas [CR][B]web:[/B] http://stva.ga[CR][B]Telegram:[/B] http://t.me/stvabuild</disclaimer>
+		<disclaimer lang="es_ES">Para más información, dudas o consultas [CR][B]web:[/B] http://stva.ga[CR][B]Telegram:[/B] http://t.me/stvabuild</disclaimer>
 		<platform>all</platform>
 		<license></license>
 		<website />
 		<email />
-		<news>Version 1.4.1 - 4/8/20
-	- Reparados menu Peliculas Recientes.
+		<news>Version 1.5 - /9/20
+- Reconfigurado visualmente el skin al completo.
+- Nuevo Inicio.
+- Reajustadas todas las vistas.
+- Nueva vista Paisaje.
+- Nueva vista de Ajustes.
+- Cambiados botones táctiles.
+- Ahora se puede acceder con mando, teclado a las áres táctiles.
+- Recongifurada vista guia pvr.
+- Reconfigurado OSD.
+- Ya no se accede a favoritos, buscador etc, desplazándote en los bordes de inicio.
+- Cambiado icono de carga.
 		</news>
 		<assets>
 			<icon>resources/icon.png</icon>
