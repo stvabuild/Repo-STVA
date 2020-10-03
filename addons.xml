@@ -315,7 +315,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     </extension>
 </addon>
 
-<addon id="skin.auramodstva" version="1.3.6" name="AuraMOD [COLOR orange]STVA[/COLOR]" provider-name="auramod,jurialmunkey,Cartmandos,marduklev,marcelveldt,stva">
+<addon id="skin.auramodstva" version="1.3.7" name="AuraMOD [COLOR orange]STVA[/COLOR]" provider-name="auramod,jurialmunkey,Cartmandos,marduklev,marcelveldt,stva">
     <requires>
         <import addon="xbmc.gui" version="5.14.0"/>
         <import addon="script.skin.helper.service" version="1.1.24"/>
@@ -333,10 +333,10 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
         <summary lang="en">Mod STVA de AuraMod, Minimalista, Personalizable, Multiple Widgets.</summary>
         <description lang="en">Mod STVA de AuraMod.
 		Aura es un skin altamente personalizablee con múltiples widgets y menú vertical. Aura combina el minimalismo y los bordes redondeados de Arctic Zephyr con la elegante personalización de Horizon y Titan Bingie. [COLOR cyan]AuraMod by skyfsza[/COLOR]</description>
-        <news>Últimos cambios 21/7/20:
+        <news>Últimos cambios 10/9/20:
 
-	- Icono actualizar ya no sale encima de la hora al iniciar.
-	- Corregido descuadre en la hora.
+	- Aumentada de 5 a 20 la cantidad de destacados.
+	- Agregadas en ajustes del skin, opciones de Apis de Youtube y Gdrive.
 		</news>
 		<platform>all</platform>
         <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
@@ -389,7 +389,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
-<addon id="skin.stouch"  version="1.5" name="STouch" provider-name="STVA">
+<addon id="skin.stouch"  version="1.5.2" name="STouch" provider-name="STVA">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0" />
 		<import addon="plugin.program.stva" version="3.7"/>
@@ -409,18 +409,11 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		<license></license>
 		<website />
 		<email />
-		<news>Version 1.5 - 27/9/20
-- Reconfigurado visualmente el skin al completo.
-- Nuevo Inicio.
-- Reajustadas todas las vistas.
-- Nueva vista Paisaje.
-- Nueva vista de Ajustes.
-- Cambiados botones táctiles.
-- Ahora se puede acceder con mando, teclado a las áres táctiles.
-- Recongifurada vista guia pvr.
-- Reconfigurado OSD.
-- Ya no se accede a favoritos, buscador etc, desplazándote en los bordes de inicio.
-- Cambiado icono de carga.
+		<news>Version 1.5.2 - 3/10/20
+- Teclado rediseñado.
+- Ajustados tamaños pósters.
+- Agregado fondo para marca de vistos.
+- Ajustados iconos de Ajustes.
 		</news>
 		<assets>
 			<icon>resources/icon.png</icon>

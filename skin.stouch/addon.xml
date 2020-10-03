@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addon id="skin.stouch"  version="1.5" name="STouch" provider-name="STVA">
+<addon id="skin.stouch"  version="1.5.2" name="STouch" provider-name="STVA">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0" />
 		<import addon="plugin.program.stva" version="3.7"/>
@@ -19,18 +19,11 @@
 		<license></license>
 		<website />
 		<email />
-		<news>Version 1.5 - 27/9/20
-- Reconfigurado visualmente el skin al completo.
-- Nuevo Inicio.
-- Reajustadas todas las vistas.
-- Nueva vista Paisaje.
-- Nueva vista de Ajustes.
-- Cambiados botones táctiles.
-- Ahora se puede acceder con mando, teclado a las áres táctiles.
-- Recongifurada vista guia pvr.
-- Reconfigurado OSD.
-- Ya no se accede a favoritos, buscador etc, desplazándote en los bordes de inicio.
-- Cambiado icono de carga.
+		<news>Version 1.5.2 - 3/10/20
+- Teclado rediseñado.
+- Ajustados tamaños pósters.
+- Agregado fondo para marca de vistos.
+- Ajustados iconos de Ajustes.
 		</news>
 		<assets>
 			<icon>resources/icon.png</icon>
