@@ -27,7 +27,7 @@ Telegram: t.me/stvabuild</description>
 
 <addon id="plugin.video.cristalazul"
        name="[B][/B][COLOR aqua]CRISTAL AZUL[/COLOR]"
-       version="0.0.10"
+       version="0.0.11"
        provider-name="PICAPAU, LOURDES, SUPERTOPO, LUISMA">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
