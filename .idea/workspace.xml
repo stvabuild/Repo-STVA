@@ -5,8 +5,13 @@
       <change beforePath="$PROJECT_DIR$/addons.xml" beforeDir="false" afterPath="$PROJECT_DIR$/addons.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/addons.xml.md5" beforeDir="false" afterPath="$PROJECT_DIR$/addons.xml.md5" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/plugin.video.cristalazul/addon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/plugin.video.cristalazul/addon.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.cristalazul/changelog-0.0.10.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.cristalazul/plugin.video.cristalazul-0.0.10.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.video.cristalazul/changelog-0.0.11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.video.cristalazul/plugin.video.cristalazul-0.0.11.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.video.festakids/addon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/plugin.video.festakids/addon.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.video.festakids/changelog-0.0.8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.video.festakids/fanart.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/plugin.video.festakids/fanart.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.video.festakids/icon.gif" beforeDir="false" afterPath="$PROJECT_DIR$/plugin.video.festakids/icon.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.video.festakids/plugin.video.festakids-0.0.8.zip" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,25 +136,25 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="751" y="263" key="#repo_prep/1920.177.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1595358623142" />
-    <state width="1362" height="266" key="GridCell.Tab.0.bottom" timestamp="1602442734323">
+    <state width="1362" height="266" key="GridCell.Tab.0.bottom" timestamp="1602579115679">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1362" height="205" key="GridCell.Tab.0.bottom/1920.177.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1596555461226" />
-    <state width="1362" height="266" key="GridCell.Tab.0.bottom/1920.74.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1602442734323" />
-    <state width="1362" height="266" key="GridCell.Tab.0.center" timestamp="1602442734323">
+    <state width="1362" height="266" key="GridCell.Tab.0.bottom/1920.74.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1602579115679" />
+    <state width="1362" height="266" key="GridCell.Tab.0.center" timestamp="1602579115679">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1362" height="205" key="GridCell.Tab.0.center/1920.177.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1596555461226" />
-    <state width="1362" height="266" key="GridCell.Tab.0.center/1920.74.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1602442734323" />
-    <state width="1362" height="266" key="GridCell.Tab.0.left" timestamp="1602442734323">
+    <state width="1362" height="266" key="GridCell.Tab.0.center/1920.74.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1602579115679" />
+    <state width="1362" height="266" key="GridCell.Tab.0.left" timestamp="1602579115679">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1362" height="205" key="GridCell.Tab.0.left/1920.177.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1596555461226" />
-    <state width="1362" height="266" key="GridCell.Tab.0.left/1920.74.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1602442734323" />
-    <state width="1362" height="266" key="GridCell.Tab.0.right" timestamp="1602442734323">
+    <state width="1362" height="266" key="GridCell.Tab.0.left/1920.74.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1602579115679" />
+    <state width="1362" height="266" key="GridCell.Tab.0.right" timestamp="1602579115679">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1362" height="205" key="GridCell.Tab.0.right/1920.177.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1596555461226" />
-    <state width="1362" height="266" key="GridCell.Tab.0.right/1920.74.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1602442734323" />
+    <state width="1362" height="266" key="GridCell.Tab.0.right/1920.74.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1602579115679" />
   </component>
 </project>

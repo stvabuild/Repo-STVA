@@ -27,7 +27,7 @@ Telegram: t.me/stvabuild</description>
 
 <addon id="plugin.video.cristalazul"
        name="[B][/B][COLOR aqua]CRISTAL AZUL[/COLOR]"
-       version="0.0.11"
+       version="0.0.12"
        provider-name="PICAPAU, LOURDES, SUPERTOPO, LUISMA">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -88,9 +88,9 @@ Telegram: t.me/stvabuild</description>
 </addon>
 
 <addon id="plugin.video.festakids"
-       name="[COLOR aqua]*[/COLOR][COLOR orangered]Festa Kids[/COLOR][COLOR aqua]*[/COLOR]"
-       version="0.0.8"
-       provider-name="Festa team">
+       name="[B][COLOR antiquewhite]FESTA[COLOR darkgoldenrod]KIDS[/COLOR][/B]"
+       version="0.0.12"
+       provider-name="Team Festa y Cristal">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -121,7 +121,7 @@ Telegram: t.me/stvabuild</description>
     </extension>
 
   <extension point="xbmc.addon.metadata">
-    <summary>Creado por Festa team</summary>
+    <summary>Creado por Team Festa y Cristal</summary>
     <description>Dedicado a los  pequeñ@s y adolescentes de la familia Festa.Addon de entretenimiento y educativo, porque con Festa Kids, aprender es divertido.</description>
     <platform>all</platform>
 	  <assets>
