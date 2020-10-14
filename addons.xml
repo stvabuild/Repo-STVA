@@ -390,7 +390,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
-<addon id="skin.stouch"  version="1.5.3" name="STouch" provider-name="STVA">
+<addon id="skin.stouch"  version="1.5.4" name="STouch" provider-name="STVA">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0" />
 		<import addon="plugin.program.stva" version="3.7"/>
@@ -410,8 +410,8 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		<license></license>
 		<website />
 		<email />
-		<news>Version 1.5.3 - 13/10/20
-- Reparado menú Deportes
+		<news>Version 1.5.4 - 14/10/20
+- Reparado menú TV Estable
 		</news>
 		<assets>
 			<icon>resources/icon.png</icon>
