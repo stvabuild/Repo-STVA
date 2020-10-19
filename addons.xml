@@ -355,7 +355,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     </extension>
 </addon>
 
-<addon id="skin.ctouch"  version="1.1" name="CTouch" provider-name="STVA">
+<addon id="skin.ctouch"  version="1.2" name="CTouch" provider-name="STVA">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0" />
 		<import addon="plugin.program.kodileiawizard" version="1.10"/>
@@ -375,8 +375,18 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		<license></license>
 		<website />
 		<email />
-		<news>Version 1.1 - 10/9/20
-	- Cambiado Menu Manta y Sofa por Superestrenos.
+		<news>Version 1.2 - 19/9/20
+- Cambiados algunas imágenes del menú principal.
+- Reajustadas todas las vistas.
+- Nueva vista Paisajes.
+- Nueva vista de Ajustes.
+- Cambiados botones táctiles.
+- Ahora se puede acceder con mando y teclado a las áres táctiles.
+- Recongifurada vista guia pvr.
+- Reconfigurado OSD.
+- Ya no se accede a favoritos, buscador etc, desplazándote en los bordes de inicio.
+- Reparados todos los menús que habían dejado de funcionar.
+- Cambiados menús Herramientas y KodiLeia Wizard por Pelis HD y Series HD
 		</news>
 		<assets>
 			<icon>resources/icon.png</icon>
@@ -390,7 +400,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
-<addon id="skin.stouch"  version="1.5.4" name="STouch" provider-name="STVA">
+<addon id="skin.stouch"  version="1.5.5" name="STouch" provider-name="STVA">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0" />
 		<import addon="plugin.program.stva" version="3.7"/>
@@ -410,8 +420,8 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		<license></license>
 		<website />
 		<email />
-		<news>Version 1.5.4 - 14/10/20
-- Reparado menú TV Estable
+		<news>Version 1.5.5 - 19/10/20
+- Cambiado menú Multilistas a TV Premium.
 		</news>
 		<assets>
 			<icon>resources/icon.png</icon>

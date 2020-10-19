@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addon id="skin.stouch"  version="1.5.4" name="STouch" provider-name="STVA">
+<addon id="skin.stouch"  version="1.5.5" name="STouch" provider-name="STVA">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0" />
 		<import addon="plugin.program.stva" version="3.7"/>
@@ -19,8 +19,8 @@
 		<license></license>
 		<website />
 		<email />
-		<news>Version 1.5.4 - 14/10/20
-- Reparado menú TV Estable
+		<news>Version 1.5.5 - 19/10/20
+- Cambiado menú Multilistas a TV Premium.
 		</news>
 		<assets>
 			<icon>resources/icon.png</icon>
