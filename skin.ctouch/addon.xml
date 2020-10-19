@@ -30,7 +30,9 @@
 - Reconfigurado OSD.
 - Ya no se accede a favoritos, buscador etc, desplazándote en los bordes de inicio.	
 - Reparados todos los menús que habían dejado de funcionar.
-- Cambiados menús Herramientas y KodiLeia Wizard por Pelis HD y Series HD
+- Cambiados menús Herramientas y KodiLeia Wizard por Pelis HD y Series HD.
+- Agreagada nueva fila de menús del addon Balandro.
+- Agregado opensubtitles.
 		</news>
 		<assets>
 			<icon>resources/icon.png</icon>

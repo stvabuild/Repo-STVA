@@ -9,7 +9,9 @@
 - Reconfigurado OSD.
 - Ya no se accede a favoritos, buscador etc, desplazándote en los bordes de inicio.	
 - Reparados todos los menús que habían dejado de funcionar.
-- Cambiados menús Herramientas y KodiLeia Wizard por Pelis HD y Series HD
+- Cambiados menús Herramientas y KodiLeia Wizard por Pelis HD y Series HD.
+- Agreagada nueva fila de menús del addon Balandro.
+- Agregado opensubtitles.
 
 1.1 - 10/9/20
 - Cambiado menú Manta y Sofa por Superestrenos.
