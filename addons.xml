@@ -1,5 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="plugin.program.indigo" version="99.99.99" name="Indigo" provider-name="tvaddons">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video executable</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="startup"/>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Falso Indigo, NO DESINSTALAR</summary>
+        <description lang="en">Falso Indigo para evitar que el URL Resolver lo instale en cada actualización.</description>
+        <disclaimer lang="en">Falso Indigo, NO DESINSTALAR</disclaimer>
+        <language>en</language>
+        <platform>all</platform>
+        <forum>https://www.tvaddons.co/forums</forum>
+        <website>https://www.tvaddons.co</website>
+        <source>https://github.com/tvaddonsco/plugin.program.indigo</source>
+    </extension>
+</addon>
+
 <addon id="plugin.program.stva" name="STVA [COLOR orange]WIZARD[/COLOR]" version="3.7" provider-name="STVA">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
