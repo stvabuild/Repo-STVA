@@ -222,6 +222,20 @@ Telegram: t.me/stvabuild</description>
 	</extension>
 </addon>
 
+<addon id="repository.Palantir" name="[COLOR gold]Palantir[/COLOR] Repo" version="1.0.1" provider-name="TierraMedia">
+    <extension point="xbmc.addon.repository" name="Palantir Repo">
+        <info>https://raw.githubusercontent.com/Palantiraddon/Repo/master/Palantir/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/Palantiraddon/Repo/master/Palantir/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/Palantiraddon/repo/master/Palantir/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Repositorio para Palantir</summary>
+        <description></description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+    </extension>
+</addon>
+
 <addon id="repository.repofamilyleia" name="[COLOR aqua]WIZARD LEIA[/COLOR] [COLOR royalblue]REPO[/COLOR]" version="2.0" provider-name="LouFesta y Supertopo">
     <extension point="xbmc.addon.repository" name="repofamilyleia">
         <info>https://raw.githubusercontent.com/Leia18/repofamilyleia/master/Repositorio/addons.xml</info>
@@ -336,7 +350,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     </extension>
 </addon>
 
-<addon id="skin.auramodstva" version="1.4" name="AuraMOD [COLOR orange]STVA[/COLOR]" provider-name="auramod,jurialmunkey,Cartmandos,marduklev,marcelveldt,stva">
+<addon id="skin.auramodstva" version="1.5" name="AuraMOD [COLOR orange]STVA[/COLOR]" provider-name="auramod,jurialmunkey,Cartmandos,marduklev,marcelveldt,stva">
     <requires>
         <import addon="xbmc.gui" version="5.14.0"/>
         <import addon="script.skin.helper.service" version="1.1.24"/>
@@ -354,14 +368,16 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
         <summary lang="en">Mod STVA de AuraMod, Minimalista, Personalizable, Multiple Widgets.</summary>
         <description lang="en">Mod STVA de AuraMod.
 		Aura es un skin altamente personalizablee con múltiples widgets y menú vertical. Aura combina el minimalismo y los bordes redondeados de Arctic Zephyr con la elegante personalización de Horizon y Titan Bingie. [COLOR cyan]AuraMod by skyfsza[/COLOR]</description>
-        <news>Últimos cambios 21/10/20:
-
-v1.4
-- Añadida Configuración Primera instalación.
-- Cambiada opción de Ajustes, Estilo inicio por Configurar Inicio.
-- Cambiada opción de Ajustes, Destacados ON/OFF por Recargar Skin.
-- Agregados más datos a la info superior de películas y series.
-- Cambiados algunos iconos.</news>
+        <news>Últimos cambios 28/10/20:
+v1.5
+- Cambiado tamaño de algunos textos en vistas.
+- Cambiado tamaño de texto de info en osd.
+- Cambiado texto y tamaño del tiempo en el menú apagar.
+- Cambiado Botón Editar menú por Luar.
+- Reorganizado widget del menú Ajustes.
+- Añadidos iconos y fanarts.
+- Agregado de nuevo el addon autocompletar en el teclado virtual.
+</news>
 		<platform>all</platform>
         <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
         <forum/>
