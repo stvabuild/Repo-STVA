@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addon id="skin.stouch"  version="1.5.6" name="STouch" provider-name="STVA">
+<addon id="skin.stouch"  version="1.6" name="STouch" provider-name="STVA">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0" />
 		<import addon="plugin.program.stva" version="3.7"/>
@@ -19,8 +19,12 @@
 		<license></license>
 		<website />
 		<email />
-		<news>Version 1.5.6 - 21/10/20
-- Reparado menú TV Premium.
+		<news>Versión 1.6 - 29/10/20
+- Cambiado enlace del menú (Películas) Estrenos HD.
+- Cambiado enlace del menú (Películas) Nuevas.
+- Sustituido menú Mis Películas por el nuevo Palantir.
+- Reorganizada sección Ajustes con nuevos botones.
+- Agregado PlutoTV a la lista IPTV de la sección Televisión.
 		</news>
 		<assets>
 			<icon>resources/icon.png</icon>
