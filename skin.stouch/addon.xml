@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addon id="skin.stouch"  version="1.6.2" name="STouch" provider-name="STVA">
+<addon id="skin.stouch"  version="1.7" name="STouch" provider-name="STVA">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0" />
 		<import addon="plugin.program.stva" version="3.7"/>
@@ -20,23 +20,14 @@
 		<website />
 		<email />
 		<news>
-Versión 1.6.2 1/11/20
-- Corregido Menú Ajustes.		
-		
-Versión 1.6.1 30/10/20
-- Corregido error al iniciar el Skin en la primera instalación.
-
-Versión 1.6 - 29/10/20
-- Cambiado enlace del menú (Películas) Estrenos HD.
-- Cambiado enlace del menú (Películas) Nuevas.
-- Sustituido menú Mis Películas por el nuevo Palantir.
-- Reorganizada sección Ajustes con nuevos botones.
-- Agregado PlutoTV a la lista IPTV de la sección Televisión.
-
-		</news>
+Versión 1.7 3/11/20
+- Reparado menú Películas Nuevas
+- Agregado Ajustes de Skin
+- Agregada función añadir favoritos al inicio
+- Ahora al pulsar en IPTV descarga el addon para tu plataforma</news>
 		<assets>
-			<icon>resources/icon.png</icon>
-			<fanart>resources/fanart.jpg</fanart>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
 			<screenshot>resources/screenshot001.jpg</screenshot>
 			<screenshot>resources/screenshot002.jpg</screenshot>
 			<screenshot>resources/screenshot003.jpg</screenshot>
