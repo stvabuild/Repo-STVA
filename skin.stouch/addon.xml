@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addon id="skin.stouch"  version="1.7" name="STouch" provider-name="STVA">
+<addon id="skin.stouch"  version="1.7.1" name="STouch" provider-name="STVA">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0" />
 		<import addon="plugin.program.stva" version="3.7"/>
@@ -20,11 +20,9 @@
 		<website />
 		<email />
 		<news>
-Versión 1.7 3/11/20
-- Reparado menú Películas Nuevas
-- Agregado Ajustes de Skin
-- Agregada función añadir favoritos al inicio
-- Ahora al pulsar en IPTV descarga el addon para tu plataforma</news>
+Versión 1.7.1 - 11/11/20
+- Eliminada dependencia skin.helper.service
+- Eliminada dependencia skin.helper.widgets</news>
 		<assets>
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
