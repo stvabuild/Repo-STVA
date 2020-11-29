@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addon id="skin.stouch"  version="1.8.1" name="STouch" provider-name="STVA">
+<addon id="skin.stouch"  version="1.8.2" name="STouch" provider-name="STVA">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0" />
 		<import addon="plugin.program.stva" version="3.7"/>
@@ -20,8 +20,9 @@
 		<website />
 		<email />
 		<news>
-1.8.1 - 22/11/20
-- Reparados todos los menús de inicio que no funcionaban.</news>
+1.8.2 - 29/11/20
+- Modificados algunos menús.
+- Agregada opción al menñu contextual para agregar items al menú Inicio.</news>
 		<assets>
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
