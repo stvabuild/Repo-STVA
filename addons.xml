@@ -477,7 +477,7 @@ v1.5
 	</extension>
 </addon>
 
-<addon id="skin.stouch"  version="1.8.2" name="STouch" provider-name="STVA">
+<addon id="skin.stouch"  version="1.9" name="STouch" provider-name="STVA">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0" />
 		<import addon="plugin.program.stva" version="3.7"/>
@@ -497,10 +497,9 @@ v1.5
 		<license></license>
 		<website />
 		<email />
-		<news>
-1.8.2 - 29/11/20
-- Modificados algunos menús.
-- Agregada opción al menñu contextual para agregar items al menú Inicio.</news>
+Versión 1.9 - 9/12/20
+- Modificados menús que no funcionaban.
+- Agregada función para cambiar el fondo.
 		<assets>
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
