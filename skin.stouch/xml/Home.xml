@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window>
+	<defaultcontrol always="true">9000</defaultcontrol>
+	<menucontrol>6100</menucontrol>
+	<onload>ClearProperty(ShowScreenSettings,home)</onload>
+	<onload>SetFocus(9000)</onload>
+	<onunload>ClearProperty(ShowScreenSettings,home)</onunload>
+	<onunload>SetFocus(9000)</onunload>
+	<onunload>ClearProperty(ShutdownKodi,home)</onunload>
+	<onup>Control.SetFocus(80001,$INFO[Container(9000).Position])</onup>
+	<include>zoom-openclose</include>
+	<controls>
+		<!-- Use Vertical Home menu-->
+		<include condition="Skin.HasSetting(homemenu-vertical)" file="Includes_VertHome.xml">VertHomeMenu</include>
+		<!-- Use Horizontal Home menu-->
+		<include condition="Skin.HasSetting(homemenu-horizontal)" file="Includes_HorzHome.xml">HorzHomeMenu</include>
+		<!-- Use Icon Home menu-->
+		<include condition="Skin.HasSetting(homemenu-icon)" file="Includes_IconHome.xml">IconHomeMenu</include>	
+
+		<control type="group">
+			<include content="page-indicator">
+				<param name="indicatorleft" value="864" />
+				<param name="indicatortop" value="-10" />
+				<param name="indicatorwidth" value="192" />
+				<param name="indicatorheight" value="48" />
+				<param name="indicatororientation" value="horizontal" />
+				<param name="grp1indicate" value="[ControlGroup(6100).HasFocus()|String.IsEqual(Window(home).Property(ShowScreenSettings),show)]" />
+				<param name="grp1visible" value="[!Skin.HasSetting(lock-screensettings)]" />
+				<param name="grp2indicate" value="[Skin.HasSetting(homemenu-vertical)+Control.HasFocus(9000)]" />
+				<param name="grp2visible" value="[Skin.HasSetting(homemenu-vertical)+[!Skin.HasSetting(lock-screensettings)|!String.IsEqual(Skin.String(show-scrollbar),$LOCALIZE[31877])]]" />
+				<param name="grp3indicate" value="[Skin.HasSetting(homemenu-vertical)+Control.HasFocus(23)]" />
+				<param name="grp3visible" value="[Skin.HasSetting(homemenu-vertical)+!String.IsEqual(Skin.String(show-scrollbar),$LOCALIZE[31877])]" />
+				<param name="grp4indicate" value="[Skin.HasSetting(homemenu-horizontal)]+[ControlGroup(9000).HasFocus()|ControlGroup(9800).HasFocus()]" />
+				<param name="grp4visible" value="[Skin.HasSetting(homemenu-horizontal)+!Skin.HasSetting(lock-screensettings)]" />
+				<param name="grp5indicate" value="Skin.HasSetting(homemenu-icon)+[Control.HasFocus(9000)|ControlGroup(9800).HasFocus()]" />
+				<param name="grp5visible" value="[Skin.HasSetting(homemenu-icon)+!Skin.HasSetting(lock-screensettings)]" />
+			</include>
+			<include>touch-controls</include>
+			<include>fake-overlay</include>		
+			<include>hora</include>	
+		</control>
+	</controls>
+</window>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window>
+	<defaultcontrol always="true">1000</defaultcontrol>
+	<coordinates>
+		<origin x="0" y="0" />
+	</coordinates>
+	<controls>
+		<include>fadebackground</include>
+		<control type="image" id="999">
+			<!-- Dialog background image -->
+			<left>575</left>
+			<top>66</top>
+			<width>776</width>
+			<height>960</height>
+			<texture border="14">button-menu-background.png</texture>
+		</control>
+		<control type="label">
+			<!-- Dialog heading (Item Settings) -->
+			<left>591</left>
+			<top>74</top>
+			<width>744</width>
+			<height>60</height>
+			<font>stouch25</font>
+			<label>$LOCALIZE[31560]$INFO[Container(996)]</label>
+			<align>center</align>
+			<visible>Integer.IsGreater(Container(996).NumItems,3) | String.IsEmpty(ListItem.Title)</visible>
+		</control>
+		<control type="label">
+			<!-- Dialog heading (Play) -->
+			<left>591</left>
+			<top>74</top>
+			<width>744</width>
+			<height>60</height>
+			<font>stouch25</font>
+			<label>$LOCALIZE[208]$INFO[Container(996)]</label>
+			<align>center</align>
+			<visible>!Integer.IsGreater(Container(996).NumItems,3) + !String.IsEmpty(ListItem.Title)</visible>
+		</control>
+		<control type="button">
+			<left>1318</left>
+			<top>50</top>
+			<width>64</width>
+			<height>64</height>
+			<texturefocus>touch-close.png</texturefocus>
+			<texturenofocus>touch-close.png</texturenofocus>
+			<onclick>Dialog.Close(contextmenu)</onclick>
+			
+		</control>
+		<control type="image">
+			<left>591</left>
+			<top>138</top>
+			<width>744</width>
+			<height>8</height>
+			<texture>divider.png</texture>
+		</control>
+		<control type="grouplist" id="996">
+			<!-- Grouplist for context buttons -->
+			<left>591</left>
+			<top>147</top>
+			<width>744</width>
+			<height min="72" max="864">auto</height>
+			<itemgap>0</itemgap>
+			<onleft>Dialog.Close(contextmenu)</onleft>
+			<onright>Dialog.Close(contextmenu)</onright>
+			<control type="button" id="1000">
+				<!-- Button template -->
+				<left>0</left>
+				<top>0</top>
+				<width>744</width>
+				<height>72</height>
+				<font>stouch22</font>			
+				<align>center</align>
+				<aligny>center</aligny>
+			</control>
+			<control type="button" id="100"><!-- Custom skin button -->
+				<left>0</left>
+				<top>0</top>
+				<width>744</width>
+				<height>72</height>
+				<align>center</align>
+				<aligny>center</aligny>
+				<label>$LOCALIZE[31887]</label>
+				<font>stouch22</font>
+				<onclick>SetProperty(ItemPath,$VAR[ListItemShortcut],home)</onclick>
+				<onclick>SetProperty(ItemName,$ESCINFO[ListItem.Label],home)</onclick>
+				<onclick>SetProperty(ItemIcon,$ESCINFO[ListItem.Icon],home)</onclick>
+				<onclick>ActivateWindow(1152)</onclick>
+			</control>						
+		</control>
+	</controls>
+</window>

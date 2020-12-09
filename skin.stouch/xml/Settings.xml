@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window>
+ <defaultcontrol>8999</defaultcontrol>
+  <controls>
+	<include>backgroundsimple</include>
+	<control type="image">
+	<!-- skin logo image -->
+	  <left>1630</left>
+	  <top>750</top>
+	  <width>260</width>
+	  <height>260</height>
+	  <aspectratio>keep</aspectratio>
+	  <texture>skin-logo-big.png</texture>
+	  </control>
+	<control type="image">
+	<!-- skin stva -->
+	  <left>1470</left>
+	  <top>150</top>
+	  <width>260</width>
+	  <height>260</height>
+	  <aspectratio>scale</aspectratio>
+	  <texture>stva.png</texture>
+	  </control>	  
+	<control type="label">
+	 <!-- Screen heading -->
+	  <left>60</left>
+	  <top>95</top>
+	  <width>465</width>
+	  <height>48</height>
+	  <label>$LOCALIZE[5]</label>
+	  <font>stouch30</font>
+	</control>
+		<!-- Markers for control area items -->
+	<include content="page-offscreen-vertical">
+		<param name="indicator1left" value="1512"/>
+		<param name="indicator1top" value="135"/>
+		<param name="indicator2left" value="1512"/>
+		<param name="indicator2top" value="990"/>
+		<param name="indicatorsize" value="36"/>
+		<param name="indicatorcontainer" value="8999"/>
+		<param name="indicatorcontainer" value="89991"/>
+		<param name="indicatorcontainer" value="89992"/>
+	</include>
+	<control type="group">
+	  <left>20</left>
+	  <top>150</top>
+	  <control type="list" id="8999">
+		<left>0</left>
+		<top>0</top>
+		<width>1880</width>
+		<height>100%</height>
+	<onup>Control.SetFocus(80001,$INFO[Container(8999).Position])</onup>
+		<ondown>Control.SetFocus(89991,$INFO[Container(8999).Position])</ondown>
+		<orientation>horizontal</orientation>
+		<scrolltime>0</scrolltime>
+		<viewtype>list</viewtype>				
+		<defaultcontrol>2</defaultcontrol>
+		<itemlayout width="265" height="265">
+		  <control type="group">
+			<top>20</top>
+			<left>20</left>
+			<control type="image">
+			  <width>265</width>
+			  <height>265</height>
+			  <texture>button-menu-background.png</texture>							
+			</control>
+			<control type="image">
+			  <width>220</width>
+			  <height>220</height>
+			  <aspectratio>scale</aspectratio>
+			  <centertop>40%</centertop>
+			  <centerleft>54%</centerleft>			  
+			  <texture colordiffuse="white">$INFO[ListItem.Icon]</texture>
+			</control>
+			<control type="label">
+			  <bottom>20</bottom>
+			  <width>265</width>
+			  <height>20</height>
+			  <label>$INFO[ListItem.Label]</label>
+			  <align>center</align>
+			  <font>stouch18</font>
+			  <textcolor>white</textcolor>
+			  <scroll>true</scroll>
+			</control>
+		  </control>			
+		</itemlayout>
+		<focusedlayout height="265" width="265">
+		  <control type="group">
+			<top>20</top>
+			<left>20</left>
+			<control type="image">
+			  <width>265</width>
+			  <height>265</height>
+			  <texture>button-menu-background.png</texture>
+			</control>
+			<control type="image">
+			  <width>265</width>
+			  <height>265</height>
+			  <texture>button-menu-background-light.png</texture>
+			  <visible>Control.HasFocus(8999)</visible>
+			</control>
+			<control type="image">
+			  <width>220</width>
+			  <height>220</height>
+			  <aspectratio>scale</aspectratio>
+			  <centertop>40%</centertop>
+			  <centerleft>54%</centerleft>			  
+			  <texture>$INFO[ListItem.Icon]</texture>
+			</control>
+			<control type="label">
+			  <bottom>20</bottom>
+			  <width>265</width>
+			  <height>20</height>
+			  <label>$INFO[ListItem.Label]</label>
+			  <align>center</align>
+			  <font>stouch18</font>
+			  <textcolor>white</textcolor>
+			  <scroll>true</scroll>
+			</control>
+		  </control>
+		</focusedlayout>
+		<content>
+		  <item>
+			<label>Ajustes de Skin</label>
+			<onclick>ActivateWindow(1152)</onclick>
+			<icon>special://skin/extras/icons/paintbrush.png</icon>
+		  </item>			´
+          <item>
+            <label>Interfaz</label>
+            <onclick>ActivateWindow(InterfaceSettings)</onclick>
+            <thumb>special://skin/extras/icons/skinsettings.png</thumb>
+          </item>
+          <item>
+            <label>Servicios</label>
+            <onclick>activatewindow(servicesettings)</onclick>
+            <icon>special://skin/extras/icons/network.png</icon>
+          </item>
+          <item>
+            <label>Reproductor</label>
+            <onclick>ActivateWindow(playersettings)</onclick>
+            <thumb>special://skin/extras/icons/tv.png</thumb>
+          </item>
+          <item>
+            <label>PVR &amp; TV en vivo</label>
+            <onclick>ActivateWindow(PVRSettings)</onclick>
+            <icon>special://skin/extras/icons/pvr.png</icon>
+          </item>
+		  <item>
+			<label>Sistema</label>
+			<onclick>ActivateWindow(SystemSettings)</onclick>
+			<icon>special://skin/extras/icons/settings.png</icon>
+		  </item>	
+		  <item>
+			<label>Informacion</label>
+			<onclick>ActivateWindow(systeminfo)</onclick>
+			<icon>special://skin/extras/icons/sysinfo.png</icon>
+		  </item>
+		</content>				
+	  </control>
+	  <control type="list" id="89991">
+		<left>0</left>
+		<top>280</top>
+		<width>100%</width>
+		<height>100%</height>
+	<onup>Control.SetFocus(8999,$INFO[Container(89991).Position])</onup>
+		<ondown>Control.SetFocus(89992,$INFO[Container(89991).Position])</ondown>
+		<orientation>horizontal</orientation>
+		<scrolltime>0</scrolltime>
+		<defaultcontrol>2</defaultcontrol>
+		<viewtype>list</viewtype>
+		<itemlayout width="265" height="265">
+		  <control type="group">
+			<top>20</top>
+			<left>20</left>
+			<control type="image">
+			  <width>265</width>
+			  <height>260</height>
+			  <texture>button-menu-background.png</texture>							
+			</control>
+			<control type="image">
+			  <width>220</width>
+			  <height>220</height>
+			  <aspectratio>scale</aspectratio>
+			  <centertop>40%</centertop>
+			  <centerleft>54%</centerleft>			  
+			  <texture colordiffuse="white">$INFO[ListItem.Icon]</texture>
+			</control>
+			<control type="label">
+			  <bottom>20</bottom>
+			  <width>265</width>
+			  <height>20</height>
+			  <label>$INFO[ListItem.Label]</label>
+			  <align>center</align>
+			  <font>stouch18</font>
+			  <textcolor>white</textcolor>
+			  <scroll>true</scroll>
+			</control>
+		  </control>			
+		</itemlayout>
+		<focusedlayout height="265" width="265">
+		  <control type="group">
+			<top>20</top>
+			<left>20</left>
+			<control type="image">
+			  <width>265</width>
+			  <height>265</height>
+			  <texture>button-menu-background.png</texture>
+			</control>
+			<control type="image">
+			  <width>265</width>
+			  <height>265</height>
+			  <texture>button-menu-background-light.png</texture>
+			  <visible>Control.HasFocus(89991)</visible>
+			</control>
+			<control type="image">
+			  <width>220</width>
+			  <height>220</height>
+			  <aspectratio>scale</aspectratio>
+			  <centertop>40%</centertop>
+			  <centerleft>54%</centerleft>			  
+			  <texture>$INFO[ListItem.Icon]</texture>
+			</control>
+			<control type="label">
+			  <bottom>20</bottom>
+			  <width>265</width>
+			  <height>20</height>
+			  <label>$INFO[ListItem.Label]</label>
+			  <align>center</align>
+			  <font>stouch18</font>
+			  <textcolor>white</textcolor>
+			  <scroll>true</scroll>
+			</control>
+		  </control>
+		</focusedlayout>
+		<content>
+		  <item>
+			<label>Videoteca Balandro</label>
+			<onclick>ActivateWindow(Videos,"plugin://plugin.video.balandro/?ewogICAgImFjdGlvbiI6ICJtYWlubGlzdCIsIAogICAgImNhdGVnb3J5IjogIkJhbGFuZHJvIiwgCiAgICAiY2hhbm5lbCI6ICJ0cmFja2luZyIsIAogICAgImluZm9MYWJlbHMiOiB7fSwgCiAgICAidGh1bWJuYWlsIjogIkM6XFxVc2Vyc1xcSFBcXEFwcERhdGFcXFJvYW1pbmdcXEtvZGlcXGFkZG9uc1xccGx1Z2luLnZpZGVvLmJhbGFuZHJvXFxyZXNvdXJjZXNcXG1lZGlhXFx0aGVtZXNcXGRlZmF1bHRcXHN0YXIucG5nIiwgCiAgICAidGl0bGUiOiAiRW5sYWNlcyBndWFyZGFkb3MgICh2aWRlb3RlY2EpIgp9",return)</onclick>
+			<thumb>special://skin/extras/icons/bookmark.png</thumb>
+		  </item>		
+		  <item>
+			<label>Bases y Parches</label>
+			<onclick>ActivateWindow(Programs,"plugin://plugin.program.stva/?mode=builds",return)</onclick>
+			<thumb>special://skin/extras/icons/sstva.png</thumb>
+		  </item>
+		  <item>
+			<label>Mantenimiento</label>
+			<onclick>ActivateWindow(Programs,"plugin://plugin.program.stva/?mode=maint",return)</onclick>
+			<thumb>special://skin/extras/icons/smantenimiento.png</thumb>
+		  </item>
+          <item>
+            <label>Buffer</label>
+            <onclick>ActivateWindow(Programs,"plugin://plugin.program.stva/?mode=advancedsetting",return)</onclick>
+            <thumb>special://skin/extras/icons/hourglass2.png</thumb>
+          </item>
+          <item>
+            <label>Test de velocidad</label>
+            <onclick>ActivateWindow(Programs,"plugin://plugin.program.stva/?mode=speedtestM",return)</onclick>
+            <thumb>special://skin/extras/icons/timer.png</thumb>
+          </item>		  
+          <item>
+            <label>Herramientas Cristal</label>
+            <onclick>ActivateWindow(Videos,"plugin://plugin.video.cristalazul/?url=%24doregex%5Bfinal%5D&mode=1&name=%5BCOLOR+white%5DHERRAMIENTAS%5B%2FCOLOR%5D&fanart=https%3A%2F%2Fi.imgur.com%2Fbg6n3AV.png&regexs=%7Bu%27final%27%3A%20%7B%27expres%27%3A%20u%22%23%24pyFunction%5Cndef%20GetLSProData%28page_data%2CCookie_Jar%2Cm%29%3A%5Cn%20import%20xbmc%2C%20xbmcaddon%2C%20xbmcgui%5Cn%20if%20%27.%27%20in%20%27%24doregex%5Bincompatible%5D%27%3A%5Cn%20%20%20%20%20dialog%20%3D%20xbmcgui.Dialog%28%29%5Cn%20%20%20%20%20dialog.textviewer%28%27%5BB%5D%5BCOLOR%20yellow%5DAVISO%20IMPORTANTE%20PARA%20TODOS%20LOS%20USUARIOS%21%5B/COLOR%5D%5B/B%5D%27%2C%20%27%5BB%5D%5BLOWERCASE%5D%5BCAPITALIZE%5D%5BCOLOR%20white%5DDespues%20de%20comprobar%20que%20el%20Addon%20%5BCOLOR%20gold%5DArmaguedon%20%5C%5Cn%5BCOLOR%20white%5Dsigue%20copiando%20el%20trabajo%20de%20otros%20addons%2C%20%5BCOLOR%20gold%5DCristal%20Azul%20%20y%20Tvchopo%20%5BCOLOR%20white%5Dente%20otros%2C%20%5C%5Cnnos%20vemos%20en%20la%20obligacion%20%20de%20hacer%20nuestros%20addons%20INCOMPATIBLES%20con%20el%20suyo.%20%5C%5CnEsto%20quiere%20decir%20que%20Armageddon%20%20no%20puede%20convivir%20en%20un%20mismo%20%5C%5Cnkodi%20ni%20con%20Cristal%20azul%20ni%20Tvchopo%20%5C%5CnSentimos%20las%20molestias%20que%20esto%20pueda%20ocasionar%20a%20los%20usuarios%2C%5C%5Cnpero%20esto%20ya%20es%20inadmisible%2C%20son%20muchas%20horas%20invertidas%20para%20que%20alguien%20llegue%20%2C%5C%5Cncambie%202%20fotos%20y%20se%20apropie%20del%20trabajo%20de%20los%20demas.%5C%5CnCada%20uno%20que%20decida%20que%20usar%20%2Csois%20libres%5C%5Cnpero%20armageddon%20sera%20incompatible%20con%20los%20otros%202.%5C%5CnPara%20no%20tener%20conflicto%20Nos%20posicionamos%20sobre%20el%20%20addon%5C%5Cnque%20queramos%20desinstalar%20Pulsacion%20larga%20sobre%20el%5C%5CnInformacion%20Desinstalar%5C%5CnSi%20elegiis%20Armageddon%20desintalad%20los%20otros%202%5C%5CnSi%20elegiis%20Tvchopo%20o%20Cristal%20Azul%20desinstalad%20armageddon%5B/COLOR%5D%5B/CAPITALIZE%5D%5B/LOWERCASE%5D%5B/B%5D%20%27%29%5Cn%20else%3A%5Cn%20%20%20%20%20return%20%27%24doregex%5Bcomecristal%5D%27%5Cn%22%2C%20%27name%27%3A%20u%27final%27%2C%20%27page%27%3A%20None%7D%2C%20u%27comecristal%27%3A%20%7B%27expres%27%3A%20u%27%23%24pyFunction%5Cndef%20GetLSProData%28page_data%2CCookie_Jar%2Cm%29%3A%5Cn%20import%20xbmc%5Cn%20import%20xbmcaddon%5Cn%20addon%20%3D%20xbmcaddon.Addon%28%5C%27plugin.video.cristalazul%5C%27%29%5Cn%20Url%20%3D%20%5C%27link%5B%3A%3A4%5D%20%2B%20url%5B%3A8%5D%20%2B%20Creditos%5B62%3A%5D%20%3D%20http%3A//bit.ly/sourcecristalazul%5C%27%5Cn%20grupotelegram%20%3D%20%5C%27http%3A//t.me/addonfestaycristal%5C%27%5Cn%20Creditos%20%3D%20%5C%27el_addon_cristalazul_fue_creado_por_el_grupo_festa_para_el_disfrute_en%20familia%2C%20este_addon_es_completamente_gratuito%2Cdisfrute_de_la_seccion_de_Herramientas%5C%27%5Cn%20cristal%20%3D%20%5C%27Cristalazul_addon_para_todos_gratuita_creada_por_picapau_y_lourdes%5C%27%5Cn%20info%20%3D%20%5C%27british.true.Build.py%20%257/%5C%27%5Cn%20return%20%20grupotelegram%5B%3A7%5D%20%2B%20info%5B%3A%3A4%5D%20%2B%20cristal%5B%3A11%5D%20%2B%20Creditos%5B143%3A%5D%5Cndef%20revist_dag%28page_data%29%3A%5Cn%20%20final_url%20%3D%20%5C%27%5C%27%5Cn%20%20if%20%5C%27127.0.0.1%5C%27%20in%20page_data%3A%5Cn%20%20%20%20%20%20final_url%20%3D%20re_me%28page_data%2C%20%5C%27%26ver_t%3D%28%5B%5E%26%5D%2B%29%26%5C%27%29%20%2B%20%5C%27%20live%3Dtrue%20timeout%3D15%20playpath%3D%5C%27%20%2B%20re_me%28page_data%2C%20%5C%27%5C%5C%5C%5C%3Fy%3D%28%5Ba-zA-Z0-9-_%5C%5C%5C%5C.%40%5D%2B%29%5C%27%29%5Cn%20%5Cn%20%20if%20re_me%28page_data%2C%20%5C%27token%3D%28%5B%5E%26%5D%2B%29%26%5C%27%29%20%21%3D%20%5C%27%5C%27%3A%5Cn%20%20%20%20%20%20final_url%20%3D%20final_url%20%2B%20%5C%27%3Ftoken%3D%5C%27%20%2B%20re_me%28page_data%2C%20%5C%27token%3D%28%5B%5E%26%5D%2B%29%26%5C%27%29%5Cn%20%20elif%20re_me%28page_data%2C%20%5C%27wmsAuthSign%253D%28%5B%5E%25%26%5D%2B%29%5C%27%29%20%21%3D%20%5C%27%5C%27%3A%5Cn%20%20%20%20%20%20final_url%20%3D%20re_me%28page_data%2C%20%5C%27%26ver_t%3D%28%5B%5E%26%5D%2B%29%26%5C%27%29%20%2B%20%5C%27%3FwmsAuthSign%3D%5C%27%20%2B%20re_me%28page_data%2C%20%5C%27wmsAuthSign%253D%28%5B%5E%25%26%5D%2B%29%5C%27%29%20%2B%20%5C%27%3D%3D/mp4%3A%5C%27%20%2B%20re_me%28page_data%2C%20%5C%27%5C%5C%5C%5C%3Fy%3D%28%5B%5E%26%5D%2B%29%26%5C%27%29%5Cn%20%20else%3A%5Cn%20%20%20%20%20%20final_url%20%3D%20re_me%28page_data%2C%20%5C%27HREF%3D%22%28%5B%5E%22%5D%2B%29%22%5C%27%29%5Cn%20%5Cn%20%20if%20%5C%27dag1.asx%5C%27%20in%20final_url%3A%5Cn%20%20%20%20%20%20return%20get_dag_url%28final_url%29%5Cn%20%5Cn%20%20if%20%5C%27devinlivefs.fplive.net%5C%27%20not%20in%20final_url%3A%5Cn%20%20%20%20%20%20final_url%20%3D%20final_url.replace%28%5C%27devinlive%5C%27%2C%20%5C%27flive%5C%27%29%5Cn%20%20if%20%5C%27permlivefs.fplive.net%5C%27%20not%20in%20final_url%3A%5Cn%20%20%20%20%20%20final_url%20%3D%20final_url.replace%28%5C%27permlive%5C%27%2C%20%5C%27flive%5C%27%29%5Cn%20%20return%20%5C%27%5C%27%5Cn%27%2C%20%27name%27%3A%20u%27comecristal%27%2C%20%27page%27%3A%20None%7D%2C%20u%27incompatible%27%3A%20%7B%27expres%27%3A%20u%22%23%24pyFunction%5Cndef%20GetLSProData%28page_data%2CCookie_Jar%2Cm%29%3A%5Cn%20import%20xbmc%2C%20xbmcaddon%2C%20xbmcgui%5Cn%20f4m%20%3D%20xbmcaddon.Addon%28%27plugin.video.Armageddon%27%29%5Cn%20version%20%3D%20%20f4m.getAddonInfo%28%27version%27%29%5Cn%20return%20version%5Cn%22%2C%20%27name%27%3A%20u%27incompatible%27%2C%20%27page%27%3A%20None%7D%7D",return)</onclick>
+            <thumb>special://skin/extras/icons/cfgcristal.png</thumb>
+          </item>
+           <item>
+            <label>Instalador y más</label>
+            <onclick>ActivateWindow(10001,&quot;plugin://script.luar/&quot;,return)</onclick>
+            <thumb>special://skin/extras/icons/luar.png</thumb>
+          </item>	  		  
+		</content>				
+	  </control>
+	  <control type="list" id="89992">
+		<left>0</left>
+		<top>570</top>
+		<width>100%</width>
+		<height>100%</height>
+	<onup>Control.SetFocus(89991,$INFO[Container(89992).Position])</onup>
+		<ondown>Control.SetFocus(8999,$INFO[Container(89992).Position])</ondown>
+		<orientation>horizontal</orientation>
+		<scrolltime>0</scrolltime>
+		<defaultcontrol>2</defaultcontrol>
+		<viewtype>list</viewtype>
+		<itemlayout width="265" height="265">
+		  <control type="group">
+			<top>20</top>
+			<left>20</left>
+			<control type="image">
+			  <width>265</width>
+			  <height>265</height>
+			  <texture>button-menu-background.png</texture>							
+			</control>
+			<control type="image">
+			  <width>220</width>
+			  <height>220</height>
+			  <aspectratio>scale</aspectratio>
+			  <centertop>40%</centertop>
+			  <centerleft>54%</centerleft>			  
+			  <texture colordiffuse="white">$INFO[ListItem.Icon]</texture>
+			</control>
+			<control type="label">
+			  <bottom>20</bottom>
+			  <width>265</width>
+			  <height>20</height>
+			  <label>$INFO[ListItem.Label]</label>
+			  <align>center</align>
+			  <font>stouch18</font>
+			  <textcolor>white</textcolor>
+			  <scroll>true</scroll>
+			</control>
+		  </control>			
+		</itemlayout>
+		<focusedlayout height="265" width="265">
+		  <control type="group">
+			<top>20</top>
+			<left>20</left>
+			<control type="image">
+			  <width>265</width>
+			  <height>265</height>
+			  <texture>button-menu-background.png</texture>
+			</control>
+			<control type="image">
+			  <width>265</width>
+			  <height>265</height>
+			  <texture>button-menu-background-light.png</texture>
+			  <visible>Control.HasFocus(89992)</visible>
+			</control>
+			<control type="image">
+			  <width>220</width>
+			  <height>220</height>
+			  <aspectratio>scale</aspectratio>
+			  <centertop>40%</centertop>
+			  <centerleft>54%</centerleft>			  
+			  <texture>$INFO[ListItem.Icon]</texture>
+			</control>
+			<control type="label">
+			  <bottom>20</bottom>
+			  <width>265</width>
+			  <height>20</height>
+			  <label>$INFO[ListItem.Label]</label>
+			  <align>center</align>
+			  <font>stouch18</font>
+			  <textcolor>white</textcolor>
+			  <scroll>true</scroll>
+			</control>
+		  </control>
+		</focusedlayout>
+		<content>
+		  <item>
+			<label>Addons</label>
+			<onclick>ActivateWindow(addonbrowser)</onclick>
+			<thumb>special://skin/extras/icons/apps.png</thumb>
+		  </item>
+          <item>
+			<label>Addons de Video</label>
+			<onclick>ActivateWindow(Videos,Addons,return)</onclick>
+			<thumb>special://skin/extras/icons/video-addons.png</thumb>
+          </item>
+          <item>
+            <label>Addons de Programa</label>
+            <onclick>ActivateWindow(Programs,Addons,return)</onclick>
+            <thumb>special://skin/extras/icons/addons.png</thumb>
+          </item>		  
+          <item>
+            <label>Dependencias</label>
+            <onclick>ActivateWindow(10040,addons://dependencies/)</onclick>
+            <icon>special://skin/extras/icons/bigbox.png</icon>
+          </item>		  		  
+		  <item>
+			<label>Gestor de Archivos</label>
+			<onclick>ActivateWindow(filemanager)</onclick>
+			<icon>special://skin/extras/icons/filemanager.png</icon>
+		  </item>	
+		  <item>
+			<label>Log</label>
+			<onclick>ActivateWindow(eventlog)</onclick>
+			<thumb>special://skin/extras/icons/console.png</thumb>
+		  </item>			  		  		  
+		</content>				
+	  </control>				
+	</control>
+	<include>touch-controls</include>			
+	<include>hora</include>	
+  </controls>
+</window>
