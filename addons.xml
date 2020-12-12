@@ -477,7 +477,7 @@ v1.5
 	</extension>
 </addon>
 
-<addon id="skin.stouch"  version="1.9" name="STouch" provider-name="STVA">
+<addon id="skin.stouch"  version="1.9.1" name="STouch" provider-name="STVA">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0" />
 		<import addon="plugin.program.stva" version="3.7"/>
@@ -487,19 +487,22 @@ v1.5
 		<res aspect="16:9" default="true" folder="xml" height="1080" width="1920" />
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="es_ES">Skin para STVA</summary>
-		<summary lang="en_GB">Skin para STVA</summary>
+		<summary lang="es_ES">Skin para la Base STVA Táctil</summary>
+		<summary lang="en_GB">Skin para la Base STVA Táctil</summary>
 		<description lang="en_GB">STouch es una mod del skin AppTV de Wyrm, modificado para STVA.[CR]Completamente optimizado para ser utilizado en Móvil y Tablet, TV y TV Box con mando, PC con ratón y/o teclado, consola con mando o gamepad.</description>
 		<description lang="es_ES">STouch es una mod del skin AppTV de Wyrm, modificado para STVA.[CR]Completamente optimizado para ser utilizado en Móvil y Tablet, TV y TV Box con mando, PC con ratón y/o teclado, consola con mando o gamepad.</description>
-		<disclaimer lang="en_GB">Para más información, dudas o consultas [CR][B]web:[/B] http://stva.ga[CR][B]Telegram:[/B] http://t.me/stvabuild</disclaimer>
-		<disclaimer lang="es_ES">Para más información, dudas o consultas [CR][B]web:[/B] http://stva.ga[CR][B]Telegram:[/B] http://t.me/stvabuild</disclaimer>
+		<disclaimer lang="en_GB">Para más información, dudas o consultas [CR][B]web:[/B] http://stva.ga[CR]</disclaimer>
+		<disclaimer lang="es_ES">Para más información, dudas o consultas [CR][B]web:[/B] http://stva.ga[CR]</disclaimer>
 		<platform>all</platform>
 		<license></license>
-		<website />
+		<website>stva.ga</website>
 		<email />
-Versión 1.9 - 9/12/20
-- Modificados menús que no funcionaban.
-- Agregada función para cambiar el fondo.
+<news>
+Versión 1.9.1 - 12/12/20
+- Cambiado menú TDT + Pluto TV por IPTV TDT.
+- Cambiado menú TV Premium por Pluto TV.
+- Añadido filtro oscuro al fondo del widget del Inicio TV.
+- Agregado botón en info de contenido para Buscar o Reproducir y evitar los bucles en búsqueda.</news>
 		<assets>
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
@@ -509,7 +512,6 @@ Versión 1.9 - 9/12/20
 			<screenshot>resources/screenshot003.jpg</screenshot>
 			<screenshot>resources/screenshot004.jpg</screenshot>
 		</assets>
-		<news></news>
 	</extension>
 </addon>
 
