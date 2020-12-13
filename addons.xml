@@ -477,7 +477,7 @@ v1.5
 	</extension>
 </addon>
 
-<addon id="skin.stouch"  version="1.9.1" name="STouch" provider-name="STVA">
+<addon id="skin.stouch"  version="1.9.2" name="STouch" provider-name="STVA">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0" />
 		<import addon="plugin.program.stva" version="3.7"/>
@@ -498,11 +498,11 @@ v1.5
 		<website>stva.ga</website>
 		<email />
 <news>
-Versión 1.9.1 - 12/12/20
-- Cambiado menú TDT + Pluto TV por IPTV TDT.
-- Cambiado menú TV Premium por Pluto TV.
-- Añadido filtro oscuro al fondo del widget del Inicio TV.
-- Agregado botón en info de contenido para Buscar o Reproducir y evitar los bucles en búsqueda.</news>
+Versión 1.9.2 - 13/12/20
+- Modificados Ajustes Balandro.
+- Cambiado menú cartelera por productoras.
+- Modificado enlace menú productoras de series.
+- Modificado orden de los menús.</news>
 		<assets>
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
