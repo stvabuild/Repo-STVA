@@ -477,7 +477,7 @@ v1.5
 	</extension>
 </addon>
 
-<addon id="skin.stouch"  version="1.9.2" name="STouch" provider-name="STVA">
+<addon id="skin.stouch"  version="1.9.3" name="SimpleTouch" provider-name="STVA">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0" />
 		<import addon="plugin.program.stva" version="3.7"/>
@@ -489,8 +489,8 @@ v1.5
 	<extension point="xbmc.addon.metadata">
 		<summary lang="es_ES">Skin para la Base STVA Táctil</summary>
 		<summary lang="en_GB">Skin para la Base STVA Táctil</summary>
-		<description lang="en_GB">STouch es una mod del skin AppTV de Wyrm, modificado para STVA.[CR]Completamente optimizado para ser utilizado en Móvil y Tablet, TV y TV Box con mando, PC con ratón y/o teclado, consola con mando o gamepad.</description>
-		<description lang="es_ES">STouch es una mod del skin AppTV de Wyrm, modificado para STVA.[CR]Completamente optimizado para ser utilizado en Móvil y Tablet, TV y TV Box con mando, PC con ratón y/o teclado, consola con mando o gamepad.</description>
+		<description lang="en_GB">SimpleTouch (STouch) es una mod del skin AppTV de Wyrm, modificado para STVA.[CR]Completamente optimizado para ser utilizado en Móvil y Tablet, TV y TV Box con mando, PC con ratón y/o teclado, consola con mando o gamepad.</description>
+		<description lang="es_ES">SimpleTouch (STouch) es una mod del skin AppTV de Wyrm, modificado para STVA.[CR]Completamente optimizado para ser utilizado en Móvil y Tablet, TV y TV Box con mando, PC con ratón y/o teclado, consola con mando o gamepad.</description>
 		<disclaimer lang="en_GB">Para más información, dudas o consultas [CR][B]web:[/B] http://stva.ga[CR]</disclaimer>
 		<disclaimer lang="es_ES">Para más información, dudas o consultas [CR][B]web:[/B] http://stva.ga[CR]</disclaimer>
 		<platform>all</platform>
@@ -498,11 +498,8 @@ v1.5
 		<website>stva.ga</website>
 		<email />
 <news>
-Versión 1.9.2 - 13/12/20
-- Modificados Ajustes Balandro.
-- Cambiado menú cartelera por productoras.
-- Modificado enlace menú productoras de series.
-- Modificado orden de los menús.</news>
+Versión 1.9.3 - 15/12/20
+- Reparado error que no mostraba los widgets de los items agregados al inicio desde el menú contextual.</news>
 		<assets>
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
