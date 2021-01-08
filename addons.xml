@@ -364,7 +364,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
         <import addon="script.module.simplejson" version="3.3.0"/>
         <import addon="script.module.simplecache" version="1.0.0"/>
         <import addon="script.module.metadatautils" version="1.0.0"/>
-        <import addon="script.module.cherrypy" version="17.0.0"/>
+        <import addon="script.module.cherrypy"/>
         <import addon="repository.marcelveldt" version="1.0.2"/>
     </requires>
 
