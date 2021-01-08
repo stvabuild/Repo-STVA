@@ -45,6 +45,47 @@ Telegram: t.me/stvabuild</description>
   </extension>
 </addon>
 
+<addon id="plugin.video.balandro" name="Balandro" version="1.5.0" provider-name="Balandro">
+
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="repository.balandro" version="1.0.3" />
+  </requires>
+
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary lang="es">Balandro addon</summary>
+    <description lang="es">Balandro es un navegador para webs con vídeos de películas y series, derivado de pelisalacarta y alfa.</description>
+    <disclaimer lang="es">[COLOR red]The owners and submitters to this addon do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.[/COLOR]</disclaimer>
+
+    <news>Últimas modificaciones de Balandro:
+
+    Canales modificados: Hdfull, Seriesdanko, Seriespapaya, Estrenoscinesaa, Allpeliculas,
+    Playview, Dospelis, Inkapelis, Cinecalidad.
+    Servidores modificados: Youtube, Gamovideo, Streamtape.
+    Corrección bug por cambios de tmdb.
+    Opción en Settings para forzar actualizaciones de fixs.
+    </news>
+
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+
+    <platform>all</platform>
+    <license>GNU GPL v3</license>
+    <forum>https://www.mimediacenter.info/foro/viewforum.php?f=44</forum>
+    <website>https://balandro.tk</website>
+    <email>my@email.com</email>
+    <source>...</source>
+  </extension>
+
+  <extension point="xbmc.service" library="services.py" start="login|startup"/>
+
+</addon>
+
 <addon id="plugin.video.cristalazul"
        name="[B][/B][COLOR aqua]CRISTAL AZUL[/COLOR]"
        version="0.0.12"
