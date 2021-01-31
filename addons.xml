@@ -346,36 +346,6 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
-<addon id="script.i.cristalazul" name="Instalador [COLOR aqua]CRISTAL AZUL[/COLOR]" version="1.0" provider-name="www.stva.ga">
-    <requires>
-        <import addon="xbmc.python" version="2.25.0"/>
-
-
-    </requires>
-    <extension point="xbmc.python.script" library="main.py">
-        <provides>executable</provides>
-    </extension>
-	<extension point="xbmc.service" library="main.py">
-	</extension>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en_GB">Instalador CRISTAL AZUL instalara el addon cristal azul y todas sus dependencias.</summary>
-        <description lang="en_GB"></description>
-        <language></language>
-        <platform>all</platform>
-        <license>unlicense</license>
-        <forum></forum>
-        <website></website>
-        <email></email>
-        <source></source>
-        <news></news>
-        <disclaimer></disclaimer>
-        <assets>
-            <icon>resources/icon.png</icon>
-            <fanart>resources/fanart.jpg</fanart>
-        </assets>
-    </extension>
-</addon>
-
 <addon id="script.module.cherrypy"
        name="CherryPy Kodi module"
        version="12.0.0.1"
@@ -519,6 +489,36 @@ v1.1.25
         <forum>http://forum.kodi.tv/showthread.php?tid=235676</forum>
         <website></website>
         <source>https://github.com/AnonTester/script.skin.helper.service</source>
+    </extension>
+</addon>
+
+<addon id="script.stva" name="Instalador [COLOR orange]Pack Ajustes[/COLOR]" version="0.0.1" provider-name="www.stva.ga">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0"/>
+
+
+    </requires>
+    <extension point="xbmc.python.script" library="main.py">
+        <provides>executable</provides>
+    </extension>
+	<extension point="xbmc.service" library="main.py">
+	</extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Instalador del Pack Ajustes del skin STVA.</summary>
+        <description lang="en_GB"></description>
+        <language></language>
+        <platform>all</platform>
+        <license>unlicense</license>
+        <forum></forum>
+        <website></website>
+        <email></email>
+        <source></source>
+        <news></news>
+        <disclaimer></disclaimer>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
     </extension>
 </addon>
 
