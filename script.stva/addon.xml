@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.stva" name="Instalador [COLOR orange]Pack Ajustes[/COLOR]" version="0.0.1" provider-name="www.stva.ga">
+<addon id="script.stva" name="Instalador Pack Ajustes [COLOR orange]STVA[/COLOR]" version="0.0.1" provider-name="www.stva.ga">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
 
@@ -11,7 +11,7 @@
 	<extension point="xbmc.service" library="main.py">
 	</extension>
     <extension point="xbmc.addon.metadata">
-        <summary lang="en_GB">Instalador del Pack Ajustes del skin STVA.</summary>
+        <summary lang="en_GB">Instalador del Pack Ajustes para el skin STVA.</summary>
         <description lang="en_GB"></description>
         <language></language>
         <platform>all</platform>
