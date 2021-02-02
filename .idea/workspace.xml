@@ -4,12 +4,16 @@
     <list default="true" id="e07a9cbc-151f-46b4-960e-409060472695" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/addons.xml" beforeDir="false" afterPath="$PROJECT_DIR$/addons.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/addons.xml.md5" beforeDir="false" afterPath="$PROJECT_DIR$/addons.xml.md5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.stva/script.stva-0.0.1.zip" beforeDir="false" afterPath="$PROJECT_DIR$/script.stva/script.stva-0.0.1.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skin.stouch/addon.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skin.stouch/changelog-1.9.3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skin.stouch/fanart.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skin.stouch/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skin.stouch/skin.stouch-1.9.3.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.video.festakids/addon.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.video.festakids/changelog-0.0.12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.video.festakids/fanart.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.video.festakids/icon.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.video.festakids/plugin.video.festakids-0.0.12.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skin.stouch17/addon.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skin.stouch17/changelog-1.8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skin.stouch17/fanart.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skin.stouch17/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skin.stouch17/skin.stouch17-1.8.zip" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,22 +134,22 @@
     </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1362" height="266" key="GridCell.Tab.0.bottom" timestamp="1612135387099">
+    <state width="1362" height="266" key="GridCell.Tab.0.bottom" timestamp="1612277730974">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1362" height="266" key="GridCell.Tab.0.bottom/1920.74.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1612135387099" />
-    <state width="1362" height="266" key="GridCell.Tab.0.center" timestamp="1612135387099">
+    <state width="1362" height="266" key="GridCell.Tab.0.bottom/1920.74.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1612277730974" />
+    <state width="1362" height="266" key="GridCell.Tab.0.center" timestamp="1612277730973">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1362" height="266" key="GridCell.Tab.0.center/1920.74.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1612135387099" />
-    <state width="1362" height="266" key="GridCell.Tab.0.left" timestamp="1612135387099">
+    <state width="1362" height="266" key="GridCell.Tab.0.center/1920.74.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1612277730973" />
+    <state width="1362" height="266" key="GridCell.Tab.0.left" timestamp="1612277730973">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1362" height="266" key="GridCell.Tab.0.left/1920.74.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1612135387099" />
-    <state width="1362" height="266" key="GridCell.Tab.0.right" timestamp="1612135387099">
+    <state width="1362" height="266" key="GridCell.Tab.0.left/1920.74.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1612277730973" />
+    <state width="1362" height="266" key="GridCell.Tab.0.right" timestamp="1612277730973">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1362" height="266" key="GridCell.Tab.0.right/1920.74.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1612135387099" />
+    <state width="1362" height="266" key="GridCell.Tab.0.right/1920.74.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1612277730973" />
     <state width="1362" height="328" key="GridCell.Tab.1.bottom" timestamp="1607869074430">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
