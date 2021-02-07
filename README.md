@@ -1,6 +1,6 @@
 # Repo-STVA
-#### Repo del Skin STVA.
-Mas informacion, videos, manuales, telegram, en:
+#### Repositorio del Skin STVA.
+Más informacion en:
 www.stva.ga
 
 Este skin es totalmente gratuito y por lo tanto esta prohibida su venta individual o preinstalado en cualquier dispositivo.
