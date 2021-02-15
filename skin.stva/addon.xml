@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addon id="skin.stva"  version="1.0.1" name="STVA" provider-name="STVA">
+<addon id="skin.stva"  version="1.0.2" name="STVA" provider-name="STVA">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0" />
 	</requires>
@@ -17,7 +17,13 @@
 		<license></license>
 		<website>stva.ga</website>
 		<email />
-<news>		
+<news>
+1.0.2
+- Ajustado menú iconos Inicio Táctil
+- Eliminados items menús Deportes Cristal, Directos y Agendas sin acestream en Inicio Táctil
+- Agregados items menú Winner, En Vivo y Fútbol en Inicio Táctil
+
+1.0.1	
 - Reajuste de DialogVideoInfo
 - Reparada categoría Géneros de Películas del addon Palantir2
 - Añadido al menú apagado, forzar cierre (plugin.close.kodi)

@@ -5,8 +5,8 @@
       <change beforePath="$PROJECT_DIR$/addons.xml" beforeDir="false" afterPath="$PROJECT_DIR$/addons.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/addons.xml.md5" beforeDir="false" afterPath="$PROJECT_DIR$/addons.xml.md5" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/skin.stva/addon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/skin.stva/addon.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skin.stva/changelog-1.0.0.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skin.stva/skin.stva-1.0.0.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skin.stva/changelog-1.0.1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skin.stva/skin.stva-1.0.1.zip" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,22 +127,22 @@
     </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1362" height="266" key="GridCell.Tab.0.bottom" timestamp="1613422466980">
+    <state width="1362" height="266" key="GridCell.Tab.0.bottom" timestamp="1613427303215">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1362" height="266" key="GridCell.Tab.0.bottom/1920.74.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1613422466980" />
-    <state width="1362" height="266" key="GridCell.Tab.0.center" timestamp="1613422466979">
+    <state width="1362" height="266" key="GridCell.Tab.0.bottom/1920.74.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1613427303215" />
+    <state width="1362" height="266" key="GridCell.Tab.0.center" timestamp="1613427303215">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1362" height="266" key="GridCell.Tab.0.center/1920.74.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1613422466979" />
-    <state width="1362" height="266" key="GridCell.Tab.0.left" timestamp="1613422466979">
+    <state width="1362" height="266" key="GridCell.Tab.0.center/1920.74.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1613427303215" />
+    <state width="1362" height="266" key="GridCell.Tab.0.left" timestamp="1613427303215">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1362" height="266" key="GridCell.Tab.0.left/1920.74.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1613422466979" />
-    <state width="1362" height="266" key="GridCell.Tab.0.right" timestamp="1613422466979">
+    <state width="1362" height="266" key="GridCell.Tab.0.left/1920.74.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1613427303215" />
+    <state width="1362" height="266" key="GridCell.Tab.0.right" timestamp="1613427303215">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1362" height="266" key="GridCell.Tab.0.right/1920.74.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1613422466979" />
+    <state width="1362" height="266" key="GridCell.Tab.0.right/1920.74.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1613427303215" />
     <state width="1362" height="328" key="GridCell.Tab.1.bottom" timestamp="1607869074430">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
