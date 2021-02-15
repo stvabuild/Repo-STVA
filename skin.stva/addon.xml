@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addon id="skin.stva"  version="1.0.0" name="STVA" provider-name="STVA">
+<addon id="skin.stva"  version="1.0.1" name="STVA" provider-name="STVA">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0" />
 	</requires>
@@ -18,7 +18,12 @@
 		<website>stva.ga</website>
 		<email />
 <news>		
-Versión 1.0.0
+- Reajuste de DialogVideoInfo
+- Reparada categoría Géneros de Películas del addon Palantir2
+- Añadido al menú apagado, forzar cierre (plugin.close.kodi)
+- Ajustado menú superior de iconos
+- Eliminadas Categorías de Deportes, Directos Cristal y Agendas sin acestream
+- Agregadas Categorías de Deportes, Winner y En vivo, ambas secciones del addon winner
 </news>
 		<assets>
 			<icon>icon.png</icon>
