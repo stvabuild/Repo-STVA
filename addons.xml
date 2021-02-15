@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="plugin.close.kodi" name="[COLOR red] Force Close Kodi[/COLOR] " version="3.1.3" provider-name="Based_Skid">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Force Close Kodi</summary>
+    <description lang="en"></description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="plugin.program.indigo" version="99.99.99" name="Indigo" provider-name="tvaddons">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
@@ -244,6 +258,52 @@
     </news>
     <forum></forum>
   </extension>
+</addon>
+
+<addon id="plugin.video.winner" name="[B][/B][COLOR aqua][/COLOR]WINNER" version="1.0.0" provider-name="Camaradas">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.requests" version="2.9.1" />
+		<import addon="script.module.resolveurl" />
+		<import addon="plugin.video.youtube" version="5.0.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.repository" name="Hiraya Software Repo">
+		<info>https://raw.githubusercontent.com/camaradas/camaradas/master/Repositorio/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/camaradas/camaradas/master/Repositorio/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/camaradas/camaradas/master/Repositorio/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">WINNER</summary>
+		<description lang="en">WINNER Addon - Live Sports Addon</description>
+		<disclaimer lang="en">Live Sports Addon.
+
+Development: George, Alex303, Picapau
+Development support: Jesus, Toni
+Contributions: SuperTopo, Jesus
+Artwork: Bojbit
+Translation: Lou
+Content: Lou, Alex303, MiKeL, Chikiry, Bojbit
+Testers: Luisma, Toni, Zarat, SuperTopo, Jorge, Bojbit, MiKeL, Chikiry</disclaimer>
+		<summary lang="es">WINNER</summary>
+		<description lang="es">Addon WINNER - Eventos Deportivos en directo</description>
+		<disclaimer lang="es">Addon con eventos deportivos en directo.
+
+Desarrollo: George, Alex303, Picapau
+Soporte desarrollo: Jesus, Toni
+Aportaciones: SuperTopo, Jesus
+Artwork: Bojbit
+Traducciones: Lou
+Contenido: Lou, Alex303, MiKeL, Chikiry, Bojbit
+Testers: Luisma, Toni, Zarat, SuperTopo, Jorge, Bojbit, MiKeL, Chikiry</disclaimer>
+		<platform>all</platform>
+		<assets>
+			<icon>icon.gif</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+	</extension>
 </addon>
 
 <addon id="repository.alfa-addon" name="[COLOR red]Alfa-Addon[/COLOR] Repo" version="1.0.6" provider-name="Alfa Addon">
@@ -617,46 +677,6 @@ v1.1.25
             <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
-</addon>
-
-<addon id="skin.ctouch"  version="1.4" name="CTouch" provider-name="STVA">
-	<requires>
-		<import addon="xbmc.gui" version="5.14.0" />
-		<import addon="plugin.program.kodileiawizard" version="1.10"/>
-
-	</requires>
-	<extension debugging="false" effectslowdown="1" point="xbmc.gui.skin">
-		<res aspect="16:9" default="true" folder="xml" height="1080" width="1920" />
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="es_ES">Skin para Cristal Azul</summary>
-		<summary lang="en_GB">Skin para Cristal Azul</summary>
-		<description lang="en_GB">CTouch es un mod de skin realizado por STVA para Cristal Azul. Sin Cristal Azul no funciona correctamente.</description>
-		<description lang="en_GB">CTouch es un mod de skin realizado por STVA para Cristal Azul. Sin Cristal Azul no funciona correctamente.</description>
-		<disclaimer lang="en_GB">Para dudas, preguntas o sugerencias [CR]Telegram: @kodi18</disclaimer>
-		<disclaimer lang="es_ES">Para dudas, preguntas o sugerencias [CR]Telegram: @kodi18</disclaimer>
-		<platform>all</platform>
-		<license></license>
-		<website />
-		<email />
-		<news>Versión 1.4 - 3/11/20
-- Reparado menú Cine
-- Reparado menú Series
-- Actualizado icono Buscador
-- Reconfigurado Ajustes
-- Agregado Luar a Ajustes
-- Agregado Ajustes de Skin
-- Agregada función añadir favoritos al inicio
-- Ahora al pulsar en IPTV descarga el addon para tu plataforma</news>
-		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-			<screenshot>resources/screenshot001.jpg</screenshot>
-			<screenshot>resources/screenshot002.jpg</screenshot>
-			<screenshot>resources/screenshot003.jpg</screenshot>
-			<screenshot>resources/screenshot004.jpg</screenshot>
-		</assets>
-	</extension>
 </addon>
 
 <addon id="skin.stva"  version="1.0.0" name="STVA" provider-name="STVA">
