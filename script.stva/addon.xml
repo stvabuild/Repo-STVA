@@ -2,8 +2,8 @@
 <addon id="script.stva" name="Instalador Pack Ajustes [COLOR orange]STVA[/COLOR]" version="0.0.1" provider-name="www.stva.ga">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
-		<import addon="resource.language.es_es"/>
-		<import addon="service.subtitles.opensubtitles"/>
+		<import addon="resource.language.es_es" version="9.0.23"/>
+		<import addon="service.subtitles.opensubtitles" version="5.0.16"/>
     </requires>
     <extension point="xbmc.python.script" library="main.py">
         <provides>executable</provides>
