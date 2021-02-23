@@ -82,7 +82,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.balandro" name="Balandro" version="1.5.1" provider-name="Balandro">
+<addon id="plugin.video.balandro" name="Balandro" version="1.5.2" provider-name="Balandro">
 
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -99,11 +99,10 @@
 
     <news>Últimas modificaciones de Balandro:
 
-    Canales modificados: Cuevana3, Playview, Inkapelis, Cinecalidad, Hdfull, Movidy,
-    Seriesmetro, Serieflix, Newpct1, Grantorrent, Descargacineclasico, Pelisplay.
-    Servidores modificados: Doodstream, Vidia, Gounlimited, Youtube, Videossh,
-    Streamtape, Gamovideo, Yourupload.
-    Añadido cliente Torrest para torrents.
+    Canales modificados: Cinecalidad, Hdfull, Seriesmetro, SeriesFlix, Pelispedia, Repelis,
+    Seriesblanco, Newpct1, Seriemega, Seriez, Cliver, Seriespapaya, Seriesdanko, Pepecine.
+    Servidores modificados: Filesim, Gamovideo, Clipwatching, Vidtodo, Easyload.
+    Añadido nuevo proveedor de proxies.
     </news>
 
     <assets>
@@ -652,8 +651,8 @@ v1.1.25
 <addon id="script.stva" name="Instalador Pack Ajustes [COLOR orange]STVA[/COLOR]" version="0.0.1" provider-name="www.stva.ga">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
-
-
+		<import addon="resource.language.es_es"/>
+		<import addon="service.subtitles.opensubtitles"/>
     </requires>
     <extension point="xbmc.python.script" library="main.py">
         <provides>executable</provides>

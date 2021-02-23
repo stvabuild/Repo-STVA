@@ -1,6 +1,12 @@
 Balandro changelog
 ==================
 
+1.5.2:
+    Canales modificados: Cinecalidad, Hdfull, Seriesmetro, SeriesFlix, Pelispedia, Repelis, 
+    Seriesblanco, Newpct1, Seriemega, Seriez, Cliver, Seriespapaya, Seriesdanko, Pepecine.
+    Servidores modificados: Filesim, Gamovideo, Clipwatching, Vidtodo, Easyload.
+    Añadido nuevo proveedor de proxies.
+
 1.5.1:
     Canales modificados: Cuevana3, Playview, Inkapelis, Cinecalidad, Hdfull, Movidy, 
     Seriesmetro, Serieflix, Newpct1, Grantorrent, Descargacineclasico, Pelisplay.
