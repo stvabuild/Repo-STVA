@@ -648,7 +648,7 @@ v1.1.25
     </extension>
 </addon>
 
-<addon id="script.stva" name="Instalador Pack Ajustes [COLOR orange]STVA[/COLOR]" version="0.0.2" provider-name="www.stva.ga">
+<addon id="script.stva" name="Instalador Pack Ajustes [COLOR orange]STVA[/COLOR]" version="0.0.3" provider-name="www.stva.ga">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
 		<import addon="resource.language.es_es" version="9.0.23"/>
