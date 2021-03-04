@@ -470,7 +470,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 </addon>
 
 <addon id="script.luar"
-  version="0.7.0"
+  version="0.8.1"
   name="Luar"
   provider-name="The Dreamers">
   <requires>

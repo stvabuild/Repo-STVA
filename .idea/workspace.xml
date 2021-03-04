@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e07a9cbc-151f-46b4-960e-409060472695" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/addons.xml" beforeDir="false" afterPath="$PROJECT_DIR$/addons.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/addons.xml.md5" beforeDir="false" afterPath="$PROJECT_DIR$/addons.xml.md5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.stva/addon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/script.stva/addon.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.stva/changelog-0.0.2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.stva/script.stva-0.0.2.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.luar/addon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/script.luar/addon.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.luar/script.luar-0.7.0.zip" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,10 +27,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../stva.matrix" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Python.repo_maker">
+  <component name="RunManager" selected="Python.repo_prep">
     <configuration name="repo_maker" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Repo-STVA" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -127,6 +127,10 @@
     </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
+    <state x="909" y="373" key="FileChooserDialogImpl" timestamp="1614854737428">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="909" y="373" key="FileChooserDialogImpl/1920.74.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1614854737428" />
     <state width="1362" height="266" key="GridCell.Tab.0.bottom" timestamp="1614164477839">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -163,5 +167,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="909" y="494" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.74.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1614077860505" />
+    <state x="836" y="174" width="585" height="888" key="find.popup" timestamp="1614852970583">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="836" y="174" width="585" height="888" key="find.popup/1920.74.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1614852970583" />
   </component>
 </project>
