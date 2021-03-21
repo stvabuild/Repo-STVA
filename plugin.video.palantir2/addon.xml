@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.palantir2" name="[COLOR gold]Palantir 2[/COLOR]" version="2.1.2" provider-name="TierraMedia">
+<addon id="plugin.video.palantir2" name="[COLOR gold]Palantir 2[/COLOR]" version="2.1.9" provider-name="TierraMedia">
   <requires>
     <import addon="script.module.six" version="1.11.0"/>
-    <import addon="script.module.resolveurl" version="5.0.00"/>
+    <import addon="script.module.resolveurl" version="5.0.00" optional="true"/>
     <import addon="script.module.pycryptodome"/>
-    <import addon="script.extendedinfo" optional="true"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
@@ -26,12 +25,7 @@
         <screenshot>resources/media/Captura3.png</screenshot>
         <screenshot>resources/media/Captura4.png</screenshot>
     </assets>
-    <news>
-        - #mejora: Añadido ajuste para ocultar el listado de series en seguimiento.
-- #mejora: Añadida opción 'Desmarcar vistos' en el menu contextual de las series en seguimiento.
-- #mejora: Añadida la opción 'Buscar trailer' en el menu contextual.
-- Reaparada compatibilidad kodi 19 RC1
-- Reparados varios bugs internos.
+    <news>- Reparar pequeños bugs
     </news>
     <forum></forum>
   </extension>

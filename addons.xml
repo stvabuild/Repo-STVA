@@ -82,10 +82,8 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.balandro" name="Balandro" version="1.5.2" provider-name="Balandro">
-
+<addon id="plugin.video.balandro" name="Balandro" version="2.0.0" provider-name="Balandro Team">
   <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
   </requires>
 
   <extension point="xbmc.python.pluginsource" library="default.py">
@@ -93,32 +91,24 @@
   </extension>
 
   <extension point="xbmc.addon.metadata">
-    <summary lang="es">Balandro addon</summary>
-    <description lang="es">Balandro es un navegador para webs con vídeos de películas y series, derivado de pelisalacarta y alfa.</description>
-    <disclaimer lang="es">[COLOR red]The owners and submitters to this addon do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.[/COLOR]</disclaimer>
-
-    <news>Últimas modificaciones de Balandro:
-
-    Canales modificados: Cinecalidad, Hdfull, Seriesmetro, SeriesFlix, Pelispedia, Repelis,
-    Seriesblanco, Newpct1, Seriemega, Seriez, Cliver, Seriespapaya, Seriesdanko, Pepecine.
-    Servidores modificados: Filesim, Gamovideo, Clipwatching, Vidtodo, Easyload.
-    Añadido nuevo proveedor de proxies.
-    </news>
-
+    <summary>Balandro es un navegador de páginas webs</summary>
     <assets>
       <icon>icon.png</icon>
     </assets>
+    <news>[COLOR limegreen][B]Especial mención al grupo [COLOR plum][I] Checkers y Testers [/I][COLOR limegreen] por sus contribuciones, aportaciones y sugerencias [/B][/COLOR]
 
+      [COLOR darkorange][B]Media Centers soportados[COLOR plum][I] Kodi 19.x, 18.x y 17.x [/I][/B][/COLOR]
+    </news>
+    <summary>Balandro es un navegador de páginas webs</summary>
+    <description>[COLOR yellow][B]Balandro es un MOD derivado de Pelisalacarta y Alfa,[COLOR mediumaquamarine] y Tiene Como Objeto, Permitir Visualizar Películas, Series y Documentales, Todo a Través de Internet y Directamente Desde su Sistema Media Center. [COLOR orchid]Este Add-On es Tan Solo un Mero Ejercicio de Aprendizaje Del Lenguaje de Programación Python y se Distribuye Sin Ningún Contenido Multimedia Adjunto al Mismo [COLOR lightgrey][I]En Consecuencia Solo Las Webs Son Plenamente Responsables de Los Contenidos Que Publiquen.[/I][/B][/COLOR]</description>
+    <disclaimer>[COLOR tan][B]Está Prohibida su Distribución, Solo o Junto Con Contenidos Multimedia Protegidos Por Los Derechos de Autor. [COLOR chocolate]Si Este Tipo de Contenido Está Prohibido en su País, Solamente Usted Será el Responsable de su Uso. [COLOR white]La Vulneración de Estas Prohibiciones Exonerarán de Cualquier Culpa a sus Autores, [COLOR red]Siendo el Único Responsable Quien lo Haya Distribuido o Utilizado Ilegalmente.[/B][/COLOR]</disclaimer>
     <platform>all</platform>
     <license>GNU GPL v3</license>
     <forum>https://www.mimediacenter.info/foro/viewforum.php?f=44</forum>
     <website>https://balandro.tk</website>
     <email>my@email.com</email>
-    <source>...</source>
   </extension>
-
   <extension point="xbmc.service" library="services.py" start="login|startup"/>
-
 </addon>
 
 <addon id="plugin.video.cristalazul"
@@ -221,12 +211,11 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.palantir2" name="[COLOR gold]Palantir 2[/COLOR]" version="2.1.2" provider-name="TierraMedia">
+<addon id="plugin.video.palantir2" name="[COLOR gold]Palantir 2[/COLOR]" version="2.1.9" provider-name="TierraMedia">
   <requires>
     <import addon="script.module.six" version="1.11.0"/>
-    <import addon="script.module.resolveurl" version="5.0.00"/>
+    <import addon="script.module.resolveurl" version="5.0.00" optional="true"/>
     <import addon="script.module.pycryptodome"/>
-    <import addon="script.extendedinfo" optional="true"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
@@ -248,18 +237,13 @@
         <screenshot>resources/media/Captura3.png</screenshot>
         <screenshot>resources/media/Captura4.png</screenshot>
     </assets>
-    <news>
-        - #mejora: Añadido ajuste para ocultar el listado de series en seguimiento.
-- #mejora: Añadida opción 'Desmarcar vistos' en el menu contextual de las series en seguimiento.
-- #mejora: Añadida la opción 'Buscar trailer' en el menu contextual.
-- Reaparada compatibilidad kodi 19 RC1
-- Reparados varios bugs internos.
+    <news>- Reparar pequeños bugs
     </news>
     <forum></forum>
   </extension>
 </addon>
 
-<addon id="plugin.video.winner" name="[B][/B][COLOR aqua][/COLOR]WINNER" version="1.0.0" provider-name="Camaradas">
+<addon id="plugin.video.winner" name="[B][/B][COLOR aqua][/COLOR]WINNER" version="1.0.4" provider-name="Camaradas">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.requests" version="2.9.1" />
@@ -270,14 +254,13 @@
 		<provides>video</provides>
 	</extension>
 	<extension point="xbmc.addon.repository" name="Hiraya Software Repo">
-		<info>https://raw.githubusercontent.com/camaradas/camaradas/master/Repositorio/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/camaradas/camaradas/master/Repositorio/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/camaradas/camaradas/master/Repositorio/</datadir>
+		<info>https://raw.githubusercontent.com/camaradas/camaradas.repo/master/Repositorio/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/camaradas/camaradas.repo/master/Repositorio/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/camaradas/camaradas.repo/master/Repositorio/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">WINNER</summary>
-		<description lang="en">WINNER Addon - Live Sports Addon</description>
-		<disclaimer lang="en">Live Sports Addon.
+		<description lang="en">Live Sports Addon.
 
 Development: George, Alex303, Picapau
 Development support: Jesus, Toni
@@ -285,10 +268,10 @@ Contributions: SuperTopo, Jesus
 Artwork: Bojbit
 Translation: Lou
 Content: Lou, Alex303, MiKeL, Chikiry, Bojbit
-Testers: Luisma, Toni, Zarat, SuperTopo, Jorge, Bojbit, MiKeL, Chikiry</disclaimer>
+Testers: Luisma, Toni, Zarat, SuperTopo, Jorge, Bojbit, MiKeL, Chikiry</description>
+		<disclaimer lang="en">WINNER Addon - Live Sports Addon</disclaimer>
 		<summary lang="es">WINNER</summary>
-		<description lang="es">Addon WINNER - Eventos Deportivos en directo</description>
-		<disclaimer lang="es">Addon con eventos deportivos en directo.
+		<description lang="es">Addon con eventos deportivos en directo.
 
 Desarrollo: George, Alex303, Picapau
 Soporte desarrollo: Jesus, Toni
@@ -296,7 +279,8 @@ Aportaciones: SuperTopo, Jesus
 Artwork: Bojbit
 Traducciones: Lou
 Contenido: Lou, Alex303, MiKeL, Chikiry, Bojbit
-Testers: Luisma, Toni, Zarat, SuperTopo, Jorge, Bojbit, MiKeL, Chikiry</disclaimer>
+Testers: Luisma, Toni, Zarat, SuperTopo, Jorge, Bojbit, MiKeL, Chikiry</description>
+		<disclaimer lang="es">Addon WINNER - Eventos Deportivos en directo</disclaimer>
 		<platform>all</platform>
 		<assets>
 			<icon>icon.gif</icon>
@@ -322,15 +306,15 @@ Testers: Luisma, Toni, Zarat, SuperTopo, Jorge, Bojbit, MiKeL, Chikiry</disclaim
     </extension>
 </addon>
 
-<addon id="repository.balandro" name="Balandro Repo" version="1.0.3" provider-name="Balandro">
+<addon id="repository.balandro" name="Balandro Repo" version="1.0.5" provider-name="Balandro">
 	<requires>
-		<import addon="xbmc.addon" version="12.0.0"/>
 	</requires>
 
+	<extension point="xbmc.service" library="service.py" start="startup" />
     <extension point="xbmc.addon.repository" name="Balandro Repo">
-        <info>https://balandro.tk/repo/addons.xml</info>
-        <checksum>https://balandro.tk/repo/addons.xml.md5</checksum>
-        <datadir zip="true">https://balandro.tk/repo</datadir>
+        <info>https://balandro.tk/repo3/addons.xml</info>
+        <checksum>https://balandro.tk/repo3/addons.xml.md5</checksum>
+        <datadir zip="true">https://balandro.tk/repo3</datadir>
     </extension>
 
     <extension point="xbmc.addon.metadata">
@@ -338,6 +322,9 @@ Testers: Luisma, Toni, Zarat, SuperTopo, Jorge, Bojbit, MiKeL, Chikiry</disclaim
         <description>Balandro es un navegador para webs con vídeos de películas y series.</description>
         <disclaimer>The owners and submitters to this repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.</disclaimer>
         <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
     </extension>
 
 </addon>
