@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e07a9cbc-151f-46b4-960e-409060472695" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/addons.xml" beforeDir="false" afterPath="$PROJECT_DIR$/addons.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addons.xml.md5" beforeDir="false" afterPath="$PROJECT_DIR$/addons.xml.md5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.balandro/addon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/plugin.video.balandro/addon.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.balandro/changelog-1.5.2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.balandro/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/plugin.video.balandro/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.balandro/plugin.video.balandro-1.5.2.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.cristalazul/plugin.video.cristalazul-0.0.12.zip" beforeDir="false" afterPath="$PROJECT_DIR$/plugin.video.cristalazul/plugin.video.cristalazul-0.0.12.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.palantir2/addon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/plugin.video.palantir2/addon.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.palantir2/plugin.video.palantir2-2.1.2.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.winner/addon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/plugin.video.winner/addon.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.winner/plugin.video.winner-1.0.0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/repo_prep.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/repository.alfa-addon/repository.alfa-addon-1.0.6.zip" beforeDir="false" afterPath="$PROJECT_DIR$/repository.alfa-addon/repository.alfa-addon-1.0.6.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repository.balandro/addon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/repository.balandro/addon.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repository.balandro/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/repository.balandro/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repository.balandro/repository.balandro-1.0.3.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.stvasettings/script.stvasettings-0.0.1.zip" beforeDir="false" afterPath="$PROJECT_DIR$/script.stvasettings/script.stvasettings-0.0.1.zip" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,22 +128,22 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="909" y="373" key="FileChooserDialogImpl/1920.74.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1614854737428" />
-    <state width="1362" height="266" key="GridCell.Tab.0.bottom" timestamp="1616346474770">
+    <state width="1362" height="266" key="GridCell.Tab.0.bottom" timestamp="1616500754988">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1362" height="266" key="GridCell.Tab.0.bottom/1920.74.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1616346474770" />
-    <state width="1362" height="266" key="GridCell.Tab.0.center" timestamp="1616346474770">
+    <state width="1362" height="266" key="GridCell.Tab.0.bottom/1920.74.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1616500754988" />
+    <state width="1362" height="266" key="GridCell.Tab.0.center" timestamp="1616500754988">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1362" height="266" key="GridCell.Tab.0.center/1920.74.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1616346474770" />
-    <state width="1362" height="266" key="GridCell.Tab.0.left" timestamp="1616346474770">
+    <state width="1362" height="266" key="GridCell.Tab.0.center/1920.74.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1616500754988" />
+    <state width="1362" height="266" key="GridCell.Tab.0.left" timestamp="1616500754988">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1362" height="266" key="GridCell.Tab.0.left/1920.74.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1616346474770" />
-    <state width="1362" height="266" key="GridCell.Tab.0.right" timestamp="1616346474770">
+    <state width="1362" height="266" key="GridCell.Tab.0.left/1920.74.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1616500754988" />
+    <state width="1362" height="266" key="GridCell.Tab.0.right" timestamp="1616500754988">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1362" height="266" key="GridCell.Tab.0.right/1920.74.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1616346474770" />
+    <state width="1362" height="266" key="GridCell.Tab.0.right/1920.74.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1616500754988" />
     <state width="1362" height="328" key="GridCell.Tab.1.bottom" timestamp="1607869074430">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
