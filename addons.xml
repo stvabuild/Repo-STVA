@@ -665,6 +665,36 @@ v1.1.25
     </extension>
 </addon>
 
+<addon id="script.stvasettings" name="Instalador Ajustes Recomendados[COLOR orange]STVA[/COLOR]" version="0.0.1" provider-name="www.stva.ga">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0"/>
+		<import addon="resource.language.es_es"/>
+		<import addon="service.subtitles.opensubtitles"/>
+    </requires>
+    <extension point="xbmc.python.script" library="main.py">
+        <provides>executable</provides>
+    </extension>
+	<extension point="xbmc.service" library="main.py">
+	</extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Instalador del Ajustes Recomendados.</summary>
+        <description lang="en_GB"></description>
+        <language></language>
+        <platform>all</platform>
+        <license>unlicense</license>
+        <forum></forum>
+        <website></website>
+        <email></email>
+        <source></source>
+        <news></news>
+        <disclaimer></disclaimer>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
 <addon id="skin.stva"  version="1.0.2" name="STVA" provider-name="STVA">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0" />
