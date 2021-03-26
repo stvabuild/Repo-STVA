@@ -7,7 +7,6 @@
         <import addon="script.module.simplecache" version="1.0.0"/>
         <import addon="script.module.metadatautils" version="1.0.0"/>
         <import addon="script.module.cherrypy"/>
-        <import addon="repository.marcelveldt" version="1.0.2"/>
     </requires>
 
     <extension point="kodi.context.item">
