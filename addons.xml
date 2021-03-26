@@ -753,7 +753,7 @@ v1.1.25
     </extension>
 </addon>
 
-<addon id="skin.estuary.stva" version="1.0" name="Estuary STVA" provider-name="STVA">
+<addon id="skin.estuary.stva" version="0.1" name="Estuary STVA (Beta)" provider-name="STVA">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0"/>
 		<import addon="resource.language.es_es"/>
