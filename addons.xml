@@ -14,6 +14,49 @@
   </extension>
 </addon>
 
+<addon id="plugin.program.iagl" name="Internet Archive Game Launcher" version="2.1.8">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+    <import addon="script.module.dateutil"/>
+    <import addon="script.module.elementtree"/>
+    <import addon="script.module.kodi-six"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.routing"/>
+    <import addon="plugin.video.youtube"/>
+    <import addon="vfs.libarchive" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video game</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <!-- <reuselanguageinvoker>false</reuselanguageinvoker> -->
+    <platform>all</platform>
+    <summary lang="en_GB">Internet Archive Game Launcher</summary>
+    <description lang="en_GB">The Internet Archive Game Launcher (IAGL) is a FREE Kodi addon that will browse and launch games available from the Internet</description>
+    <summary lang="es_ES">Internet Archive Game Launcher</summary>
+    <description lang="es_ES">Internet Archive Game Launcher (IAGL) es un complemento gratuito para Kodi que explora y lanza juegos disponibles en Internet</description>
+    <summary lang="es_MX">Internet Archive Game Launcher</summary>
+    <description lang="es_MX">Internet Archive Game Launcher (IAGL) es un complemento gratuito para Kodi que explorarÃ¡ y lanzarÃ¡ juegos disponibles en Internet</description>
+    <summary lang="pt_BR">Internet Archive Game Launcher</summary>
+    <description lang="pt_BR">Internet Archive Game Launcher (IAGL) Ã© um addon gratuito para Kodi que explora e executa jogos disponÃ­veis na Internet</description>
+    <summary lang="pt_PT">Internet Archive Game Launcher</summary>
+    <description lang="pt_PT">Internet Archive Game Launcher (IAGL) Ã© um addon gratuito para Kodi que explora e executa jogos disponÃ­veis na Internet</description>
+    <license>CC BY-SA 4.0, GNU GENERAL PUBLIC LICENSE Version 2.0</license>
+    <forum>https://forum.kodi.tv/showthread.php?tid=231339</forum>
+    <source>https://github.com/zach-morris/plugin.program.iagl</source>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+      <screenshot>support/media/screen1.jpg</screenshot>
+      <screenshot>support/media/screen2.jpg</screenshot>
+      <screenshot>support/media/screen3.jpg</screenshot>
+      <screenshot>support/media/screen4.jpg</screenshot>
+      <screenshot>support/media/screen5.jpg</screenshot>
+      <screenshot>support/media/screen6.jpg</screenshot>
+    </assets>
+  </extension>
+</addon>
+
 <addon id="plugin.program.indigo" version="99.99.99" name="Indigo" provider-name="tvaddons">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
@@ -24,7 +67,7 @@
     <extension point="xbmc.service" library="service.py" start="startup"/>
     <extension point="xbmc.addon.metadata">
         <summary lang="en">Falso Indigo, NO DESINSTALAR</summary>
-        <description lang="en">Falso Indigo para evitar que el URL Resolver lo instale en cada actualización.</description>
+        <description lang="en">Falso Indigo para evitar que el URL Resolver lo instale en cada actualizaciÃ³n.</description>
         <disclaimer lang="en">Falso Indigo, NO DESINSTALAR</disclaimer>
         <language>en</language>
         <platform>all</platform>
@@ -45,7 +88,7 @@
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="es">Navega con Kodi por páginas web.</summary>
+    <summary lang="es">Navega con Kodi por pÃ¡ginas web.</summary>
     <assets>
       <icon>resources/icono_3.png</icon>
       <fanart>resources/fanart1.jpg</fanart>
@@ -54,18 +97,18 @@
       <screenshot>resources/media/themes/ss/3.jpg</screenshot>
       <screenshot>resources/media/themes/ss/4.jpg</screenshot>
     </assets>
-      <news>[B]Estos son los cambios para esta versión:[/B]
+      <news>[B]Estos son los cambios para esta versiÃ³n:[/B]
 
       [COLOR green][B]Arreglos[/B][/COLOR]
-      ¤ Estrenoscinesaa                     ¤ Pelix                            ¤ Pelisplus
-      ¤ SeriesKao                                ¤ Danimados                ¤ SeriesRetro
-      ¤ HDFull                                     ¤ 18+
+      Â¤ Estrenoscinesaa                     Â¤ Pelix                            Â¤ Pelisplus
+      Â¤ SeriesKao                                Â¤ Danimados                Â¤ SeriesRetro
+      Â¤ HDFull                                     Â¤ 18+
 
       [COLOR green][B]Novedades[/B][/COLOR]
-      ¤ Dascer (motor en diferido)
+      Â¤ Dascer (motor en diferido)
 
     </news>
-    <description lang="es">Navega con Kodi por páginas web para ver sus videos de manera fácil.</description>
+    <description lang="es">Navega con Kodi por pÃ¡ginas web para ver sus videos de manera fÃ¡cil.</description>
     <summary lang="en">Browse web pages using Kodi</summary>
     <description lang="en">Browse web pages using Kodi, you can easily watch their video content.</description>
     <disclaimer>[COLOR red]The owners and submitters to this addon do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.[/COLOR]</disclaimer>
@@ -89,17 +132,17 @@
   </extension>
 
   <extension point="xbmc.addon.metadata">
-    <summary>Balandro es un navegador de páginas webs</summary>
+    <summary>Balandro es un navegador de pÃ¡ginas webs</summary>
     <assets>
       <icon>icon.png</icon>
     </assets>
-    <news>[COLOR limegreen][B]Especial mención al grupo [COLOR plum][I] Checkers y Testers [/I][COLOR limegreen] por sus contribuciones, aportaciones y sugerencias [/B][/COLOR]
+    <news>[COLOR limegreen][B]Especial menciÃ³n al grupo [COLOR plum][I] Checkers y Testers [/I][COLOR limegreen] por sus contribuciones, aportaciones y sugerencias [/B][/COLOR]
 
       [COLOR darkorange][B]Media Centers soportados[COLOR plum][I] Kodi 19.x, 18.x y 17.x [/I][/B][/COLOR]
     </news>
-    <summary>Balandro es un navegador de páginas webs</summary>
-    <description>[COLOR yellow][B]Balandro es un MOD derivado de Pelisalacarta y Alfa,[COLOR mediumaquamarine] y Tiene Como Objeto, Permitir Visualizar Películas, Series y Documentales, Todo a Través de Internet y Directamente Desde su Sistema Media Center. [COLOR orchid]Este Add-On es Tan Solo un Mero Ejercicio de Aprendizaje Del Lenguaje de Programación Python y se Distribuye Sin Ningún Contenido Multimedia Adjunto al Mismo [COLOR lightgrey][I]En Consecuencia Solo Las Webs Son Plenamente Responsables de Los Contenidos Que Publiquen.[/I][/B][/COLOR]</description>
-    <disclaimer>[COLOR tan][B]Está Prohibida su Distribución, Solo o Junto Con Contenidos Multimedia Protegidos Por Los Derechos de Autor. [COLOR chocolate]Si Este Tipo de Contenido Está Prohibido en su País, Solamente Usted Será el Responsable de su Uso. [COLOR white]La Vulneración de Estas Prohibiciones Exonerarán de Cualquier Culpa a sus Autores, [COLOR red]Siendo el Único Responsable Quien lo Haya Distribuido o Utilizado Ilegalmente.[/B][/COLOR]</disclaimer>
+    <summary>Balandro es un navegador de pÃ¡ginas webs</summary>
+    <description>[COLOR yellow][B]Balandro es un MOD derivado de Pelisalacarta y Alfa,[COLOR mediumaquamarine] y Tiene Como Objeto, Permitir Visualizar PelÃ­culas, Series y Documentales, Todo a TravÃ©s de Internet y Directamente Desde su Sistema Media Center. [COLOR orchid]Este Add-On es Tan Solo un Mero Ejercicio de Aprendizaje Del Lenguaje de ProgramaciÃ³n Python y se Distribuye Sin NingÃºn Contenido Multimedia Adjunto al Mismo [COLOR lightgrey][I]En Consecuencia Solo Las Webs Son Plenamente Responsables de Los Contenidos Que Publiquen.[/I][/B][/COLOR]</description>
+    <disclaimer>[COLOR tan][B]EstÃ¡ Prohibida su DistribuciÃ³n, Solo o Junto Con Contenidos Multimedia Protegidos Por Los Derechos de Autor. [COLOR chocolate]Si Este Tipo de Contenido EstÃ¡ Prohibido en su PaÃ­s, Solamente Usted SerÃ¡ el Responsable de su Uso. [COLOR white]La VulneraciÃ³n de Estas Prohibiciones ExonerarÃ¡n de Cualquier Culpa a sus Autores, [COLOR red]Siendo el Ãšnico Responsable Quien lo Haya Distribuido o Utilizado Ilegalmente.[/B][/COLOR]</disclaimer>
     <platform>all</platform>
     <license>GNU GPL v3</license>
     <forum>https://www.mimediacenter.info/foro/viewforum.php?f=44</forum>
@@ -162,51 +205,13 @@
   <extension point="xbmc.addon.metadata">
     <summary>creado por picapau, lourdes, supertopo y luisma</summary>
     <description>ESTE ADDON NO CONTIENE ENLACES PROPIOS,SON RECOPILACIONES DE LA RED, SOLO SE FACILITA EL ACESSO A ESAS WEBS, ESTAS WEBS SON LAS RESPONSABLES DE LOS CONTENIDOS
-	</description>ºº
+	</description>ÂºÂº
     <platform>all</platform>
 	  <assets>
 		<icon>icon.gif</icon>
 		<fanart>fanart.jpg</fanart>
 	  </assets>
   </extension>
-</addon>
-
-<addon id="plugin.video.elementum" name="Elementum" version="0.1.59" provider-name="elgatito">
-    <requires>
-        <import addon="xbmc.addon" version="16.0.0" />
-        <import addon="repository.elementum" optional="true" />
-        <import addon="script.module.kodi-six" />
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="navigation.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.service" library="service.py" start="startup" />
-    <extension point="xbmc.python.module" library="resources/site-packages" />
-    <extension point="xbmc.subtitle.module" library="navigation.py" />
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">Elementum: Media streaming</summary>
-        <summary lang="hr">Elementum: Medijsko strujanje</summary>
-        <summary lang="es">Elementum: Transmisión de medios</summary>
-        <description lang="en">Elementum is a torrent finding and streaming engine. It doesn't go on torrent websites for legal reasons. However, it calls specially crafted add-ons (called providers) that are installed separately.[CR]This project is a fork of the well known, but no longer maintained Pulsar/Quasar projects from steeve and scakemyer.</description>
-        <description lang="hr">Elementum je pogon pretraživanja i strujanja. Ne posjećuje torrent web stranice iz pravnih razloga. Ipak, koristi posebno napravljene dodatke (nazvane pružatelji usluge) koji su instalirani odvojeno.[CR]Ovaj projekt je ogranak dobro poznatih, ali više ne održavanih Pulsar/Quasar projekata od autora steevea i scakemyera.</description>
-        <description lang="es">Elementum es un motor de búsqueda y transmisión torrent. No navega por sitios web torrent por razones legales. Sin embargo, llama a complementos especialmente diseñados para ello (denominados providers o proveedores) que se instalan por separado.[CR]Este proyecto es un fork de los bien conocidos, pero ya sin soporte proyectos Pulsar/Quasar de steeve y scakemyer.[CR]</description>
-        <disclaimer lang="en">The author does not own or host any content found within this Addon. The author is not connected to or in any other way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</disclaimer>
-        <disclaimer lang="hr">Autor ovog dodatka ne posjeduje i ne distribuira bilo kakav sadržaj koji je pronađen. Autor nije povezan sa ili na bilo koji drugi način bilo sa Kodijem, Team Kodijem ili XBMC fundacijom.</disclaimer>
-        <disclaimer lang="es">El autor no posee ni aloja ningún contenido que se encuentre a través de este complemento. El autor no está unido ni relacionado de ninguna manera con Kodi, Team Kodi, o XBMC Foundation.</disclaimer>
-        <language>en el es de fi fr he hr it nl pt ro sk</language>
-        <platform>all</platform>
-        <website>http://elementum.surge.sh/</website>
-        <source>https://github.com/elgatito/plugin.video.elementum</source>
-        <forum></forum>
-        <license>Non commercial. See https://github.com/elgatito/plugin.video.elementum/blob/master/LICENSE</license>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.png</fanart>
-            <screenshot>resources/screenshots/home.png</screenshot>
-            <screenshot>resources/screenshots/movies.png</screenshot>
-            <screenshot>resources/screenshots/webui.png</screenshot>
-        </assets>
-    </extension>
 </addon>
 
 <addon id="plugin.video.palantir2" name="[COLOR gold]Palantir 2[/COLOR]" version="2.1.9" provider-name="TierraMedia">
@@ -224,7 +229,7 @@
         <datadir zip="true">https://raw.githubusercontent.com/Palantiraddon/repo/master/Palantir/</datadir>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <description>Visualiza el contenido de la nube, series, películas.</description>
+    <description>Visualiza el contenido de la nube, series, pelÃ­culas.</description>
     <disclaimer>[B][COLOR red]Todo el contenido disponible en este Addon esta sacado de servidores gratuitos, disponible en la red para todos los usuarios.[/B][/COLOR]</disclaimer>
     <platform>all</platform>
     <assets>
@@ -235,7 +240,7 @@
         <screenshot>resources/media/Captura3.png</screenshot>
         <screenshot>resources/media/Captura4.png</screenshot>
     </assets>
-    <news>- Reparar pequeños bugs
+    <news>- Reparar pequeÃ±os bugs
     </news>
     <forum></forum>
   </extension>
@@ -317,7 +322,7 @@ Testers: Luisma, Toni, Zarat, SuperTopo, Jorge, Bojbit, MiKeL, Chikiry</descript
 
     <extension point="xbmc.addon.metadata">
         <summary>Repositorio para Balandro</summary>
-        <description>Balandro es un navegador para webs con vídeos de películas y series.</description>
+        <description>Balandro es un navegador para webs con vÃ­deos de pelÃ­culas y series.</description>
         <disclaimer>The owners and submitters to this repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.</disclaimer>
         <platform>all</platform>
         <assets>
@@ -564,35 +569,6 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
   </extension>
 </addon>
 
-<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.27" provider-name="gujal">
-    <requires>
-        <!-- <import addon="xbmc.python" version="3.0.0" /> -->
-        <import addon="script.module.six" />
-        <import addon="script.module.kodi-six" />
-        <import addon="plugin.video.youtube" optional="true" />
-        <import addon="script.module.python.twitch" optional="true" />
-        <import addon="plugin.googledrive" optional="true" />
-    </requires>
-    <extension point="xbmc.python.module" library="lib" />
-    <extension point="xbmc.python.pluginsource" library="lib/default.py" />
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary lang="en_GB">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
-        <summary lang="es_ES">Resolver enlaces a videos de sitios populares para poder reproducirlos en XBMC/Kodi.</summary>
-        <summary lang="hr_HR">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju.</summary>
-        <summary lang="el_GR">Επίλυση συνδέσμων κοινών εξυπηρετητών σε μορφή βίντεο ικανό για αναπαραγωγή στο XBMC/Kodi.</summary>
-        <description lang="en_GB">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
-        <description lang="el_GR">Επίλυση συνδέσμων κοινών εξυπηρετητών σε μορφή βίντεο ικανό για αναπαραγωγή στο XBMC/Kodi, απλοποίηση της ανάπτυξης των προσθέτων που χρησιμοποιούν πολλαπλούς εξυπηρετητές για υλικό βίντεο</description>
-        <description lang="hr_HR">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju, pojednostavnjuje razvoj priključaka za video dodatke koji zahtjevaju višestruke video izvore.</description>
-        <disclaimer lang="en_GB">This script only resolves video content from legitimate file lockers without prejudice. If this script is being used by 3rd parties to resolve content that you feel infringes upon your Intellectual Property then please take your complaints to the actual website or developer linking to such content and not here. This script in no way searches for any content whatsoever.</disclaimer>
-        <disclaimer lang="el_GR">Το ανωτέρο σενάριο το μόνο που κάνει είναι να επιλύει οπτικοακουστικό περιεχόμενο από νόμιμες πηγές χωρίς προκατάληψη. Εάν το ανωτέρο σενάριο χρησιμοποιηθεί από τρίτους ώστε να επιλύσει περιεχόμενο το οποίο σας προκαλεί αντίδραση ότι παραβιάζει την πνευματική σας ιδιοκτησία παρακαλώ μεταφέρετε τα παραπονά σας στον ιστότοπο τον οποίο βρίσκεται το εν λόγω περιεχόμενο η τον δημιουργό ο οποίος πραγματοποιεί την σύνδεση και όχι εδω. Το σενάριο αυτό ουδεμία περίπτωση πραγματοποιεί αναζήτηση περιεχομένου.</disclaimer>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-    </extension>
-</addon>
-
 <addon id="script.module.six"
        name="six"
        version="1.13.0"
@@ -788,9 +764,9 @@ v1.1.25
 		<summary lang="en_GB">Estuary STVA skin by STVA</summary>
 		<summary lang="es_ES">Estuar STVA skin de STVA</summary>
 		<description lang="en_GB">Estuary STVA is a mod from Estuary by Guilouz for Kodi 18. It attempts to be easy for first time Kodi users to understand and use.</description>
-		<description lang="es_ES">Estuary STVA es un mod de Estuary MOD hecho por STVA para Kodi 18. Intenta ser fácil de entender y utilizar para nuevos usuarios en Kodi.</description>
+		<description lang="es_ES">Estuary STVA es un mod de Estuary MOD hecho por STVA para Kodi 18. Intenta ser fÃ¡cil de entender y utilizar para nuevos usuarios en Kodi.</description>
 		<disclaimer lang="en_GB">For better experience, be sure to install all addons required by the skin.</disclaimer>
-		<disclaimer lang="es_ES">Para una mejor experiencia, asegúrate de instalar todos los complementos requeridos por el skin.</disclaimer>
+		<disclaimer lang="es_ES">Para una mejor experiencia, asegÃºrate de instalar todos los complementos requeridos por el skin.</disclaimer>
 		<platform>all</platform>
 		<license>CC BY-SA 4.0, GNU GENERAL PUBLIC LICENSE Version 2.0</license>
 		<source>https://github.com/stvabuild/skin.estuary.modstva</source>
@@ -821,29 +797,29 @@ v1.1.25
 		<res aspect="16:9" default="true" folder="xml" height="1080" width="1920" />
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="es_ES">Skin para Kodi 18 con menús y widgets ya creados, se instalará todo lo necesario para funcionar.</summary>
-		<summary lang="en_GB">Skin para Kodi 18 con menús y widgets ya creados, se instalará todo lo necesario para funcionar.</summary>
-		<description lang="en_GB">STVA es una mod del skin AppTV de WyrmSTVA es una mod del skin AppTV de Wyrm e inspirado en el skin Aura de jurialmunkey.[CR]Todos los agradecimientos a ellos.[CR]Completamente optimizado para ser utilizado en Móvil y Tablet, TV y TV Box con mando, PC con ratón y/o teclado, consola con mando o gamepad.</description>
-		<description lang="es_ES">STVA es una mod del skin AppTV de Wyrm e inspirado en el skin Aura de jurialmunkey.[CR]Todos los agradecimientos a ellos.[CR]Completamente optimizado para ser utilizado en Móvil y Tablet, TV y TV Box con mando, PC con ratón y/o teclado, consola con mando o gamepad.</description>
-		<disclaimer lang="en_GB">Para más información, dudas o consultas [CR][B]web:[/B] http://stva.ga[CR]</disclaimer>
-		<disclaimer lang="es_ES">Para más información, dudas o consultas [CR][B]web:[/B] http://stva.ga[CR]</disclaimer>
+		<summary lang="es_ES">Skin para Kodi 18 con menÃºs y widgets ya creados, se instalarÃ¡ todo lo necesario para funcionar.</summary>
+		<summary lang="en_GB">Skin para Kodi 18 con menÃºs y widgets ya creados, se instalarÃ¡ todo lo necesario para funcionar.</summary>
+		<description lang="en_GB">STVA es una mod del skin AppTV de WyrmSTVA es una mod del skin AppTV de Wyrm e inspirado en el skin Aura de jurialmunkey.[CR]Todos los agradecimientos a ellos.[CR]Completamente optimizado para ser utilizado en MÃ³vil y Tablet, TV y TV Box con mando, PC con ratÃ³n y/o teclado, consola con mando o gamepad.</description>
+		<description lang="es_ES">STVA es una mod del skin AppTV de Wyrm e inspirado en el skin Aura de jurialmunkey.[CR]Todos los agradecimientos a ellos.[CR]Completamente optimizado para ser utilizado en MÃ³vil y Tablet, TV y TV Box con mando, PC con ratÃ³n y/o teclado, consola con mando o gamepad.</description>
+		<disclaimer lang="en_GB">Para mÃ¡s informaciÃ³n, dudas o consultas [CR][B]web:[/B] http://stva.ga[CR]</disclaimer>
+		<disclaimer lang="es_ES">Para mÃ¡s informaciÃ³n, dudas o consultas [CR][B]web:[/B] http://stva.ga[CR]</disclaimer>
 		<platform>all</platform>
 		<license></license>
 		<website>stva.ga</website>
 		<email />
 <news>
 1.0.2
-- Ajustado menú iconos Inicio Táctil
-- Eliminados items menús Deportes Cristal, Directos y Agendas sin acestream en Inicio Táctil
-- Agregados items menú Winner, En Vivo y Fútbol en Inicio Táctil
+- Ajustado menÃº iconos Inicio TÃ¡ctil
+- Eliminados items menÃºs Deportes Cristal, Directos y Agendas sin acestream en Inicio TÃ¡ctil
+- Agregados items menÃº Winner, En Vivo y FÃºtbol en Inicio TÃ¡ctil
 
 1.0.1
 - Reajuste de DialogVideoInfo
-- Reparada categoría Géneros de Películas del addon Palantir2
-- Añadido al menú apagado, forzar cierre (plugin.close.kodi)
-- Ajustado menú superior de iconos
-- Eliminadas Categorías de Deportes, Directos Cristal y Agendas sin acestream
-- Agregadas Categorías de Deportes, Winner y En vivo, ambas secciones del addon winner
+- Reparada categorÃ­a GÃ©neros de PelÃ­culas del addon Palantir2
+- AÃ±adido al menÃº apagado, forzar cierre (plugin.close.kodi)
+- Ajustado menÃº superior de iconos
+- Eliminadas CategorÃ­as de Deportes, Directos Cristal y Agendas sin acestream
+- Agregadas CategorÃ­as de Deportes, Winner y En vivo, ambas secciones del addon winner
 </news>
 		<assets>
 			<icon>icon.png</icon>
