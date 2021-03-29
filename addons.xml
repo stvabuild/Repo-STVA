@@ -34,7 +34,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.alfa" name="Alfa" version="3.3.7" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="3.3.14" provider-name="Alfa Addon">
   <requires>
     <import addon="script.module.requests"/>
     <import addon="script.module.beautifulsoup4" version="4.5.3"/>
@@ -57,14 +57,12 @@
       <news>[B]Estos son los cambios para esta versión:[/B]
 
       [COLOR green][B]Arreglos[/B][/COLOR]
-      ¤ Cuevana3                                    ¤ HDFull                                       ¤ Erai-raws
-      ¤ SeriesFlix                                     ¤ Tvanime                                    ¤ Cliver
-      ¤ Playview                                      ¤ Pinetux                                     ¤ PelisPlus
-      ¤ Maspeliculas                              ¤ PeliculasySeries                        ¤ VerAnime
-      ¤ Serieslan                                     ¤ Cinetux                                     ¤ 18+
+      ¤ Estrenoscinesaa                     ¤ Pelix                            ¤ Pelisplus
+      ¤ SeriesKao                                ¤ Danimados                ¤ SeriesRetro
+      ¤ HDFull                                     ¤ 18+
 
       [COLOR green][B]Novedades[/B][/COLOR]
-      ¤ SuperGoku                                 ¤ 18+
+      ¤ Dascer (motor en diferido)
 
     </news>
     <description lang="es">Navega con Kodi por páginas web para ver sus videos de manera fácil.</description>
@@ -753,7 +751,7 @@ v1.1.25
     </extension>
 </addon>
 
-<addon id="skin.estuary.stva" version="0.1" name="Estuary STVA (Beta)" provider-name="STVA">
+<addon id="skin.estuary.stva" version="0.1.1" name="Estuary STVA (Beta)" provider-name="STVA">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0"/>
 		<import addon="resource.language.es_es"/>
