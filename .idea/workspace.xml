@@ -2,217 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e07a9cbc-151f-46b4-960e-409060472695" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/addon.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/bin/LaunchKODI.vbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/bin/Sleep.vbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/bin/applaunch-vbs.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/bin/applaunch.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/bin/applaunch_retropie.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/bin/apppause.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/bin/remix_launch.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/bin/sx05re.start" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/bin/sx05re_launch.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/32X_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/3DO_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/Amiga_Bestof.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/Amiga_CD32_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/Amiga_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/Amstrad_CPC_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/Atari_2600_Bestof_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/Atari_2600_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/Atari_5200_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/Atari_7800_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/Atari_800_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/Atari_Jaguar_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/Atari_Lynx_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/Atari_ST_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/Atomiswave_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/C64_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/CDI_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/CannonBall_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/Cavestory_Lefty420.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/Colecovision_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/Dinothawr_Lefty420.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/Doom_Lefty420.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/EasyRPG_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/FBN_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/GBA_Bestof_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/GBA_Hacks_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/GBA_Translations_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/GBA_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/GBC_Bestof_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/GBC_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/GB_Classic_Bestof_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/GB_Classic_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/GameCube_Bestof_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/GameCube_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/Game_Gear_Bestof_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/Game_Gear_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/Game_and_Watch_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/Genesis_Bestof_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/Genesis_Hacks_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/Genesis_Translations_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/Genesis_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/Intellivision_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/Karaoke_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/Lutro_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/MAME_2003_Bestof_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/MAME_2003_Plus_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/MAME_2003_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/MAME_Bestof_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/MAME_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/MSDOS_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/MSX1_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/MSX2_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/Magnavox_O2_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/Master_System_Bestof_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/Master_System_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/N64_Bestof_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/N64_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/NDS_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/NES_Bestof_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/NES_Hacks_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/NES_Translations_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/NES_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/NGPC_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/Naomi1_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/Neo_Geo_CD_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/OpenLara_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/PCE_CD_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/PCE_SuperGrafx_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/PS1_Bestof_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/PS1_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/PSP_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/Pokemon_Mini_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/PowderToy_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/Quake_Lefty420.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/REminiscence_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/RickDangerous_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/SCUMMVM_Bestof_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/SCUMMVM_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/SNES_Bestof_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/SNES_Hacks_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/SNES_Translations_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/SNES_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/Satellaview_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/Sega_CD_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/Sega_Dreamcast_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/Sega_SG1000_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/Sega_Saturn_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/TG16_Bestof_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/TG16_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/TIC80_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/Vectrex_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/VirtualBoy_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/Wii_Bestof_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/Wii_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/Win31_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/Wolfenstein_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/Wonderswan_Color_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/Wonderswan_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/ZX_Spectrum_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/dat_files/eXoDOS_ZachMorris.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/databases/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/databases/Read_Me.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/databases/alphabetical_database.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/databases/browse_database.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/databases/categories_database.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/databases/choose_database.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/databases/genres_database.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/databases/groups_database.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/databases/mame_softlist_database.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/databases/players_database.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/databases/random_database.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/databases/search_database.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/databases/studio_database.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/databases/tag_database.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/databases/years_database.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/external_command_database.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/templates/Favorites_Template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/templates/UAE4ARM_config_template.uae" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/templates/UAE_cd32_config_template.fs-uae" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/data/templates/UAE_config_template.fs-uae" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/language/English/strings.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/language/French/strings.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/language/German/strings.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/language/Portuguese (Brazil)/strings.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/language/Portuguese/strings.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/language/Spanish (Mexico)/strings.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/language/Spanish/strings.po" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/lib/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/lib/clear_IAGL_cache.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/lib/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/lib/paginate/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/lib/paginate/ext_reverse.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/lib/run_IAGL_wizard.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/lib/scandir.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/lib/unhide_all_archives.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/lib/update_addonxml_provides_games.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/lib/update_addonxml_provides_program.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/lib/update_addonxml_provides_video.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/skins/Default/1080i/script-IAGL-TOU.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/skins/Default/1080i/script-IAGL-infodialog.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/skins/Default/1080i/script-IAGL-textviewer.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/skins/Default/media/Next.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/skins/Default/media/Read_Me.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/skins/Default/media/black.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/skins/Default/media/border1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/skins/Default/media/button-fo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/skins/Default/media/button-highlight1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/skins/Default/media/button-nofo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/skins/Default/media/button-nofocus2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/skins/Default/media/default_banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/skins/Default/media/default_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/skins/Default/media/default_thumb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/skins/Default/media/default_thumb2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/skins/Default/media/dialog-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/skins/Default/media/extras_banner.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/skins/Default/media/fanart.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/skins/Default/media/favorites.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/skins/Default/media/favorites_banner.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/skins/Default/media/favorites_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/skins/Default/media/grey.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/skins/Default/media/iagl_extras.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/skins/Default/media/iagl_extras_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/skins/Default/media/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/skins/Default/media/icons/arrowdown.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/skins/Default/media/icons/close.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/skins/Default/media/icons/download.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/skins/Default/media/icons/launch.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/skins/Default/media/icons/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/skins/Default/media/icons/stop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/skins/Default/media/icons/trailer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/skins/Default/media/last_played.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/skins/Default/media/last_played_banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/skins/Default/media/lucky.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/skins/Default/media/lucky_banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/skins/Default/media/overlayfade.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/skins/Default/media/rom_search.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/skins/Default/media/search.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/skins/Default/media/search_banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/skins/Default/media/semi_tranparent_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/skins/Default/media/shadow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/skins/Default/media/thumbnail_focused.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/skins/Default/media/transparent.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/skins/Default/media/white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/resources/skins/Default/media/white70.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/support/media/screen1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/support/media/screen2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/support/media/screen3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/support/media/screen4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/support/media/screen5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.program.iagl/support/media/screen6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/repository.balandro/repository.balandro-1.0.5.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/repository.xbmchub/addon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/repository.xbmchub/addon.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repository.xbmchub/repository.xbmchub-3.0.0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.module.resolveurl/addon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/script.module.resolveurl/addon.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.module.resolveurl/changelog-5.1.27.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.module.resolveurl/script.module.resolveurl-5.1.27.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skin.estuary.stva/addon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/skin.estuary.stva/addon.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skin.estuary.stva/changelog-0.1.1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skin.estuary.stva/skin.estuary.stva-0.1.1.zip" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -360,22 +153,22 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="909" y="373" key="FileChooserDialogImpl/1920.74.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1614854737428" />
-    <state width="1362" height="266" key="GridCell.Tab.0.bottom" timestamp="1617125361595">
+    <state width="1362" height="266" key="GridCell.Tab.0.bottom" timestamp="1617138736551">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1362" height="266" key="GridCell.Tab.0.bottom/1920.74.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1617125361595" />
-    <state width="1362" height="266" key="GridCell.Tab.0.center" timestamp="1617125361595">
+    <state width="1362" height="266" key="GridCell.Tab.0.bottom/1920.74.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1617138736551" />
+    <state width="1362" height="266" key="GridCell.Tab.0.center" timestamp="1617138736550">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1362" height="266" key="GridCell.Tab.0.center/1920.74.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1617125361595" />
-    <state width="1362" height="266" key="GridCell.Tab.0.left" timestamp="1617125361595">
+    <state width="1362" height="266" key="GridCell.Tab.0.center/1920.74.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1617138736550" />
+    <state width="1362" height="266" key="GridCell.Tab.0.left" timestamp="1617138736550">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1362" height="266" key="GridCell.Tab.0.left/1920.74.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1617125361595" />
-    <state width="1362" height="266" key="GridCell.Tab.0.right" timestamp="1617125361595">
+    <state width="1362" height="266" key="GridCell.Tab.0.left/1920.74.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1617138736550" />
+    <state width="1362" height="266" key="GridCell.Tab.0.right" timestamp="1617138736550">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1362" height="266" key="GridCell.Tab.0.right/1920.74.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1617125361595" />
+    <state width="1362" height="266" key="GridCell.Tab.0.right/1920.74.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1617138736550" />
     <state x="909" y="494" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614077860505">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
