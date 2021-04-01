@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.stvasettings" name="Instalador Ajustes Recomendados [COLOR orange]STVA[/COLOR]" version="0.0.1" provider-name="www.stva.ga">
+<addon id="script.stvasettings" name="Instalador Ajustes Recomendados[COLOR orange]Estuary STVA[/COLOR]" version="0.0.1" provider-name="www.stva.ga">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
-		<import addon="resource.language.es_es"/>
-		<import addon="service.subtitles.opensubtitles"/>
     </requires>
     <extension point="xbmc.python.script" library="main.py">
         <provides>executable</provides>
@@ -11,7 +9,7 @@
 	<extension point="xbmc.service" library="main.py">
 	</extension>
     <extension point="xbmc.addon.metadata">
-        <summary lang="en_GB">Instalador del Ajustes Recomendados.</summary>
+        <summary lang="en_GB">Instalador de Ajustes Recomendados para el skin Estuary STVA.</summary>
         <description lang="en_GB"></description>
         <language></language>
         <platform>all</platform>

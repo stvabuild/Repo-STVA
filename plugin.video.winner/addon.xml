@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.winner" name="[B][/B][COLOR aqua][/COLOR]WINNER" version="1.0.4" provider-name="Camaradas">
+<addon id="plugin.video.winner" name="[B][/B][COLOR aqua][/COLOR]WINNER" version="1.0.5" provider-name="Camaradas">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.requests" version="2.9.1" />
 		<import addon="script.module.resolveurl" />
+		<import addon="script.module.pysocks" />
 		<import addon="plugin.video.youtube" version="5.0.0"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
