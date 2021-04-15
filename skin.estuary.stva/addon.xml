@@ -4,6 +4,7 @@
 		<import addon="xbmc.gui" version="5.14.0"/>
 		<import addon="resource.language.es_es"/>		
 		<import addon="script.skinshortcuts" version="0.6.5"/>
+		<import addon="script.skin.helper.service" version="1.1.31"/>
 	</requires>
 	<extension point="xbmc.gui.skin" debugging="false">
 		<res width="1920" height="1440" aspect="4:3" default="false" folder="xml" />
