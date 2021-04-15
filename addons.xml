@@ -464,6 +464,33 @@ Testers: Luisma, Toni, Zarat, SuperTopo, Jorge, Bojbit, MiKeL, Chikiry</descript
     </extension>
 </addon>
 
+<addon id="repository.rector.stuff" name="Rector Stuff" version="1.0.4" provider-name="rmrector">
+	<requires>
+		<import addon="xbmc.addon" version="12.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.repository" name="Rector Repository">
+		<dir maxversion="18.9.0">
+			<info>https://raw.githubusercontent.com/rmrector/repository.rector.stuff/python2/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/rmrector/repository.rector.stuff/python2/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/rmrector/repository.rector.stuff/python2/</datadir>
+		</dir>
+		<dir minversion="18.9.700">
+			<info>https://raw.githubusercontent.com/rmrector/repository.rector.stuff/python3/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/rmrector/repository.rector.stuff/python3/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/rmrector/repository.rector.stuff/python3/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">A little place for my stuff.</summary>
+		<description lang="en">I'm Rector, I do stuff, I put it here.</description>
+		<platform>all</platform>
+		<disclaimer />
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
+	</extension>
+</addon>
+
 <addon id="repository.repofamilyleia" name="[COLOR aqua]WIZARD LEIA[/COLOR] [COLOR royalblue]REPO[/COLOR]" version="2.0" provider-name="LouFesta y Supertopo">
     <extension point="xbmc.addon.repository" name="repofamilyleia">
         <info>https://raw.githubusercontent.com/Leia18/repofamilyleia/master/Repositorio/addons.xml</info>
@@ -623,28 +650,6 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
   </extension>
 </addon>
 
-<addon id="script.module.cherrypy"
-       name="CherryPy Kodi module"
-       version="12.0.0.1"
-       provider-name="marcelveldt, CherryPy Team">
-    <requires>
-        <import addon="xbmc.python" version="2.24.0"/>
-        <import addon="script.module.six" version="1.9.0"/>
-        <import addon="repository.xbmchub" version="3.0.0"/>
-    </requires>
-    <extension point="xbmc.python.module" library="lib" />
-    <extension point="xbmc.addon.metadata">
-        <summary>CherryPy webserver packaged as Kodi module</summary>
-        <description>CherryPy is a pythonic, object-oriented web framework
-            CherryPy allows developers to build web applications in much the same way they would build any other object-oriented Python program. This results in smaller source code developed in less time.
-            CherryPy is now more than ten years old and it is has proven to be very fast and stable. It is being used in production by many sites, from the simplest to the most demanding.
-        </description>
-        <license>BSD</license>
-        <source>https://github.com/marcelveldt/script.module.cherrypy</source>
-        <platform>all</platform>
-    </extension>
-</addon>
-
 <addon id="script.module.idna"
        name="idna"
        version="2.8"
@@ -670,33 +675,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
   </extension>
 </addon>
 
-<addon id="script.module.metadatautils"
-       name="Metadata and Artwork module"
-       version="1.0.35.2"
-       provider-name="marcelveldt">
-    <requires>
-        <import addon="xbmc.python" version="2.24.0"/>
-        <import addon="script.module.requests" version="2.3.0"/>
-        <import addon="script.module.beautifulsoup" version="3.0.8" />
-        <import addon="script.module.thetvdb" version="0.0.1" />
-        <import addon="script.module.musicbrainz" version="0.0.1" />
-        <import addon="script.module.simplecache" version="1.0.0"/>
-        <import addon="script.module.arrow" version="0.6.0"/>
-    </requires>
-    <extension point="xbmc.python.module" library="lib" />
-    <extension point="xbmc.addon.metadata">
-        <summary>Metadata and artwork from common sources like TMDB, IMDB, TADB and fanart.tv </summary>
-        <description>
-            The metadata and artwork module for Kodi provides rich metadata, including artwork for
-            various metatypes by scraping (and caching) this information from sites like TMDB, musicbrainz and fanart.tv.
-        </description>
-        <license>Apache 2.0</license>
-        <source>https://github.com/marcelveldt/script.module.metadatautils</source>
-        <platform>all</platform>
-    </extension>
-</addon>
-
-<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.27" provider-name="gujal">
+<addon id="script.module.resolveurl" name="ResolveURL" version="5.1.28" provider-name="gujal">
     <requires>
         <!-- <import addon="xbmc.python" version="3.0.0" /> -->
         <import addon="script.module.six" />
@@ -704,7 +683,6 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
         <import addon="plugin.video.youtube" optional="true" />
         <import addon="script.module.python.twitch" optional="true" />
         <import addon="plugin.googledrive" optional="true" />
-        <import addon="repository.resolveurl" optional="true" />
     </requires>
     <extension point="xbmc.python.module" library="lib" />
     <extension point="xbmc.python.pluginsource" library="lib/default.py" />
@@ -750,10 +728,11 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     <requires>
 	<!-- <import addon="xbmc.python" version="3.0.0"/> -->
         <import addon="xbmc.addon" version="12.0.0"/>
+        <import addon="repository.marcelveldt"/>
         <import addon="script.module.simplejson" version="3.3.0"/>
         <import addon="script.module.simplecache" version="1.0.0"/>
         <import addon="script.module.metadatautils" version="1.0.0"/>
-        <import addon="script.module.cherrypy"/>
+        <import addon="script.module.cherrypy" version="17.0.0"/>
     </requires>
 
     <extension point="kodi.context.item">
@@ -854,7 +833,7 @@ v1.1.25
     </extension>
 </addon>
 
-<addon id="script.stvasettings" name="Ajustes Recomendados [COLOR orange]Estuary STVA[/COLOR]" version="0.0.2" provider-name="www.stva.ga">
+<addon id="script.stvasettings" name="Ajustes Recomendados [COLOR orange]Estuary STVA[/COLOR]" version="0.0.3" provider-name="www.stva.ga">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
     </requires>
@@ -882,10 +861,10 @@ v1.1.25
     </extension>
 </addon>
 
-<addon id="script.tv.show.next.aired" name="TV Show - Next Aired" version="6.0.15.1" provider-name="Ppic,Frost,ronie,`Black,phil65,WayneD">
+<addon id="script.tv.show.next.aired" name="TV Show - Next Aired" version="7.0.1.1" provider-name="WayneD,marcelveldt">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
-		<import addon="script.module.simplejson" version="2.0.10"/>
+        <import addon="script.module.thetvdb" version="1.0.20" />
 	</requires>
 	<extension point="xbmc.python.script" library="default.py">
 		<provides>executable</provides>
@@ -952,8 +931,8 @@ v1.1.25
 		<platform>all</platform>
 		<license>GPL v2.0</license>
 		<forum>http://forum.xbmc.org/showthread.php?tid=186090</forum>
-		<website>http://github.com/WayneD/script.tv.show.next.aired</website>
-		<source>https://github.com/WayneD/script.tv.show.next.aired.git</source>
+		<website>http://github.com/marcelveldt/script.tv.show.next.aired</website>
+		<source>https://github.com/marcelveldt/script.tv.show.next.aired.git</source>
 	</extension>
 </addon>
 
