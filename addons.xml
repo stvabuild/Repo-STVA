@@ -1261,7 +1261,7 @@ Supports: OpenSubtitles, BSPlayer, Podnadpisi.NET, Subscene, Addic7ed
     </extension>
 </addon>
 
-<addon id="skin.estuary.stva" version="0.4" name="Estuary STVA" provider-name="STVA">
+<addon id="skin.estuary.stva" version="0.5" name="Estuary STVA" provider-name="STVA">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0"/>
 		<import addon="resource.language.es_es"/>
@@ -1309,8 +1309,6 @@ Supports: OpenSubtitles, BSPlayer, Podnadpisi.NET, Subscene, Addic7ed
 				<fanart>resources/fanart.jpg</fanart>
 				<screenshot>resources/screenshot-01.jpg</screenshot>
 				<screenshot>resources/screenshot-02.jpg</screenshot>
-				<screenshot>resources/screenshot-03.jpg</screenshot>
-				<screenshot>resources/screenshot-04.jpg</screenshot>
 				<screenshot>resources/screenshot-05.jpg</screenshot>
 				<screenshot>resources/screenshot-06.jpg</screenshot>
 				<screenshot>resources/screenshot-07.jpg</screenshot>
