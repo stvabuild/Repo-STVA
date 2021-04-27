@@ -2,7 +2,7 @@
 <addon id="script.tv.show.next.aired" name="TV Show - Next Aired" version="7.0.1.1" provider-name="WayneD,marcelveldt">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
-        <import addon="script.module.thetvdb" version="1.0.20" />
+        <import addon="script.module.thetvdb" version="1.0.12" />
 	</requires>
 	<extension point="xbmc.python.script" library="default.py">
 		<provides>executable</provides>
