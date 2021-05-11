@@ -9,7 +9,6 @@
     <import addon="script.module.simple.downloader" version="0.9.4"/>
     <import addon="plugin.video.f4mTester" />
     <import addon="script.module.beautifulsoup4" />
-    <import addon="program.plexus" />
     <import addon="script.module.requests" />
     <import addon="script.module.httplib2" />
     <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
