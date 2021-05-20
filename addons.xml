@@ -563,20 +563,6 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
-<addon id="resource.images.moviegenreicons.estuarystva" name="Movie Genre Icons - Estuary STVA" version="0.0.1" provider-name="STVA">
-	<extension point="kodi.resource.images" compile="true" type="moviegenreicons" />
-	<requires>
-		<import addon="kodi.resource" version="1.0.0"/>
-	</requires>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Transparent Movie Genre Icons - Mod of Team Kodi addon</summary>
-		<summary lang="es">Transparent Movie Genre Icons - Mod del addon del Team Kodi</summary>
-		<description lang="en">Movie Genre Icons with a transparent background for Estuary STVA Skin</description>
-		<description lang="es">Iconos de Géneros de Películas con fondo transparente para el skin Estuary STVA</description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
 <addon id="resource.images.studios.coloured" name="Studio Icons - Coloured" version="0.0.20" provider-name="Team Kodi">
 	<extension point="kodi.resource.images" compile="true" type="studios" />
 	<requires>
@@ -1211,11 +1197,14 @@ Supports: OpenSubtitles, BSPlayer, Podnadpisi.NET, Subscene, Addic7ed
     </extension>
 </addon>
 
-<addon id="skin.estuary.stva" version="0.6.3" name="Estuary STVA" provider-name="STVA">
+<addon id="skin.estuary.stva" version="0.7" name="Estuary STVA" provider-name="STVA">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0"/>
 		<import addon="resource.language.es_es"/>
 		<import addon="script.skinshortcuts" version="0.6.5"/>
+		<import addon="script.skin.helper.service"/>
+		<import addon="script.skin.helper.widgets"/>
+		<import addon="resource.images.studios.coloured"/>
 	</requires>
 	<extension point="xbmc.gui.skin" debugging="false">
 		<res width="1920" height="1440" aspect="4:3" default="false" folder="xml" />

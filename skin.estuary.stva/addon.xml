@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="skin.estuary.stva" version="0.6.3" name="Estuary STVA" provider-name="STVA">
+<addon id="skin.estuary.stva" version="0.7" name="Estuary STVA" provider-name="STVA">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0"/>
 		<import addon="resource.language.es_es"/>		
 		<import addon="script.skinshortcuts" version="0.6.5"/>
+		<import addon="script.skin.helper.service"/>
+		<import addon="script.skin.helper.widgets"/>
+		<import addon="resource.images.studios.coloured"/>
 	</requires>
 	<extension point="xbmc.gui.skin" debugging="false">
 		<res width="1920" height="1440" aspect="4:3" default="false" folder="xml" />

@@ -4,11 +4,13 @@
     <list default="true" id="e07a9cbc-151f-46b4-960e-409060472695" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/addons.xml" beforeDir="false" afterPath="$PROJECT_DIR$/addons.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/addons.xml.md5" beforeDir="false" afterPath="$PROJECT_DIR$/addons.xml.md5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.elementum/addon.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.elementum/fanart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.elementum/icon-menu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.elementum/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.video.elementum/plugin.video.elementum-0.1.59.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource.images.moviegenreicons.estuarystva/addon.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource.images.moviegenreicons.estuarystva/changelog-0.0.1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource.images.moviegenreicons.estuarystva/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource.images.moviegenreicons.estuarystva/resource.images.moviegenreicons.estuarystva-0.0.1.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skin.estuary.stva/addon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/skin.estuary.stva/addon.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skin.estuary.stva/changelog-0.6.3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/skin.estuary.stva/skin.estuary.stva-0.6.3.zip" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,25 +158,25 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="909" y="373" key="FileChooserDialogImpl/1920.74.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1614854737428" />
-    <state width="1362" height="266" key="GridCell.Tab.0.bottom" timestamp="1621433356127">
+    <state width="1362" height="266" key="GridCell.Tab.0.bottom" timestamp="1621532690335">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1362" height="266" key="GridCell.Tab.0.bottom/1920.74.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1621433356127" />
+    <state width="1362" height="266" key="GridCell.Tab.0.bottom/1920.74.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1621532690335" />
     <state width="1362" height="266" key="GridCell.Tab.0.bottom/1920.74.1600.900/0.0.1920.1080@1920.74.1600.900" timestamp="1620731207635" />
-    <state width="1362" height="266" key="GridCell.Tab.0.center" timestamp="1621433356127">
+    <state width="1362" height="266" key="GridCell.Tab.0.center" timestamp="1621532690335">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1362" height="266" key="GridCell.Tab.0.center/1920.74.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1621433356127" />
+    <state width="1362" height="266" key="GridCell.Tab.0.center/1920.74.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1621532690335" />
     <state width="1362" height="266" key="GridCell.Tab.0.center/1920.74.1600.900/0.0.1920.1080@1920.74.1600.900" timestamp="1620731207635" />
-    <state width="1362" height="266" key="GridCell.Tab.0.left" timestamp="1621433356127">
+    <state width="1362" height="266" key="GridCell.Tab.0.left" timestamp="1621532690335">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1362" height="266" key="GridCell.Tab.0.left/1920.74.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1621433356127" />
+    <state width="1362" height="266" key="GridCell.Tab.0.left/1920.74.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1621532690335" />
     <state width="1362" height="266" key="GridCell.Tab.0.left/1920.74.1600.900/0.0.1920.1080@1920.74.1600.900" timestamp="1620731207635" />
-    <state width="1362" height="266" key="GridCell.Tab.0.right" timestamp="1621433356127">
+    <state width="1362" height="266" key="GridCell.Tab.0.right" timestamp="1621532690335">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1362" height="266" key="GridCell.Tab.0.right/1920.74.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1621433356127" />
+    <state width="1362" height="266" key="GridCell.Tab.0.right/1920.74.1600.900/0.0.1920.1080@0.0.1920.1080" timestamp="1621532690335" />
     <state width="1362" height="266" key="GridCell.Tab.0.right/1920.74.1600.900/0.0.1920.1080@1920.74.1600.900" timestamp="1620731207635" />
     <state x="909" y="494" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614077860505">
       <screen x="0" y="0" width="1920" height="1080" />
