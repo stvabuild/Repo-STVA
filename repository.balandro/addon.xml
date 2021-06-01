@@ -3,7 +3,6 @@
 	<requires>
 	</requires>
 
-	<extension point="xbmc.service" library="service.py" start="startup" />
     <extension point="xbmc.addon.repository" name="Balandro Repo">
         <info>https://balandro.tk/repo3/addons.xml</info>
         <checksum>https://balandro.tk/repo3/addons.xml.md5</checksum>

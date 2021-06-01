@@ -102,7 +102,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.alfa" name="Alfa" version="3.3.15" provider-name="Alfa Addon">
+<addon id="plugin.video.alfa" name="Alfa" version="3.4.5" provider-name="Alfa Addon">
   <requires>
     <import addon="script.module.requests"/>
     <import addon="script.module.beautifulsoup4" version="4.5.3"/>
@@ -125,12 +125,13 @@
       <news>[B]Estos son los cambios para esta versión:[/B]
 
       [COLOR green][B]Arreglos[/B][/COLOR]
-      ¤ PelisPlus                           ¤ PelisXD                                ¤ SeriesKao
-      ¤ SeriesMetro                     ¤ Series Antiguas                   ¤ Comamos Ramen
+      ¤ Estrenoscinesaa                 ¤ JKAnime                       ¤ VerAnime
+      ¤ Pelispop                              ¤ Mirapeliculas               ¤ Pelisplus
       ¤ 18+
 
       [COLOR green][B]Novedades[/B][/COLOR]
-      ¤ Fastream (servidor)
+      ¤ Cuevana3.video                 ¤ Allpeliculastv, Repelis (Deshabilitado)
+      ¤ HDVid (servidor)
 
     </news>
     <description lang="es">Navega con Kodi por páginas web para ver sus videos de manera fácil.</description>
@@ -148,7 +149,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.balandro" name="Balandro" version="2.0.1" provider-name="Balandro Team">
+<addon id="plugin.video.balandro" name="Balandro" version="2.0.2" provider-name="Balandro Team">
   <requires>
   </requires>
 
@@ -162,33 +163,36 @@
       <icon>icon.png</icon>
     </assets>
     <news>
-    2.0.1:
-      Incorporada opcion Premios Oscars
+    [COLOR darkorange]Mayo 2021[/COLOR]
       Correcciones bugs de la version anterior
-      Configuracion Visual Habilitar colores personalizados notificaciones
-      Habilitar menus contextuales adicionales en los menus
-      Buscar y Ayuda:
-         Configurar proxies a usar global (en los canales que los necesiten)
+      Configuración opción Descartar búsquedas en canales torrent
+      Nuevo proveedor de proxies: SilverProxies
+      Buscar:
+        Filmaffinitylists - cambio estructura
+        Oscars 2021 - mejorado
+        Descartar canales que pueden contener archivos torrent
       Canales modificados:
-        AllPeliculas, Beeg, CineCalidad, CineMatteFlix, Dilo,
-        DocumentalesOnline, DonTorrents, EstrenosCineCasaa, GDrive, HDFull,
-        JKAnime, LaCartoons, TuPeliHd, MejorTorrents, NewPct1, PctFenix,
-        PeliculasFlix, PelisHouse, PlayDede, SeriesAntiguas, SeriesManta,
-        SeriespapayaTo, SigloXX, Subtorrents, TvSeries
-      Nuevos canales:
-        AniBox, AnimeFlv, CaricaturasHd, Cuevana2Esp, PeliculasFlv,
-        Pelis24, PornHub, PornTube, SeriesKao, SeriesPapayaXyz, XVideos
-      Canales inestables:
-        SeriesBlanco
+        AniBox, AnimeFenix, AnimeFlv, Beeg, CiberDocumentales,
+        CineMatteFlix, ClasicoTv, Cliver, DocumaniaTv, DonTorrents,
+        Estrenoscinesaa, HdFull, HdFullSe, InkaPelis, JKanime,
+        LaCartoons, MegadedeLa, MejorTorrents, PctFenix, Pelis24,
+        PelisVips, PornHub, PornTube, SeriesAntiguas, SeriesFlix,
+        SeriesKao, SeriesLan, SeriesPapayaTo, SeriesPapayaXyz,
+        SeriesRetro, SerieZ, Tekilaz, TorrentDivx, TuCineClasico,
+        TupeliculaTv, TuPeliHd, VerPeliculasGratis, XVideos
       Canales desactivados:
-        CinemaClasic, Cliver, DaftSex, DosPelis, RePelis, Seriemega, Yape
+        AllPeliculas, CineCalidad, PlayDede, RePelis, SeriesBlanco,
+        SeriesFlv
+      Canales nuevos:
+        CumLouder, Hentaisd, MiraDeTodo, MiraPeliculas, MonosChinos,
+        PelisGratis, PelisMaraton, PelisPlanet, PelisXd, SeriesAnimadas,
+        TioAnime, Tubehentai
       Servidores modificados:
-        Aparat, Clipwatching, Evoload, Fembed, Mixdrop, Mp4Upload, Streamsb,
-        Uptobox, Uptostream, Zplayer
+        Aparat, Clipwatching, Fembed, Gamovideo, Highstream, Mega,
+        PlayTube, Sbembed, Uptobox, Streamsb, YourUpload
       Servidores nuevos:
-        Amazon, Fastream, Highstream, Sbembed, Wolfstream
-
-      [COLOR darkorange][B]Media Centers soportados[COLOR plum][I] Kodi 19.X, 18.X y 17.X [/I][/B][/COLOR]
+        ShareVid
+    [COLOR darkorange][B]Media Centers soportados[COLOR plum][I] Kodi 19.X, 18.X y 17.X [/I][/B][/COLOR]
     </news>
     <summary>Balandro es un navegador de páginas webs</summary>
     <description>[COLOR yellow][B]Balandro es un MOD derivado de Pelisalacarta y Alfa,[COLOR mediumaquamarine] y Tiene Como Objeto, Permitir Visualizar Películas, Series y Documentales, Todo a Través de Internet y Directamente Desde su Sistema Media Center. [COLOR orchid]Este Add-On es Tan Solo un Mero Ejercicio de Aprendizaje Del Lenguaje de Programación Python y se Distribuye Sin Ningún Contenido Multimedia Adjunto al Mismo [COLOR lightgrey][I]En Consecuencia Solo Las Webs Son Plenamente Responsables de Los Contenidos Que Publiquen.[/I][/B][/COLOR]</description>
@@ -384,7 +388,6 @@ Testers: Luisma, Toni, Zarat, SuperTopo, Jorge, Bojbit, MiKeL, Chikiry, Pau, Ale
 	<requires>
 	</requires>
 
-	<extension point="xbmc.service" library="service.py" start="startup" />
     <extension point="xbmc.addon.repository" name="Balandro Repo">
         <info>https://balandro.tk/repo3/addons.xml</info>
         <checksum>https://balandro.tk/repo3/addons.xml.md5</checksum>
@@ -1236,7 +1239,7 @@ Supports: OpenSubtitles, BSPlayer, Podnadpisi.NET, Subscene, Addic7ed
     </extension>
 </addon>
 
-<addon id="skin.estuary.stva" version="0.8" name="Estuary STVA" provider-name="STVA">
+<addon id="skin.estuary.stva" version="0.8.2" name="Estuary STVA" provider-name="STVA">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0"/>
 		<import addon="resource.language.es_es"/>
@@ -1244,6 +1247,7 @@ Supports: OpenSubtitles, BSPlayer, Podnadpisi.NET, Subscene, Addic7ed
 		<import addon="script.skin.helper.service"/>
 		<import addon="script.skin.helper.widgets"/>
 		<import addon="resource.images.studios.coloured"/>
+		<import addon="repository.repostva"/>
 	</requires>
 	<extension point="xbmc.gui.skin" debugging="false">
 		<res width="1920" height="1440" aspect="4:3" default="false" folder="xml" />
