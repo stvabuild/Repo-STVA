@@ -606,7 +606,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
-<addon id="resource.images.studios.coloured" name="Studio Icons - Coloured" version="0.0.50" provider-name="Team Kodi">
+<addon id="resource.images.studios.coloured" name="Studio Icons - Coloured" version="0.0.51" provider-name="Team Kodi">
 	<extension point="kodi.resource.images" compile="true" type="studios" />
 	<requires>
 		<import addon="kodi.resource" version="1.0.0"/>
@@ -1240,7 +1240,7 @@ Supports: OpenSubtitles, BSPlayer, Podnadpisi.NET, Subscene, Addic7ed
     </extension>
 </addon>
 
-<addon id="skin.estuary.stva" version="0.8.3" name="Estuary STVA" provider-name="STVA">
+<addon id="skin.estuary.stva" version="0.8.4" name="Estuary STVA" provider-name="STVA">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0"/>
 		<import addon="resource.language.es_es"/>
