@@ -108,6 +108,7 @@
     <import addon="script.module.beautifulsoup4" version="4.5.3"/>
     <import addon="script.module.html5lib" version="0.999.0"/>
     <import addon="script.alfa-update-helper" optional="true"/>
+    <import addon="repository.alfa-addon"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
@@ -1239,7 +1240,7 @@ Supports: OpenSubtitles, BSPlayer, Podnadpisi.NET, Subscene, Addic7ed
     </extension>
 </addon>
 
-<addon id="skin.estuary.stva" version="0.8.2" name="Estuary STVA" provider-name="STVA">
+<addon id="skin.estuary.stva" version="0.8.3" name="Estuary STVA" provider-name="STVA">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0"/>
 		<import addon="resource.language.es_es"/>
@@ -1266,7 +1267,11 @@ Supports: OpenSubtitles, BSPlayer, Podnadpisi.NET, Subscene, Addic7ed
  				<label>$LOCALIZE[40165]</label>
  				<visible>!String.IsEmpty(Window(home).Property(CurrentSkin)) + [String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,set) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,artist) | String.IsEqual(ListItem.dbtype,album) | String.IsEqual(ListItem.dbtype,musicvideo) | Container.Content(addons)] + !Window.IsVisible(Home)</visible>
  			</item>
-      		<item library="scripts/context_menu_moviessets.py">
+       		<item library="scripts/context_menu_balandro.py">
+ 				<label>Balandro</label>
+        		<visible>!String.IsEmpty(Window(home).Property(CurrentSkin)) + System.HasAddon(script.extendedinfo) + !System.HasAddon(context.extendedinfo.dialog) + [String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,season) | String.IsEqual(ListItem.dbtype,actor) | String.IsEqual(ListItem.dbtype,director)]</visible>
+ 			</item>
+     		<item library="scripts/context_menu_moviessets.py">
  				<label>$LOCALIZE[40181]</label>
  				<visible>!String.IsEmpty(Window(home).Property(CurrentSkin)) + String.IsEqual(ListItem.DBType,set) + !Window.IsVisible(Home)</visible>
  			</item>
